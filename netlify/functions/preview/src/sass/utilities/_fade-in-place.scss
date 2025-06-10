@@ -1,0 +1,10 @@
+@use '../abstracts/' as *;
+
+.fade-in-place {
+    opacity: 0;
+    transition: opacity 700ms ease-in-out
+}
+
+.fade-in-place.appear {
+    opacity: 1;
+}

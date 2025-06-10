@@ -1,0 +1,104 @@
+---
+layout: layouts/page.njk
+eleventyNavigation:
+  key: page
+  order: 1
+tags: page
+date: Last Modified
+parentMenuItem: "Ensemble"
+title: "Ensemble"
+description: "The Ensemble has nurtured celebrated dancers such as Surupa Sen and Bijayini Satpathy and performs all over the world. Nrityagram is a one-of-a-kind collective of artistes, where dance is a way of life."
+OGImage: "https://res.cloudinary.com/nrityagram/image/upload/w_600/v1569697661/ensemble_shfto0.jpg"
+---
+<div id="banner-container">
+  <div class="banner-image">
+    {% pictures {
+      "desk" : "https://res.cloudinary.com/nrityagram/image/upload/v1729588209/ensemble_desk_upscayl_2x_realesrgan-x4plus_tmtvf6.png",
+      "tab" : "https://res.cloudinary.com/nrityagram/image/upload/v1729588212/Ensemble_tablet_upscayl_2x_realesrgan-x4plus_wshbmd.png",
+      "mob" : "https://res.cloudinary.com/nrityagram/image/upload/v1729588206/Ensemble_mobile_upscayl_2x_realesrgan-x4plus_ejhdsi.png"
+    },
+    "Ensemble", {
+      "mob": ["425"],
+      "tab": ["768"],
+      "desk": ["1600"]
+    }, {
+      "desk": "65em",
+      "tab": "50em",
+      "mob": "35em"
+    },
+    "eager",
+    "high" %}
+  </div>
+  <div class="banner-image-credit"
+    data-image-credit-desk="Anita Anand" 
+    data-image-credit-tab="Anita Anand" 
+    data-image-credit-mob="Anita Anand"
+    ></div>
+  <div class="banner-title">
+        Ensemble
+  </div>
+</div>
+<div class="container">
+  <div class="wrapper ultra-wide flow">
+    <div class="uneven-columns pullquote-column wide-grid-gap">
+      <div class="narrow-column right-align-column">
+        <div class="fade-in stickybit pullquote">
+          			“The only<br>proper response</br>to dancers this amazing<br />is worship!”
+					<div class="pullquote-credit">The New York Times</div>
+        </div>
+      </div>
+      <div class="wide-column flow-flushtop flow-inbetween">
+        <p>
+				The Nrityagram Dance Ensemble is regarded as one of the foremost dance companies of India, with over three decades of diligent practice, teaching and performance.
+				</p>
+        <p>
+				Led by Artistic Director <a href="/surupa" class="bodylink">Surupa Sen</a>, our Ensemble has achieved global critical acclaim, performing across India and the world, with tours to Australia, Europe, the Far East, the Middle East, South Africa, the United Kingdom and the United States.
+				</p>
+        <p>
+				Our Ensemble is devoted to bringing Odissi - one of the oldest dance traditions in the world - to audiences worldwide. Performed as far back as 200 BC as a sacred ritual dedicated to the gods, Odissi speaks of love and union, between human and divine, transporting viewers to enchanting worlds of magic and spirituality. Its lush lyricism reflects both the motifs of Odisha temple sculpture as well as the poetry from the deep wellsprings of Odia music. 
+				</p>
+        <p>
+				Although steeped in and dedicated to ancient practice, our Ensemble is also committed to carrying Indian dance into the future. Enabled by grants from International Arts Funding organisations, our dancers not only explore creative expansions of tradition but are also able to commission fresh compositions from leading musicians.
+				</p>
+        <p>
+				At Nrityagram, traditional practice is infused with a bright contemporary spirit, which has captured the imagination of people worldwide.
+				</p>
+        <p>
+				Classical is the New Cool!
+				</p>
+        <p class="infotext">
+				Exclusive US Representation<br />
+				PENTACLE<br />
+        Sandy Garcia<br />
+          <a href="mailto:sandyg@pentacle.org" target="_blank" class="bodylink">sandyg@pentacle.org</a><br />
+          <a href="https://www.pentacle.org" target="_blank" class="bodylink">www.pentacle.org</a>
+        </p>
+      </div>
+      <div class="spacer-column"></div>
+    </div>
+  </div>
+</div>
+<div class="container accent-bg">
+  <div class="wrapper ultra-wide flow">
+    <div class="even-columns">
+      <div class="left-column">
+        <div class="image-plus card" onclick="location.href='/repertoire';">
+          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1569697663/repertory_xcac1z.jpg",
+          "Répertoire Card",
+          ["560", "768"] %}
+          <div class="credit" data-image-credit="Uma Dhanwatey" ></div>
+          <div class="card-title">Répertoire</div>
+        </div>
+      </div>
+      <div class="right-column">
+        <div class="image-plus card" onclick="location.href='/performancemap';">
+          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1580617717/performances-desk_hcwn9s.jpg",
+					"Performances Card",
+					["560", "768"] %}
+          <div class="credit" data-image-credit="Courtesy Serendipity Arts Festival" ></div>
+          <div class="card-title">Performances</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

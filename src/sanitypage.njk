@@ -1,0 +1,11 @@
+---
+layout: layouts/sanitypage
+tags: ngPages
+pagination:
+    alias: ngpage
+    data: pages
+    size: 1
+    addAllPagesToCollections: true
+permalink: /{{ ngpage.slug | slug }}/index.html
+eleventyExcludeFromCollections: true
+---

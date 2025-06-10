@@ -1,0 +1,93 @@
+---
+layout: layouts/page.njk
+eleventyNavigation:
+  key: page
+  order: 1
+tags: page
+date: Last Modified
+parentMenuItem: "Visit"
+title: "Find Your Way"
+description: "Nrityagram is 35kms from MG Road and 5 kms from Hessaraghatta Village. Nrityagram is a one-of-a-kind collective of artistes, where dance is a way of life."
+OGImage: "https://res.cloudinary.com/nrityagram/image/upload/w_600/v1718217325/poornaarati-desk_clxejy.png"
+---
+<div id="banner-container">
+  <div class="banner-image">
+    {% pictures 
+      {"desk":"https://res.cloudinary.com/nrityagram/image/upload/v1718217325/poornaarati-desk_clxejy.png", 
+      "tab":"https://res.cloudinary.com/nrityagram/image/upload/v1718196117/poornaarati-tablet_ampmgv.png", 
+      "mob":"https://res.cloudinary.com/nrityagram/image/upload/v1718217333/poornaarati-mobile_zth1ts.png"}, 
+      "Find Your Way", 
+      {"mob": ["425"], "tab": ["768"], "desk":["1600"]}, {"desk":"65em", "tab":"50em", "mob":"35em"}, 
+      "eager", "high" %}
+  </div>
+  <div class="banner-image-credit"
+    data-image-credit-desk="Ravi Shankar" 
+    data-image-credit-tab="Ravi Shankar" 
+    data-image-credit-mob="Ravi Shankar"
+    ></div>
+  <div class="banner-title">
+        Find<br />Your Way
+  </div>
+</div>
+<div class="container">
+  <div class="wrapper flow">
+    <p>
+      Nrityagram is 35 kilometres from MG Road and 5 kilometres from Hessaraghatta village. There are several options to get here:
+    </p>
+    <h1 class="center">Private Transport</h1>
+    <iframe
+			src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1192.5589560826568!2d77.45979436871723!3d13.163328428545444!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1643316702354!5m2!1sen!2sin"
+			width="100%"
+			height="300"
+      title="Map of Nrityagram"
+			frameborder="0"
+			style="border: 0;"
+			allowfullscreen=""
+		></iframe>
+  </div>
+</div>
+<div class="container accent-bg">
+  <div class="wrapper flow">
+    <h1 class="center">Bus</h1>
+    <ul class="basic">
+      <li>From City Market take bus number 266A, 253C, 253D, 253E</li>
+      <li>From Majestic take bus number 253J</li>
+      <li>Buses stop at Hessaraghatta village, where you can get an auto-rickshaw (Approximately ₹150 one-way).</li>
+    </ul>
+  </div>
+</div>
+<div class="container">
+  <div class="wrapper flow">
+    <h1 class="center">Metro</h1>
+    <ul class="basic">
+      <li>
+				The closest Metro station is Dasarahalli.
+			</li>
+      <li>
+				From Dasarahalli take bus number 253D, 253E, 253F or 253J to Hessaraghatta village, where you can get an auto-rickshaw (Approximately ₹150 one-way).
+			</li>
+    </ul>
+  </div>
+  <div class="wrapper ultra-wide flow">
+    <div class="even-columns">
+      <div class="left-column">
+        <div class="image-plus card" onclick="location.href='/visit';">
+          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1718195137/visit-masthead-desk_a5rmuq.png",
+          "Visit Card",
+          ["560", "768"] %}
+          <div class="credit" data-image-credit="Courtesy CFAA" ></div>
+          <div class="card-title">Visit Us</div>
+        </div>
+      </div>
+      <div class="right-column">
+        <div class="image-plus card" onclick="location.href='/virtualtour';">
+          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1718212901/virtual_tour_card_he3zta.jpg",
+          "Virtual Tour Card",
+          ["560", "768"] %}
+          <div class="credit" data-image-credit="Surupa Sen" ></div>
+          <div class="card-title">Virtual Tour</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

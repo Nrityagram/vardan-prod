@@ -1,0 +1,214 @@
+@use '../abstracts/' as *;
+
+body {
+	/* Need to explicitly specify this because of the searchBox that slides in and out */
+	/* Comment this out during development and debugging */
+	overflow-x: hidden;
+	--_body-text-color: hsl(var(--clr-neutral-850));
+}
+
+body {
+	position: relative;
+	font-family: var(--ff-serif);
+	font-size: var(--fs-450);
+	color: var(--_body-text-color);
+
+	@include mqmax(medium) {
+		font-size: var(--fs-510);
+	}
+}
+
+body.lockScroll {
+	height: 100dvh;
+	overflow: hidden;
+}
+
+* {
+	scroll-margin-top: calc(var(--logo-height-sticking) + 1.2rem);
+}
+
+header {
+	font-family: var(--ff-serif);
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: var(--ff-serif);
+	font-weight: var(--fw-serif-normal);
+	line-height: 1.2;
+
+	@include mqmax(medium) {
+		text-align: center;
+	}
+}
+
+h1,
+h2,
+h3 {
+	color: hsl(var(--clr-secondary-550));
+}
+
+
+h4 {
+	color: hsl(var(--clr-neutral-850));
+}
+
+h1 {
+	font-size: var(--fs-700);
+
+	@include mqmax(medium) {
+		font-size: var(--fs-750);
+	}
+
+	&.medium-wt {
+		font-weight: var(--fw-serif-medium);
+	}
+}
+
+// for portable txt style 
+.medium-wt {
+	font-weight: var(--fw-serif-medium);
+}
+
+h2 {
+	font-size: var(--fs-600);
+
+	@include mqmax(medium) {
+		font-size: var(--fs-650);
+	}
+}
+
+h3 {
+	font-size: var(--fs-550);
+	font-weight: var(--fw-serif-light);
+
+	@include mqmax(medium) {
+		font-size: var(--fs-600);
+	}
+}
+
+h4 {
+	font-size: var(--fs-500);
+	font-weight: var(--fw-serif-light);
+
+	@include mqmax(medium) {
+		font-size: var(--fs-500);
+	}
+}
+
+h1+h3 {
+	margin-top: 0 !important;
+}
+
+h2+h4 {
+	margin-top: 0 !important;
+}
+
+p {
+	font-family: var(--ff-serif);
+	// font-size: var(--fs-450);
+
+	&.large {
+		font-size: var(--fs-530);
+	}
+
+	&.close-fit {
+		line-height: 1.25;
+	}
+}
+
+a {
+	&.bodylink {
+		color: var(--_body-text-color);
+		-moz-text-decoration-style: dotted;
+		text-decoration-style: dotted;
+		-moz-text-decoration-line: underline;
+		text-decoration-line: underline;
+		-moz-text-decoration-color: inherit;
+		text-decoration-color: inherit;
+		text-underline-offset: 0.2em;
+	}
+
+	&.no-decoration {
+		text-decoration: none;
+	}
+}
+
+.underline {
+	color: var(--_body-text-color);
+	-moz-text-decoration-style: dotted;
+	text-decoration-style: dotted;
+	-moz-text-decoration-line: underline;
+	text-decoration-line: underline;
+	-moz-text-decoration-color: inherit;
+	text-decoration-color: inherit;
+	text-underline-offset: 0.2em;
+}
+
+// strikethrough
+s {
+	text-decoration: line-through;
+	text-decoration-color: hsl(var(--clr-primary-450));
+	text-decoration-thickness: 3px;
+	color: var(--_body-text-color);
+}
+
+.center {
+	text-align: center;
+}
+
+.centerflex {
+	display: flex;
+	justify-content: center
+}
+
+.right {
+	text-align: right;
+}
+
+.rightflex {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.center-on-mob {
+	@include mqmax(medium) {
+		text-align: center;
+	}
+}
+
+.desk-only {
+	@include mqmax(medium) {
+		display: none;
+	}
+}
+
+.redtext {
+	color: hsl(var(--clr-secondary-550)) !important;
+}
+
+.whitetext {
+	color: #fff !important;
+}
+
+.infotext {
+	color: hsl(var(--clr-neutral-600));
+
+	a {
+		color: hsl(var(--clr-neutral-600)) !important;
+	}
+}
+
+#at-the-top {
+	position: absolute;
+	left: 30px;
+	top: 1px;
+	scroll-margin-top: 0;
+
+	img.pixel-size {
+		width: 1px;
+		height: auto;
+	}
+}

@@ -1,0 +1,136 @@
+---
+layout: layouts/page.njk
+eleventyNavigation:
+  key: page
+  order: 1
+tags: page
+date: Last Modified
+parentMenuItem: "Support"
+title: "Support the Corpus Fund"
+description: "Contribute to the Corpus Fund of Nrityagram - Nrityagram is a one-of-a-kind collective of artistes, where dance is a way of life."
+OGImage: "https://res.cloudinary.com/nrityagram/image/upload/w_600/v1588620637/Support-the-corpus-fund_quhmco.jpg"
+---
+<div id="banner-container">
+  <div class="banner-image">
+    {% pictures 
+      {"desk":"https://res.cloudinary.com/nrityagram/image/upload/v1588620637/Support-the-corpus-fund_quhmco.jpg", 
+      "tab":"https://res.cloudinary.com/nrityagram/image/upload/v1589077309/ipad/support-the-corpus-fund_nl7bjn.jpg", 
+      "mob":"https://res.cloudinary.com/nrityagram/image/upload/v1581320061/mobile/Support-the-corpus-fund_iyyuov.jpg"}, 
+      "Make a Donation", 
+      {"mob": ["425"], "tab": ["768"], "desk":["1600"]}, {"desk":"65em", "tab":"50em", "mob":"35em"}, 
+      "eager", "high" %}
+  </div>
+  <div class="banner-image-credit"
+    data-image-credit-desk="Courtesy Serendipity Arts Festival" 
+    data-image-credit-tab="Courtesy Serendipity Arts Festival" 
+    data-image-credit-mob="Courtesy Serendipity Arts Festival"
+    ></div>
+  <div class="banner-title">
+        Support the<br />Corpus Fund
+  </div>
+</div>
+<div class="container">
+  <div class="wrapper flow">
+    <p>
+			Permanence. This one word sums up the advantage of making a Donation to the Nrityagram Corpus Fund - for you as a
+			donor and for our community.
+		</p>
+    <p>
+			By supporting and strengthening our Corpus Fund you give a Gift with both immediate and long-term benefits. The
+			Corpus Fund will permanently support the existence and sustenance of Nrityagram, so we can continue to work as one
+			of the foremost dance schools and companies of India.
+		</p>
+    <br />
+    <div class="open-modal modal-button">
+      <div class="button red-plastic center">
+        <div class="glare"></div>
+          Give to Our Corpus Fund
+      </div>
+    </div>
+    <!-- <p class="infotext center">
+      We are happy to work with you on additional ideas that appeal to your funding interests and giving priorities.
+      <br />
+      Write to us at <a href="mailto:lynne@nrityagram.org" target="_blank" class="bodylink">lynne@nrityagram.org</a>
+    </p> -->
+  </div>
+</div>
+<div class="container accent-bg">
+  <div class="wrapper ultra-wide flow flow-flushbottom">
+    <div class="even-columns">
+      <div class="left-column">
+        <div class="image-plus card" onclick="location.href='/support';">
+          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1570033128/support-us-banner_ejya2i.jpg",
+          "Support Us Card",
+          ["560", "768"] %}
+          <div class="credit" data-image-credit="Uma Dhanwatey" ></div>
+          <div class="card-title">Support Us</div>
+        </div>
+      </div>
+      <div class="right-column">
+        <div class="image-plus card" onclick="location.href='/donate';">
+          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1589101369/Donate_u4jbno.jpg",
+          "Make a Donation Card",
+          ["560", "768"] %}
+          <div class="credit" data-image-credit="M Srinivas Murthy" ></div>
+          <div class="card-title">Donate</div>
+        </div>
+      </div>
+    </div>
+    <div class="even-columns">
+      <div class="left-column">
+        <div class="image-plus card" onclick="location.href='/otherwaystogive';">
+          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1570033127/infrastructure-development_egkkk1.jpg",
+          "Other Ways to Give Card",
+          ["560", "768"] %}
+          <div class="credit" data-image-credit="Sreedhar Vaidya" ></div>
+          <div class="card-title">Other Ways<br />to Give</div>
+        </div>
+      </div>
+      <div class="right-column">
+        <div class="image-plus card" onclick="location.href='/sponsorship';">
+          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1570033127/festivals-and-events_ec7zal.jpg",
+          "Sponsorship Card",
+          ["560", "768"] %}
+          <div class="credit" data-image-credit="Shalini Jain" ></div>
+          <div class="card-title">Sponsorship</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper ultra-wide flow">
+    <p class="infotext center">
+      We are happy to work with you on additional ideas that appeal to your funding interests and giving priorities.<br />Write to us at
+			<a href="mailto:lynne@nrityagram.org" target="_blank" class="bodylink">lynne@nrityagram.org</a>
+    </p>
+  </div>
+</div>
+
+<dialog id="corpus-options" class="modal">
+  <div class="wrapper flow flow-flushtop flow-flushbottom">
+    <div class="modal-header">
+      <h4>Contact us</h4>
+      <div class="close-button" aria-label="close">&#215;</div>
+    </div>
+    <div class="modal-content flow-inbetween focus-none">
+      <p>
+        Please talk to Lynne about supporting our Corpus Fund
+        <br />
+        E <a href="mailto:lynne@nrityagram.org" class="bodylink focus-none">lynne@nrityagram.org</a> | M <a href="tel:+919845073325" class="bodylink focus-none">+919845073325</a>
+      </p>
+    </div>
+  </div>
+</dialog>
+
+<script type="text/javascript">
+  const modal = document.querySelector('#corpus-options');
+  const openModal = document.querySelector('.open-modal');
+  const closeModal = document.querySelector('.close-button');
+
+  openModal.addEventListener('click', () => {
+    modal.showModal();
+  });
+
+  closeModal.addEventListener('click', () => {
+    modal.close();
+  });
+</script>

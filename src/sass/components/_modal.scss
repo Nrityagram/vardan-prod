@@ -1,0 +1,114 @@
+@use '../abstracts/' as *;
+
+dialog {
+    padding: 0;
+    padding-bottom: 1em;
+    position: fixed;
+    outline: none;
+    overflow-y: hidden;
+
+    // vertically align in middle of screen
+    top: 50%;
+    transform: translateY(-50%);
+
+    // horizontally align in middle of screen
+    margin: 0 auto;
+    // height: fit-content;
+    width: fit-content;
+    border: 0;
+    border-radius: 14px 14px 12px 12px;
+
+    .modal-header {
+        color: hsl(var(--clr-neutral-200));
+        background-color: hsl(var(--clr-secondary-550));
+        min-height: 20px;
+        padding: 0.2em 1em;
+
+        @include mqmax(small) {
+            padding: 0.5em 0.75em;
+        }
+
+        border-radius: 12px 12px 0 0;
+        // position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h4 {
+            color: hsl(var(--clr-neutral-200));
+            text-align: left;
+        }
+
+        .close-button {
+            padding: 0;
+            padding-left: 5px;
+            font-weight: bold;
+            font-size: 2rem;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    .modal-body {
+        height: 85vh;
+        overflow-y: auto;
+        margin: 0;
+
+        &:focus {
+            outline-style: none;
+        }
+
+        &:has(iframe) {
+            padding: 0;
+        }
+
+        .image-plus {
+            width: 100%;
+            margin-left: 0;
+        }
+
+        .modal-content {
+            padding: 0 2em;
+
+            @include mqmax(medium) {
+                padding: 0;
+            }
+
+            h2 {
+                text-align: left;
+            }
+
+            &.focus-none {
+                *:focus {
+                    outline: none;
+                }
+            }
+        }
+    }
+
+
+
+
+}
+
+dialog:has(.image-plus) .modal-content {
+    height: 50vh;
+}
+
+dialog::backdrop {
+    background: rgb(0 0 0 / 0.7);
+    overflow: hidden;
+}
+
+.open-modal {
+    &:hover {
+        cursor: pointer;
+    }
+
+    &.modal-button {
+        width: fit-content;
+        margin-inline: auto;
+    }
+}

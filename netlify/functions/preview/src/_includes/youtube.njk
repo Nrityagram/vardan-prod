@@ -1,0 +1,10 @@
+<!-- src/_includes/youtube.njk -->
+<!-- Load the JS before using the component -->
+<!-- <script src="/utils/lite-yt-embed.js"></script> -->
+<!-- Web component for lite-youtube-embed -->
+<lite-youtube videoid="{{ videoId }}" style="{{ thumbnailUrl }}" {% if params %} params="{{ params }}"{% endif %}>
+    <button type="button" class="lty-playbtn">
+        <span class="lyt-visually-hidden">Play Video: {{ videoTitle }}</span>
+    </button>
+    <div class="lyt-caption">{{ videoTitle }}</div>
+</lite-youtube>

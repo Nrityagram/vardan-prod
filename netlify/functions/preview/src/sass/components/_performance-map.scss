@@ -1,0 +1,93 @@
+@use '../abstracts/' as *;
+
+#deskmapid {
+    width: 100%;
+    height: 80vh;
+    @include mqmax(medium) {
+        display: none;
+    }
+}
+
+/* Font Styles for marker pop-ups on map */
+city {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+location {
+    display: block;
+    padding-left: 0.5rem;
+}
+
+production {
+    color: #df0f1c;
+    display: block;
+}
+
+emph {
+    color: #df0f1c;
+    padding-left: 0.2rem;
+    display: inline-block;
+}
+
+date {
+    color: #888;
+    font-style: oblique;
+    padding-left: 0.2rem;
+    display: inline-block;
+}
+
+/* Style for overlay div to display performance map */
+#perfmap-overlay.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 1.0);
+    z-index: 999;
+
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#perfmap-overlay.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+#perfmap-overlay.overlay .close {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    transition: all 200ms;
+    font-size: 45px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #df0f1c;
+    z-index: 1100;
+}
+
+#perfmap-overlay.overlay #mobmapid {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+/* .overlay .leaflet-container {
+    transform: rotate(-90deg);
+} */
+
+// Show the performance map screenshot with "Tap to enlarge"
+.mobile-only {
+    display: block;
+}
+
+// Desktop
+@include mq(medium) {
+// @media screen and (min-width: 769px) {
+   .mobile-only {
+       display: none;
+   }
+}

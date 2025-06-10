@@ -1,0 +1,218 @@
+---
+layout: layouts/page.njk
+eleventyNavigation:
+  key: page
+  order: 1
+tags: page
+date: Last Modified
+slider: true
+youtube: true
+parentMenuItem: "Community"
+title: "Building a Dance Community"
+description: "Nrityagram is a one-of-a-kind collective of artistes, where dance is a way of life."
+OGImage: "https://res.cloudinary.com/nrityagram/image/upload/w_600/v1718616963/dance-commons-masthead-desk_qs6rlh.png"
+---
+<div id="banner-container">
+  <div class="banner-image">
+    {% pictures 
+      {"desk":"https://res.cloudinary.com/nrityagram/image/upload/v1718616963/dance-commons-masthead-desk_qs6rlh.png", 
+      "tab":"https://res.cloudinary.com/nrityagram/image/upload/v1718616962/dance-commons-masthead-tablet_jonbp9.png", 
+      "mob":"https://res.cloudinary.com/nrityagram/image/upload/v1718616960/dance-commons-masthead-mobile_dxur5a.png"}, 
+      "Dance Commons - the first dialogue", 
+      {"mob": ["425"], "tab": ["768"], "desk":["1600"]}, {"desk":"65em", "tab":"50em", "mob":"35em"}, 
+      "eager", "high" %}
+  </div>
+  <div class="banner-image-credit"
+    data-image-credit-desk="Ravi Shankar" 
+    data-image-credit-tab="Ravi Shankar" 
+    data-image-credit-mob="Ravi Shankar"
+    ></div>
+  <div class="banner-title">
+        Building a Dance<br />Community
+  </div>
+</div>
+
+<div class="container">
+  <div class="wrapper flow">
+    <h1 class="center">Dance Commons</h1>
+  </div>
+  <div class="owl-carousel ultra-wide owl-theme">
+    <!-- Day 1 - 1 -->
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1729685710/dance-commons-slider-wlogo-img1_isle4y.png",
+      "Day 1 of the Dance Commons event at Nrityagram",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Ravi Shankar</div>
+    </div>
+    <!-- Day 1 - 2 -->
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1716984230/day1-2_vzghqj.png",
+      "Day 1 of the Dance Commons event at Nrityagram",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Ravi Shankar</div>
+    </div>
+    <!-- Day 1 - 5 -->
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1716984495/day1-5_m8sljj.png",
+      "Day 1 of the Dance Commons event at Nrityagram",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Ravi Shankar</div>
+    </div>
+    <!-- Day 1 - 6 -->
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1716984259/day1-6_dlsihy.png",
+      "Day 1 of the Dance Commons event at Nrityagram",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Ravi Shankar</div>
+    </div>
+    <!-- Day 1 - 7 -->
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1716984516/day1-7_gv39k6.png",
+      "Day 1 of the Dance Commons event at Nrityagram",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Ravi Shankar</div>
+    </div>
+    <!-- Day 1 - 8 -->
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1716984515/day1-8_nxsr0r.png",
+      "Day 1 of the Dance Commons event at Nrityagram",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Ravi Shankar</div>
+    </div>
+    <!-- Day 2 - 1 -->
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1716984222/day2-1_yye2pl.png",
+      "Day 2 of the Dance Commons event at Nrityagram",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Surupa Sen</div>
+    </div>
+    <!-- Day 2 - 2 -->
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1716984531/day2-2_pnswwr.png",
+      "Day 2 of the Dance Commons event at Nrityagram",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Surupa Sen</div>
+    </div>
+    <!-- Day 2 - 3 -->
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1716984495/day2-3_fo5ktf.png",
+      "Day 2 of the Dance Commons event at Nrityagram",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Surupa Sen</div>
+    </div>
+    <!-- Day 2 - 4 -->
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1716984364/day2-4_xevep8.png",
+      "Day 2 of the Dance Commons event at Nrityagram",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Surupa Sen</div>
+    </div>
+    <!-- Day 2 - 5 -->
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1716984019/day2-5_mgrcvv.png",
+      "Day 2 of the Dance Commons event at Nrityagram",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Surupa Sen</div>
+    </div>
+    <!-- Day 2 - 6 -->
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1716984411/day2-6_exgyu4.png",
+      "Day 2 of the Dance Commons event at Nrityagram",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Surupa Sen</div>
+    </div>
+    <!-- Day 2 - 7 -->
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1716984234/day2-7_pya6jd.png",
+      "Day 2 of the Dance Commons event at Nrityagram",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Surupa Sen</div>
+    </div>
+    <!-- Day 2 - 8 -->
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1729685710/dance-commons-slider-last-img_droabr.png",
+      "Day 2 of the Dance Commons event at Nrityagram",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Surupa Sen</div>
+    </div>
+  </div>
+  <div class="wrapper ultra-wide flow flow-flushtop">
+    <div class="uneven-columns pullquote-column wide-grid-gap">
+      <div class="narrow-column right-align-column">
+        <div class="fade-in stickybit pullquote">
+          “Do you believe,<br>
+            as I do,<br>
+            that someone<br>
+            in our hamlet<br>
+            is keeping<br>
+            the fire alive?”
+            <div class="pullquote-credit">Thich Nhat Hanh</div>
+        </div>
+      </div>
+      <div class="wide-column flow-flushtop flow-inbetween">
+        <p>
+          What do dancers dream of when no one is watching? What are their deepest desires, fears, and hopes for tomorrow? What do they aspire for? Can there be a community of Indian classical dancers that speaks to their aspirations and dreams, and works as a collective for the needs and aims of the dancers? In today’s context, young Indian classical dancers face different kinds of pressures from having to perform on stages as well as on social media, lack of adequate financial support, anxieties over ever-increasing competition, and vying for scarce resources. The artistic journeys of young Indian classical dancers are often framed as that of an individual; lonely, anxious, and having to fend for themselves. In such a context, is the idea of a ‘community’ relevant for young dancers? If yes, what is their imagination of such a ‘community’? And crucially, are young dancers prepared to become more than solo artists on an individual journey, and find meaning and kinship in a collective?
+        </p>
+        <p>
+          These were some of the questions raised by <a href="/surupa" class="bodylink">Surupa Sen</a>, Artistic Director of Nrityagram. Given Surupa’s own lived experience of having been part of a community of dancers over three decades, and having experienced firsthand how the community has shaped her art, she wanted to understand what was in the minds of young dancers. After multiple conversations with different people, including students, patrons, and her peers, she initiated the idea of conducting a dialogue with young dancers. The premise was simple - let us ask young dancers what they think; do they see value in the idea of a community? And thus, the Dance Commons was born, a space for young dancers to come together and converse, share their stories, and imagine together what their collective futures could look like.
+        </p>
+        <p>
+          Toward this goal, a two-day dialogue was planned at Nrityagram and on 19th and 20th August 2023, the first Dance Commons brought together young dancers from all over India to reflect on questions about their art, passion, dreams, and the future, and to ideate and shape what a community for Indian classical dance could be. It was a space of fertile discomfort, from which a collective dream took shape.
+        </p>
+        <p>
+          Read the <a href="https://cdn.sanity.io/files/a81875ul/production/8cc3e80a06294f06fdac506b19bd8b66c0e49f78.pdf" class="bodylink" target="_blank">Report</a> on the First Dialogue.
+        </p>
+        {% set videoTitle = "Dance Commons: Building a Dance Community" %}
+        {% set videoId = "yRl__mfbtDY" %}
+        {% include 'youtube.njk' %}
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container accent-bg">
+  <div class="wrapper ultra-wide flow">
+    <div class="even-columns">
+      <div class="left-column">
+        <div class="image-plus card" onclick="location.href='/community';">
+          {% image "https://res.cloudinary.com/nrityagram/image/upload/a_hflip/v1646055237/space-masthead-desk_ajtshm.jpg",
+          "Community Card",
+          ["560", "768"] %}
+          <div class="credit" data-image-credit="Surupa Sen" ></div>
+          <div class="card-title">Community</div>
+        </div>
+      </div>
+      <div class="right-column">
+        <div class="image-plus card" onclick="location.href='/village-outreach';">
+          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1569846362/village_outreach_pi9mro.jpg",
+          "Village Outreach Card",
+          ["560", "768"] %}
+          <div class="credit" data-image-credit="M Srinivas Murthy" ></div>
+          <div class="card-title">Village Outreach</div>
+        </div>
+      </div>
+    </div>
+    <div class="even-columns">
+      <div class="left-column">
+        <div class="image-plus card" onclick="location.href='/popularising-the-arts';">
+          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1718613522/ajji-masthead-desk_uzyz4t.png",
+          "Popularising the Arts Card",
+          ["560", "768"] %}
+          <div class="credit" data-image-credit="Pavithra Reddy" ></div>
+          <div class="card-title">Popularising<br />the Arts</div>
+        </div>
+      </div>
+      <div class="right-column">
+        <div class="image-plus card" onclick="location.href='/kula-artistes-residence';">
+          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1719899818/Kula-masthead-desk_ktpdi9.png",
+          "Kula: Artistes’ Residence Card",
+          ["560", "768"] %}
+          <div class="credit" data-image-credit="Rupert Lorhaldar" ></div>
+          <div class="card-title">
+            Kula
+            <div class="sub-title">Artistes’ Residence</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

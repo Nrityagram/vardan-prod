@@ -1,0 +1,100 @@
+---
+layout: layouts/page.njk
+eleventyNavigation:
+  key: page
+  order: 1
+tags: page
+date: Last Modified
+parentMenuItem: "About"
+title: "About Us"
+description: "We aspire to be a dynamic artistic community that practices and upholds the holistic traditions associated with the classical arts of India. Nrityagram is a one-of-a-kind collective of artistes, where dance is a way of life."
+OGImage: "https://res.cloudinary.com/nrityagram/image/upload/w_600/v1580623152/1_w9kze2.jpg"
+---
+<div id="banner-container">
+  <div class="banner-image">
+    {% pictures {
+      "desk" : "https://res.cloudinary.com/nrityagram/image/upload/v1729587394/about-desk_upscayl_2x_realesrgan-x4plus_nkwiey.png",
+      "tab" : "https://res.cloudinary.com/nrityagram/image/upload/v1729587392/about-tablet_upscayl_2x_realesrgan-x4plus_khopec.png",
+      "mob" : "https://res.cloudinary.com/nrityagram/image/upload/v1729587391/about-mobile_upscayl_2x_realesrgan-x4plus_kitcyo.png"
+    },
+    "About Us", {
+      "mob": ["425"],
+      "tab": ["768"],
+      "desk": ["1600"]
+    }, {
+      "desk": "65em",
+      "tab": "50em",
+      "mob": "35em"
+    },
+    "eager",
+    "high" %}
+  </div>
+  <div class="banner-image-credit"
+    data-image-credit-desk="Darial Sneed" 
+    data-image-credit-tab="Darial Sneed" 
+    data-image-credit-mob="Darial Sneed"
+    ></div>
+  <div class="banner-title">
+        About Us
+  </div>
+</div>
+<div class="container">
+  <div class="wrapper flow">
+    <p>
+      Once upon a time, a dreamer saw a land of wilderness and red mud, and imagined a haven for dance, and thus was born the idea of Nrityagram, which literally means dance-village. In a world that did not know what a woman entrepreneur meant, <a href="/protima" class="bodylink">Protima Gauri</a> single-handedly strove to make the dream real, fueled by a sense of adventure and a commitment to artistic excellence. 
+    </p>
+    <p>
+      Today, Nrityagram is a thriving collective of artistes dedicated to the practice and nurture of Odissi, a 2000-year-old classical dance of India. The village is home to a <a href="/gurukula" class="bodylink">School</a> inspired by the Gurukula, an ancient teaching paradigm, and an internationally renowned Dance <a href="/ensemble" class="bodylink">Ensemble</a>.
+    </p>
+    <p>
+      Our mission is to nurture dance professionals through the gurukula system, perform on a global stage and forge a community through outreach.
+    </p>
+    <p>
+      We aspire to be a dynamic artistic community that practises and upholds the holistic traditions associated with the classical arts of India. A place that nurtures artistic growth and exchange, and enables deeper connections between people and art, beyond political, social and cultural differences.
+    </p>
+  </div>
+</div>
+<div class="container accent-bg">
+  <div class="wrapper ultra-wide flow">
+    <div class="even-columns">
+      <div class="left-column">
+        <div class="image-plus card" onclick="location.href='/history';">
+          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1572106197/history_kaf95n.jpg",
+          "History Card",
+          ["560", "768"] %}
+          <div class="credit" data-image-credit="Avinash Pasricha" ></div>
+          <div class="card-title">History</div>
+        </div>
+      </div>
+      <div class="right-column">
+        <div class="image-plus card" onclick="location.href='/space';">
+          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1647179355/Space-cat2-desk_rix0hl.jpg",
+					"Space Card",
+					["560", "768"] %}
+          <div class="credit" data-image-credit="Surupa Sen" ></div>
+          <div class="card-title">Space</div>
+        </div>
+      </div>
+    </div>
+    <div class="even-columns">
+      <div class="left-column">
+        <div class="image-plus card" onclick="location.href='/future';">
+          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1718198365/future-masthead-desk_pcffe4.png",
+          "Future Card",
+          ["560", "768"] %}
+          <div class="credit" data-image-credit="Karthik Venkatraman" ></div>
+          <div class="card-title">Future</div>
+        </div>
+      </div>
+      <div class="right-column">
+        <div class="image-plus card" onclick="location.href='/board';">
+          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1569995939/board-of-trustees-banner_srxmvn.jpg",
+					"Board of Trustees Card",
+					["560", "768"] %}
+          <div class="credit" data-image-credit="Karthik Venkatraman" ></div>
+          <div class="card-title">Board of Trustees</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

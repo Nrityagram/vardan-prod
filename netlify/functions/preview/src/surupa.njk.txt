@@ -1,0 +1,159 @@
+---
+layout: layouts/page.njk
+eleventyNavigation:
+  key: page
+  order: 1
+tags: page
+date: Last Modified
+parentMenuItem: "People"
+title: "Surupa Sen"
+OGImage: "https://res.cloudinary.com/nrityagram/image/upload/w_600/v1569697663/surupa_zqxers.jpg"
+---
+<div id="banner-container">
+  <div class="banner-image">
+    {% pictures 
+      {"desk":"https://res.cloudinary.com/nrityagram/image/upload/v1569697663/surupa_zqxers.jpg", 
+      "tab":"https://res.cloudinary.com/nrityagram/image/upload/v1589036580/ipad/Surupa-Sen_tvpxnt.jpg", 
+      "mob":"https://res.cloudinary.com/nrityagram/image/upload/v1719985198/Surupa-Sen-mobile_justdj.jpg"}, 
+      "Surupa Sen", 
+      {"mob": ["425"], "tab": ["768"], "desk":["1600"]}, {"desk":"65em", "tab":"50em", "mob":"35em"}, 
+      "eager", "high" %}
+  </div>
+  <div class="banner-image-credit"
+    data-image-credit-desk="Nan Melville & Tanuj Ahuja" 
+    data-image-credit-tab="Tanuj Ahuja" 
+    data-image-credit-mob="Tanuj Ahuja"
+    ></div>
+  <div class="banner-title">
+        Surupa<br />Sen
+  </div>
+</div>
+<div class="container">
+  <div class="wrapper ultra-wide flow">
+    <div class="uneven-columns pullquote-column wide-grid-gap">
+      <div class="narrow-column right-align-column">
+        <div class="fade-in stickybit pullquote">
+          			“Surupa<br />gives pure movement<br />the heady feel<br />of casting<br />a mesmeric spell”
+					<div class="pullquote-credit">The Hindu</div>
+        </div>
+      </div>
+      <div class="wide-column flow-flushtop flow-inbetween">
+        <p>
+					She walked through a wicker gate with bells on it and that changed her life. Surupa Sen had just finished a
+					degree in Economics and came to Nrityagram, keen to learn Odissi, an art form she had fallen in love with. She
+					thought she would learn for a few months, maybe a year, and she ended up making it her home for more than three decades now. But we get ahead of ourselves; let’s go back to the wicker gate.
+				</p>
+        <p>
+					As Surupa entered the wicker gate and stepped into the verdant environs of Nrityagram, she encountered a very
+					large pair of eyes sizing her up. She met <a href="/protima" class="bodylink">Protima Gauri</a> for the first
+					time, and walked around the campus with her, and was besotted, by both the idea of the place and the woman who
+					had conjured it. Yet, she was unsure. She thought she would come for a short course, and the shortest course
+					in Nrityagram spanned six years. Her friend who accompanied her put it in perspective - any professional
+					course takes a minimum of that many years to master, so why should this be any different? Convinced, Surupa
+					went back to Delhi, told her parents that she was off, and with a suitcase, bucket, running shoes, and a
+					mosquito net, she came back to Nrityagram.
+				</p>
+        <p>
+					Those initial years were gruelling. The joke was that, if you had to learn discipline, you joined the army or
+					Nrityagram. It was akin to bootcamp. With other students, she woke up at 5am, went for a run, then countless
+					hours of practice, and the rest of the time spent helping around the campus that was still taking shape.
+				</p>
+        <p>
+					Surupa began her Odissi training with the architect of Odissi, Guru Kelucharan Mahapatra. She also learned
+					Odissi with Guru <a href="/protima" class="bodylink">Protima Gauri</a>, Guru Ratikant Mahapatra and Guru
+					Bichitranandan Swain. She studied Abhinaya with Guru Kalanidhi Narayanan and the Natyashastra under the
+					supervision of Dr. Padma Subrahmanyam. She was the first student to graduate out of the Nrityagram programme.
+				</p>
+        <p>
+					Despite the gruelling schedule, Surupa says that, that’s when she felt she was completely focused - her dance,
+					the art and craft were being honed, and that would be her lifelong pursuit. She started delving deep into the
+					form, asking questions, seeking answers, and charting her own unique journey into the mysteries of Odissi.
+				</p>
+        <p>
+					How does a movement take birth? What is the impulse that leads to a specific kind of movement? Every single
+					gesture, from the sway of a hip to the arc of a fingertip became the subject of her constant enquiry. As a
+					dancer of contemporary times, whose arena was the proscenium stage, her dance and her choreography acquired
+					layers that came out of her focus, that spanned not days, but decades. Her research expanded the dance
+					vocabulary of Odissi, and developed an aesthetic style that became the hallmark of Nrityagram dance.
+				</p>
+        <p>
+					Even as a child, Surupa choreographed dances. From creating school dances to choreographing pieces that won
+					national competitions, her genius in wielding time and space was evident early on.
+				</p>
+        <p>
+					In Indian classical dance, often, the focus is on the individual dancer, and not on the space occupied by the
+					individual. Therefore, it helps to dwell awhile on what choreography means, as defined by Surupa - she wields
+					time and space in a way that both bend to her will and submit. And choreography, the way Surupa does it, means
+					working on the rhythm, music, and movement. She has worked closely with Pandit Raghunath Panigrahi since 1999,
+					on original music compositions for her work, and the music she uses has a distinct emotive depth that is
+					heightened by movement, so they fuse together into an organic whole.
+				</p>
+        <p>
+					Surupa has choreographed seven full-length Ensemble shows, two full-length duet shows, two full-length solo
+					shows, and innumerable dance pieces that have enchanted audiences worldwide.
+				</p>
+        <p>
+					In June 2000, Surupa received a grant from
+					<a href="https://www.asianculturalcouncil.org/" target="_blank" class="bodylink">The Asian Cultural Council</a
+					>, New York that allowed her to participate in the International Choreographers Residency at the <a href="https://americandancefestival.org/" target="_blank" class="bodylink">American
+					Dance Festival</a>. She received the <a href="https://www.therazafoundation.org/awardees?p=1&s=12&o=POST_CREATED&a=DESC&c=1" target="_blank" class="bodylink">Raza Foundation Award</a> in 2006, the Yagnaraman Award from Sri Krishna Gana
+					Sabha, Chennai in 2008, the Nritya Choodamani from Sri Krishna Gana Sabha, Chennai in 2011 and the <a href="https://sangeetnatak.gov.in/award-honours/awardees" target="_blank" class="bodylink">Sangeet
+					Natak Akademi Award</a> for Odissi Dance in 2018.
+				</p>
+        <p>
+					Through her dance Surupa Sen continues to seek the intangible - her journey, a beacon for those who pursue that elusive spirit in their lives.
+				</p>
+        <br />
+        <p>
+          <em class="infotext">
+						“She was magnificent, especially in ‘Yami He’ which spoke of loneliness, in which she stood in a pool of red
+						light and radiated a profound stillness from the bones.”
+					</em>
+          <br />
+          <span class="infotext">The New York Times</span>
+        </p>
+        <br />
+        <p>
+          <em class="infotext">
+						“According to tradition, largely a solo form, Indian classical dance has succumbed to the ensemble but
+						rarely justified it. Nrityagram’s artistic director, however, transforms islands of activity into an
+						archipelago that stretches across the stage... Sen has writ large the romance between line and curve that
+						distinguishes Odissi!”
+					</em>
+          <br />
+          <span class="infotext">Financial Times, New York</span>
+        </p>
+      </div>
+      <div class="spacer-column"></div>
+    </div>
+  </div>
+</div>
+<div class="container accent-bg">
+  <div class="wrapper ultra-wide flow">
+    <div class="even-columns-unlimited">
+      <div class="image-plus card size-md" onclick="location.href='/protima';">
+        {% image "https://res.cloudinary.com/nrityagram/image/upload/v1719985631/Protima-Gauri-tile_zlpskm.jpg",
+				"Protima Gauri Card",
+				["560", "768"] %}
+        <div class="credit" data-image-credit="Lynne Fernandez" ></div>
+        <div class="card-title">Protima Gauri</div>
+      </div>
+
+      <div class="image-plus card size-md" onclick="location.href='/pavithra';">
+        {% image "https://res.cloudinary.com/nrityagram/image/upload/v1719985631/Pavithra-Reddy-tile_f1y7zq.jpg",
+					"Pavithra Reddy Card",
+					["560", "768"] %}
+        <div class="credit" data-image-credit="Dasha Larina" ></div>
+        <div class="card-title">Pavithra Reddy</div>
+      </div>
+
+      <div class="image-plus card size-md" onclick="location.href='/lynne';">
+        {% image "https://res.cloudinary.com/nrityagram/image/upload/v1719985631/Lynne-Fernandez-tile_py9qhz.jpg",
+					"Lynne Fernandez Card",
+					["560", "768"] %}
+        <div class="credit" data-image-credit="Dasha Larina" ></div>
+        <div class="card-title">Lynne Fernandez</div>
+      </div>
+    </div>
+  </div>
+</div>

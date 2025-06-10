@@ -1,0 +1,52 @@
+@use '../abstracts/' as *;
+
+.logo {
+    flex-grow: 1;
+    align-self: center;
+    // height: var(--logo-height);
+    // transition: height 500ms;
+
+    img {
+        height: var(--logo-height);
+        width: auto;
+        object-fit: contain;
+        transition: height 500ms;
+
+        @include mqmax(small) {
+            height: var(--logo-height-mob);
+        }
+    }
+
+    svg {
+        height: var(--logo-height);
+        width: auto;
+        object-fit: contain;
+        transition: height 500ms;
+
+        @include mqmax(small) {
+            height: var(--logo-height-mob);
+        }
+    }
+}
+
+.logo.sticking {
+    img {
+        height: var(--logo-height-sticking);
+
+        @include mqmax(small) {
+            height: var(--logo-height-sticking-mob);
+        }
+    }
+
+    svg {
+        height: var(--logo-height-sticking);
+
+        @include mqmax(small) {
+            height: var(--logo-height-sticking-mob);
+        }
+    }
+}
+
+.logo {
+    color: var(--_logo-color);
+}

@@ -1,0 +1,19 @@
+---
+layout: layouts/page.njk
+permalink: 404.html
+date: Last Modified
+eleventyExcludeFromCollections: true
+title: "Page not found"
+nobanner: true
+---
+<div class="container">
+  <div class="wrapper flow">
+    <h2 class="center">Sorry, the page you requested was not found.</h2>
+    <div class="image-plus shrink-desk">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1646930299/DSC00461_Edited-ensemble_c8nbl0.jpg",
+      "Page not found",
+      ["560", "768", "1046"] %}
+    </div>
+    <p class="center">Explore our beautiful website using the menu above or head back to <a href="{{ '/' | url }}" class="bodylink">home page</a>.</p>
+  </div>
+</div>

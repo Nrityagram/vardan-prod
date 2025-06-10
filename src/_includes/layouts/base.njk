@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-166089693-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-166089693-1');
+		</script>
+		<script type="text/javascript">
+			(function (c, l, a, r, i, t, y) {
+				c[a] = c[a] || function () {
+					(c[a].q = c[a].q || []).push(arguments)
+				};
+				t = l.createElement(r);
+				t.async = 1;
+				t.src = "https://www.clarity.ms/tag/" + i;
+				y = l.getElementsByTagName(r)[0];
+				y
+					.parentNode
+					.insertBefore(t, y);
+			})(window, document, "clarity", "script", "myto1pp43h");
+		</script>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>{{ title or metadata.title }} | Nrityagram Dance Village, India</title>
+		<meta name="description" content="{{ description or metadata.description }}" />
+		<meta name="generator" content="{{ eleventy.generator }}" />
+		<link rel="shortcut icon" href="{{ '/img/ng-logo-favicon.png' | url }}" />
+		<!-- Open Graph -->
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://nrityagram.org">
+		<meta property="og:locale" content="en_US">
+		<meta property="og:title" content="{{ title or metadata.title }} | Nrityagram Dance Village, India">
+		<meta property="og:description" content="{{ description or metadata.description }}">
+		<meta property="og:image" content="{{ OGImage or metadata.OGImage }}?v=2">
+		<meta property="og:image:alt" content="Nrityagram OpenGraph Image">
+		<!-- Twitter -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@nrityagram">
+		<meta name="twitter:creator" content="@nrityagram">
+		<meta name="twitter:url" content="https://nrityagram.org">
+		<meta name="twitter:title" content="{{ title or metadata.title }} | Nrityagram Dance Village, India">
+		<meta name="twitter:description" content="{{ description or metadata.description }}">
+		<meta name="twitter:image" content="{{ OGImage or metadata.OGImage }}">
+		<meta name="twitter:image:alt" content="Nrityagram OpenGraph Image">
+		<link rel="canonical" href="https://nrityagram.org">
+
+		<!-- openprops -->
+		<!-- <link rel="stylesheet" href="https://unpkg.com/open-props" /> -->
+		<!-- Not using open props normalize. Using Andy Bell's css reset -->
+		<!-- <link rel="stylesheet" href="https://unpkg.com/open-props/fonts.min.css" /> -->
+		<!-- <link rel="stylesheet" href="https://unpkg.com/open-props/sizes.min.css" /> -->
+
+		<link rel="preload" href="{{ '/fonts/EBGaramond-Regular.woff2' | url }}" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="{{ '/fonts/EBGaramond-Italic.woff2' | url }}" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="{{ '/fonts/EBGaramond-SemiBold.woff2' | url }}" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="{{ '/fonts/EBGaramond-Bold.woff2' | url }}" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="{{ '/fonts/EBGaramond-Medium.woff2' | url }}" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="{{ '/fonts/EBGaramond-Regular.woff2' | url }}" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="{{ '/fonts/Lato-Regular.woff2' | url }}" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="{{ '/fonts/Lato-Light.woff2' | url }}" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="{{ '/fonts/Lato-Black.woff2' | url }}" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="{{ '/fonts/Lato-Italic.woff2' | url }}" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="{{ '/fonts/Lato-Bold.woff2' | url }}" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="{{ '/fonts/Lato-Hairline.woff2' | url }}" as="font" type="font/woff2" crossorigin>
+
+		<!-- <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Lato:wght@300;400&display=swap" rel="stylesheet"> -->
+
+		{% if ngpage.pageSettings.slider or slider %}
+			<link rel="preload" href="{{ '/css/owl.carousel.min.css' | url }}" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+			<link rel="preload" href="{{ '/css/owl.theme.default.min.css' | url }}" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+		{% endif %}
+		{% if ngpage.pageSettings.youtube or youtube %}
+			<link rel="stylesheet" href="{{ '/css/lite-yt-embed.css' | url }}" />
+		{% endif %}
+		{% if ngpage.pageSettings.gismap or gismap %}
+			<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+			crossorigin="" media="print" onload="this.media='all'" />
+		{% endif %}
+
+		<link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
+	</head>
+	<body>
+		<main>
+			{% if ngpage.pageSettings.scrollToTop or scrollToTop %}
+				<div id="at-the-top">
+					<img src="/img/arrow-up-circle.svg" alt="up arrow icon" class="pixel-size">
+				</div>
+			{% endif %}
+			{% if nobanner %}
+				<header class="primary-header solidbg">
+				{% else %}
+					<header class="primary-header">
+					{% endif %}
+					<div class="wrapper headwrap">
+						<div class="primary-header__inner">
+							<span class="logo">
+								<a href="/">
+									{% include './logo-svg.njk' %}
+								</a>
+							</span>
+							{% include './navigation.njk' %}
+							{# TODO: Debug the position of search icon on iphone simulator #}
+							{# {% include './search.njk' %} #}
+							{% include './mobileMenuToggle.njk' %}
+						</div>
+					</div>
+				</header>
+				{{ content | safe }}
+				<footer>
+					<div class="tagline">
+						Nrityagram is a one-of-a-kind collective of artistes, where dance is a way of life
+						</div>
+					<div class="rowstack wide">
+						<div class="columnstack bottom-border">
+							<span>
+								<a href="mailto:info@nrityagram.org">
+									<img src="/img/email-white.svg" class="icon sml-vsml" alt="email icon">
+							info@nrityagram.org
+						</a>
+							</span>
+							<span>
+								<a href="tel:+918028466312">
+									<img src="/img/phone-white.svg" class="icon sml-vsml" alt="phone icon">
+							+91 80 28466312 / 3 / 4
+						</a>
+							</span>
+						</div>
+						<a href="/subscribe">
+							<img src="/img/newsletter-white.svg" class="icon sml" alt="newsletter icon">
+							<b>SUBSCRIBE</b> to our Newsletter
+						</a>
+					</div>
+					<div class="rowstack">
+						<div>
+						Nrityagram, Hessaraghatta Post, Kodihalli Village, Bangalore 560088 India
+						</div>
+						<div>
+							<b>
+								<a href="/visit" class="bodylink">
+								VISIT
+							</a>
+							</b>: 10am - 2pm | Friday, Saturday and Sunday
+						</div>
+						<div>
+							<b>CLOSED</b>: Mondays, National, State and other School Holidays | Call to Confirm
+						</div>
+					</div>
+					<div class="rowstack close">
+						<div>
+							<a href="/privacy">Privacy Policy</a> | <a href="/termsconditions">Terms & Conditions</a> | <a href="/sitecredits">Site Credits</a>
+						</div>
+						<div>
+							© {% year %} Nrityagram | All Rights Reserved
+							</div>
+					</div>
+					<div class="rowstack smalltext">
+							Nrityagram is a Project of Odissi Dance Centre, a Public Charitable Trust  |  Registration # E 7242 MUMBAI dated 23/07/1979
+					</div>
+					{% if ngpage.pageSettings.scrollToTop or scrollToTop%}
+						<div id="go-to-top">
+							<img src="/img/arrow-up-circle.svg" alt="up arrow icon">
+						</div>
+					{% endif %}
+
+					<sidebar>
+						<div class="hovertext" data-hovertext="+91 80 28466312 / 3 / 4">
+							<a href="tel:+918028466312">
+								<img src="/img/phone-white2.svg" class="icon sml mob" alt="Phone Icon">
+								<img src="/img/phone-grey.svg" class="icon sml desk" alt="Phone Icon">
+							</a>
+						</div>
+						<div class="hovertext" data-hovertext="info@nrityagram.org">
+							<a href="mailto:info@nrityagram.org">
+								<img src="/img/email-white.svg" class="icon sml mob" alt="Email Icon">
+								<img src="/img/email-grey.svg" class="icon sml desk" alt="Email Icon">
+							</a>
+						</div>
+						<div class="hovertext" data-hovertext="Subscribe to our Newsletter">
+							<a href="/subscribe">
+								<img src="/img/newsletter-white.svg" class="icon med mob" alt="Newsletter Icon">
+								<img src="/img/newsletter-grey.svg" class="icon desk" alt="Newsletter Icon">
+							</a>
+						</div>
+						<a href="https://www.facebook.com/nrityagram" target="_blank">
+							<img src="/img/fb-white.svg" class="icon sml mob" alt="Facebook Icon">
+							<img src="/img/fb-grey.svg" class="icon sml desk" alt="Facebook Icon">
+						</a>
+						<a href="https://www.instagram.com/nrityagram/" target="_blank">
+							<img src="/img/insta-white.svg" class="icon sml mob" alt="Instagram Icon">
+							<img src="/img/insta-grey.svg" class="icon sml desk" alt="Instagram Icon">
+						</a>
+						<a href="https://www.youtube.com/@Nrityagram" target="_blank">
+							<img src="/img/youtube-white.svg" class="icon sml mob" alt="Youtube Icon">
+							<img src="/img/youtube-grey.svg" class="icon sml desk" alt="Youtube Icon">
+						</a>
+					</sidebar>
+
+				</footer>
+
+			</main>
+
+			<script src="{{ '/utils/flow-special-cases.js' | url }}"></script>
+			<script src="{{ '/utils/primaryheader-observer.js' | url }}"></script>
+			<script src="{{ '/utils/navigation.js' | url }}"></script>
+			<script src="{{ '/utils/fadein-observer.js' | url }}"></script>
+			<script src="{{ '/utils/fadeinplace-observer.js' | url }}"></script>
+			<script src="{{ '/utils/zoomin-observer.js' | url }}"></script>
+
+			<script type="text/javascript">
+				const scrollBelowFold = document.getElementById("scroll-below-fold")
+				const belowFold = document.getElementById("below-fold")
+				if (scrollBelowFold && belowFold) {
+					scrollBelowFold.addEventListener("click", () => {
+						belowFold.scrollIntoView({behavior: "smooth", block: "start"});
+					});
+				}
+
+				function isVisible(elem) {
+					return (window.getComputedStyle(elem).display !== "none")
+				}
+
+				function isPortrait() {
+					if (screen.orientation && screen.orientation.type) {
+						return screen
+							.orientation
+							.type
+							.startsWith("portrait");
+					} else {
+						// Fallback for older browsers
+						return window.innerWidth < window.innerHeight;
+					}
+				}
+
+				const viewportHt = window.visualViewport.height
+				const bannerTaglineElemList = document.querySelectorAll(".banner-tagline")
+				const bannerImgCreditElemList = document.querySelectorAll(".banner-image-credit")
+				const redBandCTAList = document.querySelectorAll(".cta-mobile")
+				const isCTAMobileVisible = redBandCTAList && (redBandCTAList.length > 0) && isVisible(redBandCTAList.item(0))
+
+				// If .cta-mobile selectors are visible
+				if (isCTAMobileVisible) {
+					// Utility Functions to adjust CTA red band width for different mobile user agents
+					const ua = navigator
+						.userAgent
+						.toLowerCase()
+					const isAndroid = ua.includes('android') || ua.includes('linux')
+					const isIPhone = ua.includes('iphone')
+					// ipad's user agent only mentions macintosh
+					const isIPad = ua.includes('macintosh')
+					const isIPadMini = ua.includes('ipad')
+
+					const redBandCTAFirstItem = redBandCTAList.item(0)
+					const redBandCTAFirstItemStyle = window.getComputedStyle(redBandCTAFirstItem)
+
+					const vanillaSlideList = document.querySelectorAll(".vanilla-slide")
+					const bannerContainer = document.querySelector("#banner-container")
+
+					// make the CTA red band not too thick on various phone models
+					if (isAndroid) {
+						vanillaSlideList.forEach((elem) => {
+							elem.style.height = "98.2vh"
+						})
+						bannerContainer.style.minHeight = "98.2vh"
+					}
+
+					if (isIPhone) {
+						vanillaSlideList.forEach((elem) => {
+							elem.style.height = "107dvh"
+						})
+						bannerContainer.style.minHeight = "107dvh"
+					}
+
+					if (isIPad) {
+						vanillaSlideList.forEach((elem) => {
+							elem.style.height = "93dvh"
+						})
+						bannerContainer.style.minHeight = "93dvh"
+						bannerContainer.style.marginBottom = "8dvh"
+					}
+
+					if (isIPadMini) {
+						vanillaSlideList.forEach((elem) => {
+							elem.style.height = "100dvh"
+						})
+						bannerContainer.style.minHeight = "100dvh"
+					}
+
+					if (isAndroid || isIPhone || isIPad || isIPadMini) {
+						const gapFromBottomSml = viewportHt * 0.03 // 2vh
+
+						const redBandCTA_topY = redBandCTAFirstItem
+							.getBoundingClientRect()
+							.top
+						const redBandCTA_botY = redBandCTAFirstItem
+							.getBoundingClientRect()
+							.bottom
+						const redBandCTA_botPadding = redBandCTA_botY - viewportHt
+
+						// CTA is present and isIPhone is true, banner tagline sits atop the redband with padding of 10px
+						bannerTaglineElemList.forEach((elem) => {
+							elem.style.paddingBottom = "18px"
+						})
+
+						redBandCTAList.forEach((elem) => {
+							elem.style.paddingBottom = redBandCTA_botPadding.toString() + "px"
+						})
+
+						const newRedBandCTA_ht = redBandCTAFirstItem
+							.getBoundingClientRect()
+							.bottom - redBandCTAFirstItem
+							.getBoundingClientRect()
+							.top;
+
+						bannerImgCreditElemList.forEach((elem) => {
+							elem.style.bottom = (newRedBandCTA_ht + gapFromBottomSml).toString() + "px"
+						})
+
+						// icons sidebar
+						const sidebarElem = document.querySelector('sidebar')
+						if (window.getComputedStyle(sidebarElem).flexDirection == "column") {
+							sidebarElem.style.bottom = (newRedBandCTA_ht + gapFromBottomSml).toString() + "px"
+						}
+
+					}
+
+				}
+
+				function isSearchBarAtBottom() {
+					const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent)
+					if (!isIOS) 
+						return false
+
+					const vh = window.innerHeight
+					const visualVh = window.visualViewport.height
+
+					alert("vh=" + vh + " | visualVh = " + visualVh)
+
+					return visualVh < vh
+				}
+			</script>
+
+			{% if vanillaSlider %}
+				<script src="{{ '/utils/vanilla-slideshow.js' | url }}"></script>
+				<script>
+					vanillaSlideshow.init({
+						// auto slideshow, options: true or false
+						slideshow: true,
+						// slideshow delay
+						delay: 2750,
+						// display arrows, options: true or false
+						arrows: true,
+						// display indicators, options: true or false
+						indicators: false,
+						// start slideshow randomly, options: true or false
+						random: false,
+						// animation speed
+						// animationSpeed: '1.75s'
+						animationSpeed: '0.2s'
+					});
+				</script>
+			{% endif %}
+
+			{% if ngpage.pageSettings.scrollToTop or scrollToTop %}
+				<script type="text/javascript">
+					const goToTop = document.getElementById("go-to-top");
+					const atTheTop = document.getElementById("at-the-top");
+					goToTop.addEventListener("click", () => {
+						atTheTop.scrollIntoView({behavior: "smooth", block: "start"});
+					});
+				</script>
+			{% endif %}
+
+			{% if ngpage.pageSettings.slider or slider or ngpage.pageSettings.gismap or gismap%}
+				<script src="{{ '/utils/jquery-3.7.1.min.js' | url }}"></script>
+			{% endif %}
+
+			{% if ngpage.pageSettings.slider or slider %}
+				<script src="{{ '/utils/owl.carousel.min.js' | url }}"></script>
+				<script src="{{ '/utils/owl-custom.js' | url }}"></script>
+			{% endif %}
+
+			{% if youtube %}
+				<script src="{{ '/utils/lite-yt-embed.js' | url }}"></script>
+			{% endif %}
+			{% if marquee %}
+				<script src="{{ '/utils/marquee.js' | url }}"></script>
+			{% endif %}
+			{% if gismap %}
+				<!-- Make sure you put this AFTER Leaflet's CSS -->
+				<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin="anonymous" defer="defer"
+    		></script>
+			{% endif %}
+			{% if accordion %}
+				<script src="{{ '/utils/accordion.js' | url }}"></script>
+			{% endif %}
+			{% if ngpage.pageSettings.timeline %}
+				<script src="{{ '/utils/history-timeline.js' | url }}"></script>
+			{% endif %}
+
+			<!-- <script src="{{ '/utils/search.js' | url }}"></script> -->
+		</body>
+	</html>

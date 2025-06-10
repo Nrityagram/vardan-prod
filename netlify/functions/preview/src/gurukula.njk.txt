@@ -1,0 +1,98 @@
+---
+layout: layouts/page.njk
+eleventyNavigation:
+  key: page
+  order: 1
+tags: page
+date: Last Modified
+parentMenuItem: "School"
+title: "Gurukula"
+description: "Nrityagram is dedicated to the Guru-Shishya Parampara traditional method of learning. Nrityagram is a one-of-a-kind collective of artistes, where dance is a way of life."
+OGImage: "https://res.cloudinary.com/nrityagram/image/upload/w_600/v1647152836/02b-masthead-desk_z2k37r.jpg"
+---
+<div id="banner-container">
+  <div class="banner-image">
+    {% pictures 
+      {"desk":"https://res.cloudinary.com/nrityagram/image/upload/v1647152836/02b-masthead-desk_z2k37r.jpg", 
+      "tab":"https://res.cloudinary.com/nrityagram/image/upload/v1647152862/ipad/02b-masthead-tab_gwhjdj.jpg", 
+      "mob":"https://res.cloudinary.com/nrityagram/image/upload/v1647152893/mobile/02b-masthead-mob_r2vtmn.jpg"}, 
+      "Gurukula", 
+      {"mob": ["425"], "tab": ["768"], "desk":["1600"]}, {"desk":"65em", "tab":"50em", "mob":"35em"}, 
+      "eager", "high" %}
+  </div>
+  <div class="banner-image-credit"
+    data-image-credit-desk="M Srinivas Murthy" 
+    data-image-credit-tab="M Srinivas Murthy" 
+    data-image-credit-mob="M Srinivas Murthy"
+    ></div>
+  <div class="banner-title">
+        Gurukula
+  </div>
+</div>
+<div class="container">
+  <div class="wrapper ultra-wide flow">
+    <div class="uneven-columns pullquote-column wide-grid-gap">
+      <div class="narrow-column right-align-column">
+        <div class="fade-in stickybit pullquote">
+          			Learning<br />is a way of life
+				</div>
+      </div>
+      <div class="wide-column flow-flushtop flow-inbetween">
+        <p>
+					Nrityagram is dedicated to creating excellence in Odissi through the traditional method of learning, the <em>Guru-Shishya Parampara</em>, a unique and sacred relationship between mentor and disciple.
+				</p>
+        <p>
+					Our dance pedagogy is inspired by the <em>Gurukula</em>, an ancient Indian residential teaching paradigm where students and teachers live together in an integrated environment of practice, theory and discipline. Learning is a way of life and students have a rare opportunity to imbibe the spirit of the <em>Guru</em> by living with them and observing them at work.
+				</p>
+        <p>
+					Conceived this way, for over 30 years, Nrityagram imparts not only technique in dance but nurtures a philosophy of being that embraces holistic practice, mindful living and the pursuit of excellence.
+				</p>
+        <p>
+					For over two decades, <a href="/surupa" class="bodylink">Surupa Sen</a> researched and expanded the vocabulary of Odissi dance and developed a style that distinguishes the dancers of the Nrityagram School. Former Director Training and Outreach <a href="/bijayini" class="bodylink">Bijayini Satpathy</a>, developed an expanded, systematic and accessible training programme for Odissi dancers, which is equally valuable for beginners, advanced learners and performers.
+				</p>
+        <p>
+					This unique blend of traditional knowledge with contemporary understanding and application makes Nrityagram the only institution of its kind in the world.
+				</p>
+        <p>
+					With a student strength of over a hundred students, we provide an environment that fosters the artistic, intellectual and personal growth of our dancers and prepares them for successful and productive lives as artists and citizens, as well as to become leaders in their professions.
+				</p>
+      </div>
+      <div class="spacer-column"></div>
+    </div>
+  </div>
+</div>
+<div class="container accent-bg">
+  <div class="wrapper ultra-wide flow">
+    <div class="even-columns-unlimited">
+      <div class="image-plus card size-md" onclick="location.href='/danceprofessional';">
+        {% image "https://res.cloudinary.com/nrityagram/image/upload/v1580617696/dance-professionals-desk_q1mnsc.jpg",
+					"Dance Professionals Card",
+					["560", "768"] %}
+        <div class="credit" data-image-credit="Karthik Venkatraman" ></div>
+        <div class="card-title">Dance Professionals</div>
+      </div>
+
+      <div class="image-plus card size-md" onclick="location.href='/danceunlimited';">
+        {% image "https://res.cloudinary.com/nrityagram/image/upload/v1717245209/dance-unlimited-desk_qqqjqz.png",
+					"Dance Unlimited Card",
+					["560", "768"] %}
+        <div class="credit" data-image-credit="Ravi Shankar" ></div>
+        <div class="card-title">
+						Dance Unlimited
+						<div class="sub-title">Residential Workshops | Non-residential Training</div>
+        </div>
+      </div>
+
+      <div class="image-plus card size-md" onclick="location.href='/fellowships';">
+        {% image "https://res.cloudinary.com/nrityagram/image/upload/v1729586312/fellowship-masthead-desk_upscayl_2x_realesrgan-x4plus_qvdc8g.png",
+					"Fellowships Card",
+					["560", "768"] %}
+        <div class="credit" data-image-credit="Suzanne Lee" ></div>
+        <div class="card-title">
+						Fellowships
+          </div>
+      </div>
+
+    </div>
+  </div>
+</div>

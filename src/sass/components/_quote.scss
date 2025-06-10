@@ -1,0 +1,19 @@
+@use '../abstracts/' as *;
+
+.pullquote {
+    color: hsl(var(--clr-secondary-550));
+    font-family: var(--ff-serif);
+    font-size: var(--fs-575);
+    line-height: 1.25;
+
+    @include mqmax(medium) {
+        font-size: var(--fs-600);
+        text-align: center !important;
+    }
+}
+
+.pullquote-credit {
+    font-family: var(--ff-serif);
+    padding-top: 1em;
+    font-size: var(--fs-500);
+}

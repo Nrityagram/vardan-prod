@@ -1,0 +1,57 @@
+---
+layout: layouts/base.njk
+---
+{% if ngpage.mastheadImageDesk %}
+    <div id="banner-container">
+        <div class="banner-image">
+            {% pictures {
+                "desk" : ngpage.mastheadImageDesk.imgSource,
+                "tab" : ngpage.mastheadImagesSources.tablet,
+                "mob" : ngpage.mastheadImagesSources.mobile
+            },
+            ngpage.mastheadImageDesk.alt, {
+                "mob": ["425"],
+                "tab": ["768"],
+                "desk": ["1600"]
+            }, {
+                "desk": "65em",
+                "tab": "50em",
+                "mob": "35em"
+            },
+            "eager",
+            "high"
+ %}
+        </div>
+        <div class="banner-image-credit"
+        data-image-credit-desk= "{{ ngpage.mastheadImageDesk.credit }}"
+        data-image-credit-tab= "{{ ngpage.mastheadImagesCredits.tablet }}"
+        data-image-credit-mob= "{{ ngpage.mastheadImagesCredits.mobile }}"
+        ></div>
+        <div class="banner-title">
+            {{ngpage.title}}
+        </div>
+    </div>
+{% endif %}
+
+{% if ngpage.contentBlocks %}
+    {% for block in ngpage.contentBlocks %}
+        {% if block.bgcolour == 'Brick Red' %}
+            {% set bgcolour = 'primary-bg' %}
+        {% elif block.bgcolour == 'NG Red' %}
+            {% set bgcolour = 'secondary-bg' %}
+        {% elif block.bgcolour == 'Salmon Pink' %}
+            {% set bgcolour = 'accent-bg' %}
+        {% else %}
+            {% set bgcolour = '' %}
+        {% endif %}
+        {% if block.anchorId %}
+            <div id="{{block.anchorId}}" class="container {{bgcolour}}">
+            {% else %}
+                <div class="container {{bgcolour}}">
+                {% endif %}
+                <div class="wrapper flow">
+                    {{ block.content | markdownify | safe }}
+                </div>
+            </div>
+        {% endfor %}
+    {% endif %}

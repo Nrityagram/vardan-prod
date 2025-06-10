@@ -1,0 +1,427 @@
+---
+layout: layouts/page.njk
+eleventyNavigation:
+  key: page
+  order: 1
+tags: page
+date: Last Modified
+parentMenuItem: "About"
+title: "Board of Trustees"
+description: "Board members of Nrityagram - Nrityagram is a one-of-a-kind collective of artistes, where dance is a way of life."
+OGImage: "https://res.cloudinary.com/nrityagram/image/upload/w_600/v1569995939/board-of-trustees-banner_srxmvn.jpg"
+---
+<div id="banner-container">
+  <div class="banner-image">
+    {% pictures 
+      {"desk":"https://res.cloudinary.com/nrityagram/image/upload/v1569995939/board-of-trustees-banner_srxmvn.jpg", 
+      "tab":"https://res.cloudinary.com/nrityagram/image/upload/v1589047080/ipad/board-of-trustees_hquoqb.jpg", 
+      "mob":"https://res.cloudinary.com/nrityagram/image/upload/v1576171252/mobile/board-of-trustees_gw25jn.jpg"}, 
+      "Board of Trustees", 
+      {"mob": ["425"], "tab": ["768"], "desk":["1600"]}, {"desk":"65em", "tab":"50em", "mob":"35em"}, 
+      "eager", "high" %}
+  </div>
+  <div class="banner-image-credit"
+    data-image-credit-desk="Karthik Venkatraman" 
+    data-image-credit-tab="Karthik Venkatraman" 
+    data-image-credit-mob="Karthik Venkatraman"
+    ></div>
+  <div class="banner-title">
+        Board of<br />Trustees
+  </div>
+</div>
+<div class="container">
+  <div class="wrapper ultra-narrow flow">
+    <div class="img-text-combo-grid" id="managers">
+      <div class="img-text-wrapper flow-inbetween">
+        <div class="image-card flow-inbetween" id="chairperson">
+          <div class="image-wrapper">
+            {% image "https://res.cloudinary.com/nrityagram/image/upload/v1569995939/1-nirupama-rao-colour_oqozh4.jpg", "Nirupama Rao", ["auto", "425"] %}
+          </div>
+          <div class="image-caption">
+            <div class="caption-uppercase">
+              Ambassador Nirupama Rao (Retd.)
+            </div>
+            <div>
+              Chairperson
+            </div>
+          </div>
+        </div>
+        <div class="text-card flow-inbetween">
+          <p>
+            Nirupama Menon Rao was all of 12 when she decided that her life’s mission was to join the Indian Foreign
+            Service and become a diplomat. That early clarity of vision blossomed into a spectacular career that saw her
+            serve as India’s Foreign Secretary from 2009-2011 and India’s Ambassador to the United States, China, and Sri
+            Lanka. Throughout her journey, negotiating corridors of power, she has been a strong advocate of dialogue and
+            communication.
+          </p>
+          <p>
+            Her quest to seek harmony between countries and people continued after she retired from active service, and
+            led her to rediscover her other love, music. In 2017, she released an album, ‘Peace is my dream’.
+          </p>
+          <p>
+            She has penned a book of poetry ‘Rain Rising’ that has been translated into different languages, including
+            Malayalam, Chinese and Russian. She is currently working on a book, ‘Tell it to the Mountain, India and China,
+            1949-1962’.
+          </p>
+          <p>
+            With her husband Sudhakar Rao, who retired as the Chief Secretary of Karnataka, she is a Founder-Trustee of
+            the South Asian Symphony Foundation, Bangalore. The Foundation is dedicated to the use of music as a medium to
+            promote peace and understanding in South Asia and building a South Asian Symphony Orchestra.
+          </p>
+        </div>
+      </div>
+      <div class="img-text-wrapper flow-inbetween">
+        <div class="image-card flow-inbetween" id="manager">
+          <div class="image-wrapper">
+            {% image "https://res.cloudinary.com/nrityagram/image/upload/v1580671374/2-Lynne-Fernandez-colour_le81p9.jpg", "Lynne Fernandez", ["auto", "425"] %}
+          </div>
+          <div class="image-caption">
+            <div class="caption-uppercase">
+              Lynne Fernandez
+            </div>
+            <div>Managing Trustee</div>
+          </div>
+        </div>
+        <div class="text-card flow-inbetween">
+          <p>
+            “Relax, there is a woman on the job” reads a reassuring plaque outside Lynne Fernandez’s office in Nrityagram.
+          </p>
+          <p>
+            Since she took over as the Managing Trustee of the Odissi Dance Centre Trust and Executive Director of
+            Nrityagram School and Ensemble in 1997, Lynne has been at the helm of a journey in artistic and institutional
+            excellence that continuously shatters benchmarks to forge them afresh.
+          </p>
+          <p>
+            Lynne guided the emergence of the Nrityagram Ensemble onto the international arena. Her projects include Kula,
+            a residence where arts practitioners can live and create new work, and a Performing Arts Centre comprising a
+            theatre, exhibition space and rehearsal studios.
+          </p>
+          <p>
+            Lynne began her career as a psychologist, working with severely disturbed young adults for several years. She
+            worked as an actor and lighting designer with several notable theatre directors including Barry John, Joy
+            Michael, Ranjit Kapoor and Lillete Dubey. During her work in theatre, she discovered her love for lights and
+            continues to create magic, sculpting light for Nrityagram’s performances.
+          </p>
+        </div>
+      </div>
+      <div class="text-card flow-inbetween" id="chairperson-bio">
+        <p>
+          Nirupama Menon Rao was all of 12 when she decided that her life’s mission was to join the Indian Foreign Service and become a diplomat.That early clarity of vision blossomed into a spectacular career that saw her serve as India’s Foreign Secretary from 2009 - 2011 and India’s Ambassador to the United States, China, and Sri Lanka.Throughout her journey, negotiating corridors of power, she has been a strong advocate of dialogue and communication.</p>
+        <p>
+          Her quest to seek harmony between countries and people continued after she retired from active service, and led her to rediscover her other love, music.In 2017, she released an album, ‘Peace is my dream’.</p>
+        <p>
+          She has penned a book of poetry ‘Rain Rising’ that has been translated into different languages, including Malayalam, Chinese and Russian.She is currently working on a book, ‘Tell it to the Mountain, India and China, 1949 - 1962 ’.</p>
+        <p>
+          With her husband Sudhakar Rao, who retired as the Chief Secretary of Karnataka, she is a Founder - Trustee of the South Asian Symphony Foundation, Bangalore.The Foundation is dedicated to the use of music as a medium to promote peace and understanding in South Asia and building a South Asian Symphony Orchestra.</p>
+      </div>
+      <div class="text-card flow-inbetween" id="manager-bio">
+        <p>
+          “Relax,
+            there is a woman on the job” reads a reassuring plaque outside Lynne Fernandez’s office in Nrityagram.</p>
+        <p>
+          Since she took over as the Managing Trustee of the Odissi Dance Centre Trust and Executive Director of Nrityagram School and Ensemble in 1997, Lynne has been at the helm of a journey in artistic and institutional excellence that continuously shatters benchmarks to forge them afresh.</p>
+        <p>
+          Lynne guided the emergence of the Nrityagram Ensemble onto the international arena.Her projects include Kula, a residence where arts practitioners can live and create new work,
+          and a Performing Arts Centre comprising a theatre, exhibition space and rehearsal studios
+        </p>
+        <p>
+          Lynne began her career as a psychologist,
+          working with severely disturbed young adults for several years.She worked as an actor and lighting designer with several notable theatre directors including Barry John, Joy Michael, Ranjit Kapoor and Lillete Dubey.During her work in theatre, she discovered her love for lights and continues to create magic, sculpting light for Nrityagram’s performances.</p>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper ultra-wide flow flow-flushtop">
+    <h1 class="center">Trustees</h1>
+    <div class="img-text-combo-grid" id="trustees">
+      <div class="img-text-wrapper flow-inbetween">
+        <div class="image-card flow-inbetween" id="trustee1">
+          <div class="image-wrapper">
+            {% image "https://res.cloudinary.com/nrityagram/image/upload/v1569995939/3-lavanya-sankaran-colour_uiiquc.jpg", "Lavanya Sankaran", ["auto", "425"] %}
+          </div>
+          <div class="image-caption">
+            <div class="caption-uppercase">
+              Lavanya Sankaran
+            </div>
+          </div>
+        </div>
+        <div class="text-card flow-inbetween">
+          <p>
+            Lavanya Sankaran, author and patron of the arts, divides her time between Bangalore and New York, and depending on which side of the ocean life steers her, she finds comfort in idlis and Mysore coffee or jazz and bourbon. And home for her means libraries and golden retrievers.
+          </p>
+          <p>
+            For Lavanya writing was always a constant in her life, as both medium and muse. Since she was a child, she wrote. Investment banking was a short detour, after which she again went back to her first love, writing.
+          </p>
+          <p>
+            She is the author of the internationally acclaimed short story collection ‘The Red Carpet’, which was selected for Poets and Writers Magazine’s Best First Fiction award, as well as the Barnes and Noble Discover Great New Writers award. Her debut novel The Hope Factory, hit the Number 1 spot on Amazon India and was also selected by Amazon UK as a Top Pick.
+          </p>
+          <p>
+            Lavanya’s writing is published in over 15 countries and her opinion pieces and fiction have appeared in The New York Times, The Guardian and The Atlantic, among others.
+          </p>
+        </div>
+      </div>
+      <div class="img-text-wrapper flow-inbetween">
+        <div class="image-card flow-inbetween" id="trustee2">
+          <div class="image-wrapper">
+            {% image "https://res.cloudinary.com/nrityagram/image/upload/v1569995940/4-lillete-dubey-colour_fwrzak.jpg", "Lillete Dubey", ["auto", "425"] %}
+          </div>
+          <div class="image-caption">
+            <div class="caption-uppercase">
+              Lillete Dubey
+            </div>
+          </div>
+        </div>
+        <div class="text-card flow-inbetween">
+          <p>
+            Be it theatre, television or the silver screen, Lillette Dubey has won hearts and accolades of both audiences and critics for many decades now. She has been the Artistic Director of her theatre company, The Primetime Theatre Company,  for over 28 years, and her theatrical work has been applauded across the world.
+          </p>
+          <p>
+            Lillette has performed in several TV series and in over 60 films in India and abroad, and has won several awards for her plays and films in national and international festivals. Some of her critically acclaimed films include Monsoon Wedding, Lunchbox, and Delhi in a Day.
+          </p>
+          <p>
+            She is on the Expert Committee of the Ministry of Culture, has curated the Serendipity Festival, and has been on the jury of several Theatre and Film festivals.
+          </p>
+          <p>
+            When she is not in the thrall of her enduring love, theatre, she is happiest playing with her twin grand-daughters, Shaira and Niharika, reading, doing crosswords, playing Bridge and Scrabble, and traveling.
+          </p>
+        </div>
+      </div>
+      <div class="img-text-wrapper flow-inbetween">
+        <div class="image-card flow-inbetween" id="trustee3">
+          <div class="image-wrapper">
+            {% image "https://res.cloudinary.com/nrityagram/image/upload/v1591010631/5-nitin-pujar-colour_ws95ae.jpg", "Nitin Pujar", ["auto", "425"] %}
+          </div>
+          <div class="image-caption">
+            <div class="caption-uppercase">
+              Nitin Pujar
+            </div>
+          </div>
+        </div>
+        <div class="text-card flow-inbetween">
+          <p>
+            Nitin Pujar is a keen student of the human condition. Insatiably curious, he watches people to study their motivations and behavior and is a keen problem solver. Adhering to the words of the bard, Nitin ‘finds tongues in trees, books in the running brooks’, and so he converses with everyone, whether they are young or old. Keen to experience life in its infinite variety, he travels constantly, and tries to capture the ephemeral in his poetry.
+          </p>
+          <p>
+            Nitin’s abiding interest in studying people led him to create MACRO (Market Analysis & Consumer Research Organisation), where he is a Managing Partner. He also serves as a Principal Consultant at MAVEN Advisors, a strategy Advisory Practice based in Mumbai. He has worked on strategy, sales implementation as well as brand and communications program development projects in the area of banking & financial services, non‐profit organizations, information technology companies and various medium and small enterprises.
+          </p>
+          <p>
+            He was a key member of the Dr. Anil Kakodkar led committee on Higher Education Reforms constituted by the Maharashtra Government last year, and is a member of various high-level initiatives and committees at the University of Mumbai. In addition to Strategy Advisory, he also works in the space of business analytics and extensively in consumer products categories.
+          </p>
+        </div>
+      </div>
+      <div class="img-text-wrapper flow-inbetween">
+        <div class="image-card flow-inbetween" id="trustee4">
+          <div class="image-wrapper">
+            {% image "https://res.cloudinary.com/nrityagram/image/upload/v1569995940/6-sonia-manchanda-colour_c2zptn.jpg", "Sonia Manchanda", ["auto", "425"] %}
+          </div>
+          <div class="image-caption">
+            <div class="caption-uppercase">
+              Sonia Manchanda
+            </div>
+          </div>
+        </div>
+        <div class="text-card flow-inbetween">
+          <p>
+            Sonia Manchanda wants to grow and nurture ideas that last generations, be it trees or institutions. She is a naturalist and a farmer, cooking up both strategies and sumptuous meals. A student and practitioner of design, she has been actively involved in seeding design as a way of approaching and addressing challenges. In addition, she has been intimately involved in developing different businesses, brands, and experiences.
+          </p>
+          <p>
+            Sonia is a Design Strategist, Graphic Designer and Designpreneur, with 20+ years experience, building creative organisations of repute and leading transdisciplinary project teams on massive transformational projects for gov and industry nationally and globally.
+          </p>
+          <p>
+            A graduate of the National Institute of Design, Ahmedabad, Sonia is an appointed member of the India Design Council, is on the CII Design Council and is a Governing Council Member of Forge, an incubator in Coimbatore.
+          </p>
+          <p>
+            She is a Founding Partner at Spread Design + Learning, a transdisciplinary practice located at Design Farm where design is strategy, craft and a way of life. She has also set up the Design Barn, India’s first independent Design Center to bridge the design gap in India and make design accessible to everyone. Spread is a global firm on a sustainable farm.
+          </p>
+          <p>
+            Sonia’s Open Innovation and Design Strategy Project Dream:in has been awarded as a global gamechanger.
+          </p>
+        </div>
+      </div>
+      <div class="img-text-wrapper flow-inbetween">
+        <div class="image-card flow-inbetween" id="trustee5">
+          <div class="image-wrapper">
+            {% image "https://res.cloudinary.com/nrityagram/image/upload/v1569995940/7-sridhar-mahadevan-colour_p3vlcq.jpg", "Sridhar Mahadevan", ["auto", "425"] %}
+          </div>
+          <div class="image-caption">
+            <div class="caption-uppercase">
+              Sridhar Mahadevan
+            </div>
+          </div>
+        </div>
+        <div class="text-card flow-inbetween">
+          <p>
+            Sridhar Mahadevan seeks to understand the fundamental principles of the universe, be it in terms of underlying order or manifest expression. Fueled by his curiosity about how the universe works, he opted for a dual degree course that combined electrical engineering and a post-graduate program in physics at BITS Pilani. He went on to become a Co-Founder and Chief Operating Officer of iLink Systems, which is a multi-million dollar software services firm, headquartered in Redmond, WA, USA.
+          </p>
+          <p>
+            He was introduced to dance by his mother, a Bharatanatyam practitioner. As an adult, he underwent formal training in Bharatanatyam and Kalaripayattu. He became an ardent rasika, attending as many dance concerts as he could, and voraciously read on theory and dance forms across the world.
+          </p>
+          <p>
+            His abiding interest in movement, as both a student and rasika, led him to knock on the doors of Nrityagram. In 2009, he began volunteering with Nrityagram and assisting with social media outreach and logistics of performance. Committed to Nrityagram’s nurture and growth, he works with the organisation in different capacities.
+          </p>
+          <p>
+            He continues to pursue independent research in physics and mathematics, focusing on infinity and foundations of logic.
+          </p>
+        </div>
+      </div>
+      <div class="text-card flow-inbetween" id="trustee1-bio">
+        <p>
+          Lavanya Sankaran, author and patron of the arts, divides her time between Bangalore and New York, and depending on which side of the ocean life steers her, she finds comfort in idlis and Mysore coffee or jazz and bourbon. And home for her means libraries and golden retrievers.
+        </p>
+        <p>
+          For Lavanya writing was always a constant in her life, as both medium and muse. Since she was a child, she wrote. Investment banking was a short detour, after which she again went back to her first love, writing.
+        </p>
+        <p>
+          She is the author of the internationally acclaimed short story collection ‘The Red Carpet’, which was selected for Poets and Writers Magazine’s Best First Fiction award, as well as the Barnes and Noble Discover Great New Writers award. Her debut novel The Hope Factory, hit the Number 1 spot on Amazon India and was also selected by Amazon UK as a Top Pick.
+        </p>
+        <p>
+          Lavanya’s writing is published in over 15 countries and her opinion pieces and fiction have appeared in The New York Times, The Guardian and The Atlantic, among others.
+        </p>
+      </div>
+      <div class="text-card flow-inbetween" id="trustee2-bio">
+        <p>
+          Be it theatre, television or the silver screen, Lillette Dubey has won hearts and accolades of both audiences and critics for many decades now. She has been the Artistic Director of her theatre company, The Primetime Theatre Company,  for over 28 years, and her theatrical work has been applauded across the world.
+        </p>
+        <p>
+          Lillette has performed in several TV series and in over 60 films in India and abroad, and has won several awards for her plays and films in national and international festivals. Some of her critically acclaimed films include Monsoon Wedding, Lunchbox, and Delhi in a Day.
+        </p>
+        <p>
+          She is on the Expert Committee of the Ministry of Culture, has curated the Serendipity Festival, and has been on the jury of several Theatre and Film festivals.
+        </p>
+        <p>
+          When she is not in the thrall of her enduring love, theatre, she is happiest playing with her twin grand-daughters, Shaira and Niharika, reading, doing crosswords, playing Bridge and Scrabble, and traveling.
+        </p>
+      </div>
+      <div class="text-card flow-inbetween" id="trustee3-bio">
+        <p>
+          Nitin Pujar is a keen student of the human condition. Insatiably curious, he watches people to study their motivations and behavior and is a keen problem solver. Adhering to the words of the bard, Nitin ‘finds tongues in trees, books in the running brooks’, and so he converses with everyone, whether they are young or old. Keen to experience life in its infinite variety, he travels constantly, and tries to capture the ephemeral in his poetry.
+        </p>
+        <p>
+          Nitin’s abiding interest in studying people led him to create MACRO (Market Analysis & Consumer Research Organisation), where he is a Managing Partner. He also serves as a Principal Consultant at MAVEN Advisors, a strategy Advisory Practice based in Mumbai. He has worked on strategy, sales implementation as well as brand and communications program development projects in the area of banking & financial services, non‐profit organizations, information technology companies and various medium and small enterprises.
+        </p>
+        <p>
+          He was a key member of the Dr. Anil Kakodkar led committee on Higher Education Reforms constituted by the Maharashtra Government last year, and is a member of various high-level initiatives and committees at the University of Mumbai. In addition to Strategy Advisory, he also works in the space of business analytics and extensively in consumer products categories.
+        </p>
+      </div>
+      <div class="text-card flow-inbetween" id="trustee4-bio">
+        <p>
+          Sonia Manchanda wants to grow and nurture ideas that last generations, be it trees or institutions. She is a naturalist and a farmer, cooking up both strategies and sumptuous meals. A student and practitioner of design, she has been actively involved in seeding design as a way of approaching and addressing challenges. In addition, she has been intimately involved in developing different businesses, brands, and experiences.
+        </p>
+        <p>
+          Sonia is a Design Strategist, Graphic Designer and Designpreneur, with 20+ years experience, building creative organisations of repute and leading transdisciplinary project teams on massive transformational projects for gov and industry nationally and globally.
+        </p>
+        <p>
+          A graduate of the National Institute of Design, Ahmedabad, Sonia is an appointed member of the India Design Council, is on the CII Design Council and is a Governing Council Member of Forge, an incubator in Coimbatore.
+        </p>
+        <p>
+          She is a Founding Partner at Spread Design + Learning, a transdisciplinary practice located at Design Farm where design is strategy, craft and a way of life. She has also set up the Design Barn, India’s first independent Design Center to bridge the design gap in India and make design accessible to everyone. Spread is a global firm on a sustainable farm.
+        </p>
+        <p>
+          Sonia’s Open Innovation and Design Strategy Project Dream:in has been awarded as a global gamechanger.
+        </p>
+      </div>
+      <div class="text-card flow-inbetween" id="trustee5-bio">
+        <p>
+          Sridhar Mahadevan seeks to understand the fundamental principles of the universe, be it in terms of underlying order or manifest expression. Fueled by his curiosity about how the universe works, he opted for a dual degree course that combined electrical engineering and a post-graduate program in physics at BITS Pilani. He went on to become a Co-Founder and Chief Operating Officer of iLink Systems, which is a multi-million dollar software services firm, headquartered in Redmond, WA, USA.
+        </p>
+        <p>
+          He was introduced to dance by his mother, a Bharatanatyam practitioner. As an adult, he underwent formal training in Bharatanatyam and Kalaripayattu. He became an ardent rasika, attending as many dance concerts as he could, and voraciously read on theory and dance forms across the world.
+        </p>
+        <p>
+          His abiding interest in movement, as both a student and rasika, led him to knock on the doors of Nrityagram. In 2009, he began volunteering with Nrityagram and assisting with social media outreach and logistics of performance. Committed to Nrityagram’s nurture and growth, he works with the organisation in different capacities.
+        </p>
+        <p>
+          He continues to pursue independent research in physics and mathematics, focusing on infinity and foundations of logic.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container accent-bg">
+  <div class="wrapper ultra-wide flow">
+    <div class="even-columns">
+      <div class="left-column">
+        <div class="image-plus card" onclick="location.href='/about';">
+          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1580623152/1_w9kze2.jpg",
+          "About Us Card",
+          ["560", "768"] %}
+          <div class="credit" data-image-credit="Darial Sneed" ></div>
+          <div class="card-title">About Us</div>
+        </div>
+      </div>
+      <div class="right-column">
+        <div class="image-plus card" onclick="location.href='/history';">
+          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1572106197/history_kaf95n.jpg",
+          "History Card",
+          ["560", "768"] %}
+          <div class="credit" data-image-credit="Avinash Pasricha" ></div>
+          <div class="card-title">History</div>
+        </div>
+      </div>
+    </div>
+    <div class="even-columns">
+      <div class="left-column">
+        <div class="image-plus card" onclick="location.href='/space';">
+          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1647179355/Space-cat2-desk_rix0hl.jpg",
+					"Space Card",
+					["560", "768"] %}
+          <div class="credit" data-image-credit="Surupa Sen" ></div>
+          <div class="card-title">Space</div>
+        </div>
+      </div>
+      <div class="right-column">
+        <div class="image-plus card" onclick="location.href='/future';">
+          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1718198365/future-masthead-desk_pcffe4.png",
+          "Future Card",
+          ["560", "768"] %}
+          <div class="credit" data-image-credit="Karthik Venkatraman" ></div>
+          <div class="card-title">Future</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const imgCards = document.querySelectorAll('.image-card');
+
+  imgCards.forEach((card) => {
+    card.addEventListener('click', () => {
+      // remove previously active image and text cards
+      // get all children of img-text-combo-grid which have .active
+      const activeCards = document.querySelectorAll('.img-text-combo-grid .active')
+      activeCards.forEach((actCard) => {
+        actCard
+          .classList
+          .remove('active')
+      })
+
+      // make image into colour and non-zooming
+      card
+        .classList
+        .add('active')
+
+      // if mobile or tablet screen
+      if (window.matchMedia("(max-width: 50em)").matches) {
+        // get the sibling .text-card element
+        const nextSibling = card.nextElementSibling
+        if (nextSibling.classList.contains('text-card')) {
+          nextSibling
+            .classList
+            .add('active')
+        }
+      } else {
+        // get id for the 2-column spanning text-card
+        const textCardID = card.id + '-bio'
+        document
+          .getElementById(textCardID)
+          .classList
+          .add('active')
+      }
+
+      // jump to id anchor point
+      document
+        .getElementById(card.id)
+        .scrollIntoView()
+    })
+  })
+</script>

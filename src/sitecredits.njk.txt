@@ -1,0 +1,124 @@
+---
+layout: layouts/page.njk
+eleventyNavigation:
+  key: page
+  order: 1
+tags: page
+date: Last Modified
+title: "Site Credits"
+OGImage: "https://res.cloudinary.com/nrityagram/image/upload/w_600/v1589172195/credits_bh9zvn.jpg"
+---
+<div id="banner-container">
+  <div class="banner-image">
+    {% pictures {
+      "desk" : "https://res.cloudinary.com/nrityagram/image/upload/v1589172195/credits_bh9zvn.jpg",
+      "tab" : "https://res.cloudinary.com/nrityagram/image/upload/v1589172246/ipad/credits_qnzsw3.jpg",
+      "mob" : "https://res.cloudinary.com/nrityagram/image/upload/v1589172221/mobile/credits_nk8ddi.jpg"
+    },
+    "Site Credits", {
+      "mob": ["425"],
+      "tab": ["768"],
+      "desk": ["1600"]
+    }, {
+      "desk": "65em",
+      "tab": "50em",
+      "mob": "35em"
+    },
+    "eager",
+    "high" %}
+  </div>
+  <div class="banner-image-credit"
+    data-image-credit-desk="Guillermo Consejo" 
+    data-image-credit-tab="Guillermo Consejo" 
+    data-image-credit-mob="Guillermo Consejo"
+    ></div>
+  <div class="banner-title">
+        Site Credits
+  </div>
+</div>
+<div class="container ultra-wide">
+  <div class="wrapper flow border-bottom">
+    <div class="uneven-columns wide-grid-gap narrow-wide-40-60">
+      <div class="narrow-column">
+        <div class="image-plus">
+          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1589172164/Diksha_nc9hmq.jpg",
+          "Diksha Reddy",
+          ["auto", "425"] %}
+        </div>
+      </div>
+      <div class="wide-column flow-inbetween">
+        <h2>Diksha Reddy</h2>
+        <h4>Website Design</h4>
+        <p>
+          Graphic design, branding, book design, illustration, web design - anything to do with her muse design, be it greeting cards or lampshades, Diksha has built her expertise in exploring its depth and breadth. Her tool of choice, a MacBook is cared for like it’s her first born. An avid traveller, she is keen to sample fares from different places, provided the restaurant does not have a terrible logo. You can find her sipping tea in a cup, carefully curated from her personal collection of artisan mugs, while cooking up her next design project.
+        </p>
+        <p>
+          <b>E</b>: <a href="mailto:dikshareddy@gmail.com" class="bodylink">dikshareddy@gmail.com</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper flow border-bottom">
+    <div class="uneven-columns wide-grid-gap wide-narrow-60-40">
+      <div class="narrow-column">
+        <div class="image-plus">
+          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1589172164/Amrita_jqywjv.jpg",
+          "Amrita Chanda",
+          ["auto", "425"] %}
+        </div>
+      </div>
+      <div class="wide-column flow-inbetween">
+        <h2>Amrita Chanda</h2>
+        <h4>Website Development</h4>
+        <p>
+          Back in the 90s Amrita Chanda intended to be an animator and used to skip classes in engineering to spend long hours rendering small animation clips in 3D Studio on a machine with few MB of RAM, praying the electricity wouldn’t give up in the middle. One thing led to another and she found herself doing her Masters in graphics programming and visualisation. She seeks that fugitive thing called beauty, whether it is in her work as a web developer or in watching the Nrityagram’s dancers rehearse.
+        </p>
+        <p>
+          <b>E</b>: <a href="mailto:amrita@nrityagram.org" class="bodylink">amrita@nrityagram.org</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper flow border-bottom">
+    <div class="uneven-columns wide-grid-gap narrow-wide-40-60">
+      <div class="narrow-column">
+        <div class="image-plus">
+          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1591010967/Sruthi_zib3in.jpg",
+          "Sruthi Krishnan",
+          ["auto", "425"] %}
+        </div>
+      </div>
+      <div class="wide-column flow-inbetween">
+        <h2>Sruthi Krishnan</h2>
+        <h4>Content Development</h4>
+        <p>
+          More than a decade ago when she saw Nrityagram perform for the first time, Sruthi Krishnan wrote a mail, full of incoherent adjectives trying to express what she felt. As the years chugged past, she became more in thrall of the magnificent women who carry Nrityagram, and she fervently hopes her writing carries fewer adjectives. She co-founded Fields of View, a non-profit research organisation in Bangalore, where she works as a researcher, and has co-authored a book on design ‘We are not users’ published by MIT Press, USA, in 2020.
+        </p>
+        <p>
+          <b>E</b>: <a href="mailto:srukrish@gmail.com" class="bodylink">srukrish@gmail.com</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper flow border-bottom">
+    <div class="uneven-columns wide-grid-gap wide-narrow-60-40">
+      <div class="narrow-column">
+        <div class="image-plus">
+          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1589172164/Lynne_stc3yt.jpg",
+          "Lynne Fernandez",
+          ["auto", "425"] %}
+        </div>
+      </div>
+      <div class="wide-column flow-inbetween">
+        <h2>Lynne Fernandez</h2>
+        <h4>Website conception, Content development, and Chief go-to officer</h4>
+        <p>
+          As one of the guardians of Nrityagram for close to three decades now, Lynne Fernandez helmed the arduous task of putting together this site that draws from history, and speaks to the future. From dotting i’s and crossing t’s, curating photographs, and crocheting a whole from different threads that make the organisation, the care and attention to detail she has showered on this effort has inspired everyone in the team to do better.
+        </p>
+        <p>
+          <b>E</b>: <a href="mailto:lynne@nrityagram.org" class="bodylink">lynne@nrityagram.org</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

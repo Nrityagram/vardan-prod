@@ -1,0 +1,102 @@
+@use '../abstracts/' as *;
+
+.container {
+	width: 100%;
+
+	background-color: transparent;
+}
+
+.primary-bg {
+	background-color: hsl(var(--clr-primary-450));
+
+	>* {
+		color: hsl(var(--clr-neutral-200)) !important;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4 {
+		color: hsl(var(--clr-neutral-200)) !important;
+	}
+}
+
+.secondary-bg {
+	background-color: hsl(var(--clr-secondary-525));
+
+	>* {
+		color: hsl(var(--clr-neutral-200)) !important;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4 {
+		color: hsl(var(--clr-neutral-200)) !important;
+	}
+}
+
+.accent-bg {
+	background-color: hsl(var(--clr-accent-200));
+}
+
+.wrapper {
+	margin-inline: auto;
+	--width: var(--ultra-wide-width);
+
+	@include mq(medium) {
+		--width: var(--regular-width);
+	}
+
+	@include mq(large) {
+		--width: var(--regular-width);
+	}
+
+	&.headwrap {
+		// width: min(65rem, 100% - 2rem);
+		--width: 100%;
+	}
+
+	&.ultra-wide {
+		--width: var(--ultra-wide-width);
+
+		.lrg-screen-shrink-width {
+			@include mq(large) {
+				--width: var(--regular-width);
+			}
+
+			max-width: var(--width, var(--max-char-in-line));
+			margin: 0 auto;
+		}
+	}
+
+	&.ultra-narrow {
+		--width: var(--ultra-narrow-width);
+
+		@include mqmax(small) {
+			--width: var(--ultra-wide-width);
+		}
+	}
+
+	&.border-bottom {
+		border-bottom: 1px solid hsl(var(--clr-neutral-200));
+	}
+
+	max-width: var(--width, var(--max-char-in-line));
+}
+
+#banner-container {
+	// primary-header ht + top and bottom padding
+	--_primary-header-ht: calc(var(--logo-height) + var(--primary-header-topbot-padding) + 0.5rem);
+	position: relative;
+
+	// the negative margin pushes the banner
+	// up and behind the primary header and is flush against the top edge
+	// had to change factor to 1.06 to cover the small gap that appeared at the top
+	// after logo was made inline SVG
+	margin-top: calc(var(--_primary-header-ht) * (-1.06));
+
+	width: 100vw;
+	min-height: 101vh;
+	background-color: #000;
+}

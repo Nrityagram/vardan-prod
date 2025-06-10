@@ -1,0 +1,8 @@
+$regular-width: 65vw;
+$ultra-wide-width: 80.5vw;
+$ultra-narrow-width: 45vw;
+$max-char-in-line: 60ch;
+// (100vw - 65vw) / 2 = 17.5vw
+$full-bleed-margin-reg: -17.5vw;
+// (100vw - 80.5vw) / 2 = 9.75vw 
+$full-bleed-margin-ultra: -9.75vw;

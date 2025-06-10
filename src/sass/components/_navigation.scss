@@ -1,0 +1,512 @@
+@use '../abstracts/' as *;
+
+// Hide the mobile menu item checkboxes
+.m-menu-checkbox {
+    display: none !important;
+}
+
+.nav-deck {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25em;
+    align-items: end;
+    visibility: hidden;
+    scale: 0;
+
+    @include mq(medium) {
+        gap: 0.2em;
+        visibility: visible;
+        scale: 1;
+    }
+
+    .sticky-bottom-nav {
+        display: none;
+    }
+}
+
+.nav-deck.showMobile {
+    visibility: visible;
+    scale: 1;
+    position: absolute;
+    top: calc(var(--logo-height-mob) + 2vh);
+    left: 3vw;
+    width: 90vw;
+    height: 120vh;
+
+    .sticky-bottom-nav {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2vh;
+        gap: 1vh;
+
+        .outline-button {
+            border: 1.25px solid hsl(var(--clr-secondary-550));
+            // border-radius: 8px;
+            padding: 2.5px 8px;
+            font-family: var(--ff-sans);
+            font-size: var(--fs-400);
+        }
+
+        .sm-icon-row {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            gap: 22px;
+            font-size: var(--fs-525);
+        }
+
+    }
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    // This will vertically center 'SUPPORT' item which has larger font size
+    align-items: center;
+    gap: 1em;
+
+    @include mqmax(medium) {
+        gap: 0;
+    }
+
+    li {
+        position: relative;
+    }
+
+    li .nav-item {
+        cursor: default;
+        padding: 1px 0;
+
+        @include mqmax(medium) {
+            padding: 0.3vh 0;
+        }
+    }
+
+    li .nav-item-name,
+    li .nav-item-name a {
+        text-transform: uppercase;
+        color: var(--_nav-link-color);
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+        text-decoration: none;
+        font-size: var(--_nav-item-fontsize-lrg);
+        font-family: var(--ff-sans);
+        font-weight: var(--fw-sans-normal);
+
+        @include mqmax(medium) {
+            font-weight: var(--fw-sans-normal);
+        }
+
+        &.large-font {
+            font-size: var(--_nav-item-fontsize-lrg) !important;
+        }
+    }
+
+    li .nav-item-name::before {
+        content: '';
+        position: absolute;
+        // bottom: -0.01rem;
+        bottom: 0.25rem;
+        width: 100%;
+        height: 1px;
+        background-color: var(--_nav-link-color);
+        transform: scaleX(0);
+        transition: transform 500ms ease-in-out;
+        transform-origin: right;
+    }
+
+    li .nav-item-name:hover::before {
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+
+    li .nav-item-name.active {
+        text-underline-offset: 0.25rem !important;
+        text-decoration: 2px underline hsl(var(--clr-secondary-550)) !important;
+    }
+}
+
+// set the first row of menu items to red on desktop
+.nav-list:first-child {
+
+    li .nav-item-name,
+    li .nav-item-name a {
+        color: var(--_nav-item-red);
+        font-size: var(--_nav-item-fontsize-sml);
+    }
+
+    li .nav-item-name::before {
+        background-color: var(--_nav-item-red);
+    }
+}
+
+.nav-deck.showMobile .nav-list {
+    flex-direction: column;
+    width: 100%;
+
+    @include mqmax(medium) {
+        li {
+            width: 100%;
+            padding-block: 0.5em;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+        .nav-item-name {
+            display: flex;
+            justify-content: space-between;
+            font-size: var(--_nav-item-fontsize-sml) !important;
+
+            &.active {
+                text-decoration: none !important;
+            }
+
+            a {
+                font-size: var(--_nav-item-fontsize-sml) !important;
+            }
+
+            // menu item name takes up 75% of width
+            :first-child {
+                width: 80%;
+            }
+
+            // chevron takes up remaining width
+            :not(:first-child) {
+                flex: 1;
+            }
+        }
+
+        .large-font {
+            // Remove the large font size for Support in mobile menu
+            font-size: var(--_nav-item-fontsize-sml) !important;
+        }
+
+        label.item-chevron::after {
+            content: '';
+            position: absolute;
+            display: inline-block;
+            height: 10px;
+            width: 10px;
+            border-color: var(--_nav-link-color);
+            border-style: solid;
+            border-width: 1px 1px 0 0;
+            -moz-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+            top: 50%;
+            margin-top: -5px;
+            right: 12px;
+        }
+    }
+
+    // removing animated underline
+    li .nav-item-name::before {
+        content: none;
+    }
+}
+
+.nav-deck.showMobile .nav-sublist:not(:has([data-dropdown-lvl2])) {
+    @include mqmax(medium) {
+        li {
+            border-bottom: none;
+        }
+    }
+}
+
+.nav-deck.showMobile .nav-sublist {
+    li {
+        padding-right: 1.9rem !important;
+    }
+
+    li,
+    li a {
+        font-size: var(--_nav-item-fontsize-sml) !important;
+    }
+}
+
+.nav-deck.showMobile .nav-list:first-child {
+
+    li .nav-item-name,
+    li .nav-item-name a {
+        color: var(--_nav-link-color);
+        font-size: var(--_nav-item-fontsize-sml) !important;
+    }
+}
+
+
+.nav-sublist {
+    z-index: 15;
+    list-style: none;
+    width: max-content;
+    min-width: 15vw;
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 500ms ease-in-out;
+
+    padding: 0;
+    position: absolute;
+    top: var(--_nav-sublist-top);
+    left: 0;
+
+    background-color: var(--_nav-sublist-bgcolour);
+    border: 1px solid hsl(var(--clr-neutral-400));
+    // border-radius: 4px;
+
+    >li {
+        padding: 0.7rem;
+    }
+
+    >li:not(:last-child) {
+        // make the bottom border stretch full width of nav-sublist
+        // margin: 0 -0.7rem;
+        // padding-left: 0.7rem;
+        border-bottom: 1px solid hsl(var(--clr-neutral-400));
+    }
+
+    li,
+    li a {
+        color: var(--_nav-link-color);
+        text-decoration: none;
+        font-size: var(--_nav-subitem-fontsize);
+        font-family: var(--ff-sans);
+    }
+
+    li a:hover,
+    li a:focus {
+        opacity: 0.8;
+    }
+
+    li a::before {
+        content: none;
+    }
+
+    >li {
+        text-transform: uppercase;
+    }
+
+    li a.sublist-item-active {
+        &::before {
+            content: "";
+            margin-right: 5px;
+            border-left: 2px solid hsl(var(--clr-secondary-550));
+        }
+
+        &::after {
+            content: "";
+            margin-left: 5px;
+            border-right: 2px solid hsl(var(--clr-secondary-550));
+        }
+    }
+
+    >li li {
+        a {
+            text-transform: none;
+            color: var(--_nav-link-color2);
+            word-spacing: 0.1em;
+        }
+
+        &:not(:last-child) {
+            padding-bottom: 0.5rem;
+        }
+
+        &:first-child {
+            padding-top: 0.4rem;
+        }
+    }
+
+    @include mqmax(medium) {
+        li {
+            padding-left: 0;
+        }
+
+        li,
+        li a {
+            font-weight: var(--fw-normal) !important;
+        }
+
+        .nav-item-name-lvl2 {
+            a {
+                font-weight: var(--fw-normal) !important;
+            }
+
+            width: 95vw;
+            display: flex;
+            justify-content: space-between;
+
+            // menu item name takes up nearly whole of width
+            :first-child {
+                width: 95%;
+            }
+
+            // chevron takes up remaining width
+            :not(:first-child) {
+                flex: 1;
+            }
+        }
+    }
+}
+
+// nav-sublist top position for the red row
+.nav-list:first-child .nav-sublist {
+    top: var(--_nav-sublist-top2);
+}
+
+// Make the last 2 nav-sublist dropdowns right-aligned to fit into the screen
+.nav-list>li:nth-last-child(1) .nav-sublist,
+.nav-list>li:nth-last-child(2) .nav-sublist {
+    right: 0;
+    left: auto;
+}
+
+.nav-sublist-lvl2 {
+    display: block;
+    list-style: none;
+    padding-left: 1rem;
+}
+
+li[data-link-active] {
+    .nav-sublist {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    // for mobile only
+    @include mqmax(medium) {
+        .nav-item {
+            z-index: 20;
+            position: fixed;
+            // top: calc(var(--logo-height) + 2rem);
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100vw;
+            background-color: var(--_bg);
+            padding-left: 0;
+
+            &.active {
+                text-decoration: none !important;
+            }
+
+            .nav-item-name {
+                font-weight: bold;
+                color: var(--_nav-item-red) !important;
+
+                &.item-chevron::after {
+                    content: none !important;
+                }
+            }
+
+            .nav-sublist {
+                left: 0;
+                gap: 0.25em;
+                padding-left: 0;
+                padding-top: 0.8rem;
+                background-color: transparent;
+                border: none;
+
+                li a.sublist-item-active {
+                    &::before {
+                        content: none;
+                    }
+
+                    &::after {
+                        content: none;
+                    }
+                }
+
+                .nav-sublist-lvl2 {
+                    display: none;
+                }
+
+                // REMOVE SECOND LEVEL MENU ITEMS ON MOBILE
+                // li[data-link-active-lvl2] {
+                //     .nav-sublist-lvl2 {
+                //         display: block;
+                //     }
+                // }
+            }
+        }
+    }
+}
+
+li[data-link-active-lvl2] {
+    li {
+        width: 100%;
+        border: none !important;
+    }
+
+    // for mobile only
+    @include mqmax(medium) {
+        .nav-item-lvl2 {
+            z-index: 25;
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100vw;
+            background-color: var(--_bg);
+            padding-left: 0;
+
+            .nav-item-name-lvl2 a {
+                // pointer-events: none !important;
+                text-transform: uppercase;
+                font-weight: bold !important;
+                font-size: var(--_nav-item-fontsize-sml);
+                color: var(--_nav-item-red);
+                letter-spacing: var(--ls-wide);
+            }
+
+            .nav-item-name-lvl2.item-chevron::after {
+                content: none !important;
+            }
+
+            .nav-sublist-lvl2 {
+                left: 0;
+                gap: 0.25em;
+                padding-left: 0;
+                padding-top: 0.8rem;
+                background-color: transparent;
+                border: none;
+
+                li a {
+                    font-size: var(--_nav-item-fontsize-sml);
+                }
+            }
+        }
+    }
+}
+
+.mobileToggleIcons {
+
+    // .closeMobileBtn {
+    //     display: none;
+    // }
+    @include mq(medium) {
+        display: none;
+    }
+}
+
+.mobileToggleIcons>* {
+    /* The search div containing the mag glass icon and x icon are at z-index 10*/
+    z-index: 11;
+
+    // center both ham menu and close icons vertically
+    // and one on top of each other
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+
+img.icon.hide {
+    display: none;
+}

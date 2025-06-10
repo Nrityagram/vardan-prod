@@ -1,0 +1,12 @@
+{
+	"title": "Nrityagram",
+	"url": "https://nrityagram.org",
+	"language": "en",
+	"description": "Nrityagram is a one-of-a-kind collective of artistes, where dance is a way of life.",
+	"author": {
+		"name": "Amrita Chanda",
+		"email": "amrita@nrityagram.org",
+		"url": "https://nrityagram.org/sitecredits/"
+	},
+	"OGImage": "https://res.cloudinary.com/nrityagram/image/upload/v1701794529/ng_logo_blk_bg_sg0emm.png"
+}

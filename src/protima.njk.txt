@@ -1,0 +1,155 @@
+---
+layout: layouts/page.njk
+eleventyNavigation:
+  key: page
+  order: 1
+tags: page
+date: Last Modified
+parentMenuItem: "People"
+title: "Protima Gauri"
+OGImage: "https://res.cloudinary.com/nrityagram/image/upload/w_600/v1647151223/Protima-Gauri-desk_fmtawa.jpg"
+---
+<div id="banner-container">
+  <div class="banner-image">
+    {% pictures 
+      {"desk":"https://res.cloudinary.com/nrityagram/image/upload/v1647151223/Protima-Gauri-desk_fmtawa.jpg", 
+      "tab":"https://res.cloudinary.com/nrityagram/image/upload/v1589036580/ipad/Protima-Gauri_yf89sy.jpg", 
+      "mob":"https://res.cloudinary.com/nrityagram/image/upload/v1576167448/mobile/Protima-Gauri_asppla.jpg"}, 
+      "Protima Gauri", 
+      {"mob": ["425"], "tab": ["768"], "desk":["1600"]}, {"desk":"65em", "tab":"50em", "mob":"35em"}, 
+      "eager", "high" %}
+  </div>
+  <div class="banner-image-credit"
+    data-image-credit-desk="Suresh Parekh & Lynne Fernandez" 
+    data-image-credit-tab="Lynne Fernandez" 
+    data-image-credit-mob="Lynne Fernandez"
+    ></div>
+  <div class="banner-title">
+        Protima<br />Gauri
+  </div>
+</div>
+<div class="container">
+  <div class="wrapper ultra-wide flow">
+    <div class="uneven-columns pullquote-column wide-grid-gap">
+      <div class="narrow-column right-align-column">
+        <div class="fade-in stickybit pullquote">
+				The gods danced<br />the day<br />you were born
+				</div>
+      </div>
+      <div class="wide-column flow-flushtop flow-inbetween">
+        <p>
+          <em class="infotext">
+						“I dream of building a community of dancers in a forsaken place amidst nature.<br />A place where nothing exists,
+						except dance.<br />A place where you breathe, eat, sleep, dream, talk, imagine - dance.<br />A place where all the
+						five senses can be refined to perfection.<br />A place called Nrityagram.”
+					</em>
+        </p>
+        <p>
+					Protima Gauri sculpted her dream from red earth, scooped out with grit and persistence. But for those who knew
+					her, it would not have come as a surprise - she was a woman who did not let life or her own self come in the
+					way of what she deemed was her destiny.
+				</p>
+        <p>
+					Though born into a conservative family, she chose to step into the limelight. She became a model, and
+					challenged norms set by patriarchs of all hues, a story well documented by magazines of yore.
+				</p>
+        <p>
+					Then one day she wandered into an auditorium seeking a rock show, and instead ended up at an Odissi
+					performance. Captivated, in tears, she went backstage and declared to Guru Kelucharan Mahapatra that she
+					wanted to learn his art form. He laughed. She persisted. And she challenged him - if she reached Cuttack
+					before he did, he would accept her as a student. He brushed away those words, assuming they would take flight
+					and so would she.
+				</p>
+        <p>
+					When he reached Cuttack, he found her waiting at his doorstep, and thus began a journey where Protima became
+					Gauri, the nurturer. At 27, she studied Odissi, and conquered stages in India and abroad, and audiences
+					flocked to see her, first intrigued by her past, and then riveted by her performance.
+				</p>
+        <p>
+          <em class="infotext">
+						“That is how I always remember her! Dancing Odissi. With the Gods. A perfect sculpture coming alive. At
+						once, sensuous and sensual. Riveting in performance, she danced as if that was all she was meant to do and
+						as if she was the most beautiful woman alive. A perfect performer, she was in her life and on the stage much
+						the same. Always the centre of attraction. People gathered around her to be touched by her warmth, her
+						laughter, her passion and her beauty.”
+					</em>
+          <br />
+          <span class="infotext">
+            <a href="/surupa" class="bodylink">Surupa Sen</a>, disciple</span>
+        </p>
+        <p>
+					The tale of such a metamorphosis is sufficient to fill a book, but Protima Gauri was not one to remain content
+					with ordinary achievements. She was restless, and keen to give back to dance, the art that had given her so
+					much. She envisioned a place that would be a haven for dancers, where they could pursue their art with a focus
+					unsullied by the mundane, and hone their art and craft to reach unimaginable shores. The question was where
+					would such a sanctuary be? She wrote to different state governments, and Ramakrishna Hegde, who was Chief
+					Minister of Karnataka, wrote back.
+				</p>
+        <p>
+					Around 35 kilometres from Bangalore was 10 acres of wild isolation, where Protima Gauri arrived in a caravan
+					with some supplies and set-up a camp. Fascinated by her determination, Shankar and Arundhati Nag visited her,
+					only to become lifelong friends. So did many others, who came, curious, drawn to this woman of infectious
+					laughter and irrepressible enthusiasm, and before they knew it they became teachers, students, donors, and
+					devotees. Everyone whose life she touched has a ‘when I met her for the first time’ story. They recall her 70mm eyes, her laughter, or a delectably outrageous comment.
+				</p>
+        <p>
+					Slowly, the Gurukul took shape. Teachers came, students joined, and Nrityagram forged an Ensemble that
+					captivated audiences across the world. Just as her creation was embarking on a path to reach its full
+					potential, she had to contend with a personal tragedy, the untimely demise of Siddharth, her son. Her journey
+					became directed inward, and she began a spiritual quest.
+				</p>
+        <p>
+					What about Nrityagram? She believed, <em class="infotext">“Nrityagram has its own destiny and will find the people most suited to
+					carry out its will.”</em> She handed over the reins of the institution to
+					<a href="/lynne" class="bodylink">Lynne Fernandez</a>, and her disciple
+					<a href="/surupa" class="bodylink">Surupa Sen</a>. Soon after, she planned a pilgrimage to the Himalayas. One
+					friend recollects that just before leaving, she said, <em class="infotext">“The future looks so bright and dazzling. I am just
+					going to walk away into it, and all of you will have to come and search for me.”</em> These words were prophetic.
+					There was a landslide, and this world lost her.
+				</p>
+        <p>
+					Her legacy lives on, in Nrityagram, in riotous incidents recalled over community lunches, in memories that
+					friends from all over the world share with laughter and gratitude.
+				</p>
+        <br />
+        <p>
+          <em class="infotext">
+						“Life chooses its special children to do its bidding. Not everyone is fortunate to work for a cause, not
+						everyone is given the opportunity to create something for posterity. Not everyone is given the passion and
+						fire to make a success of their cause. I am blessed. I am grateful.”
+					</em>
+        </p>
+      </div>
+      <div class="spacer-column"></div>
+    </div>
+  </div>
+</div>
+<div class="container accent-bg">
+  <div class="wrapper ultra-wide flow">
+    <div class="even-columns-unlimited">
+      <div class="image-plus card size-md" onclick="location.href='/surupa';">
+        {% image "https://res.cloudinary.com/nrityagram/image/upload/v1719985631/Surupa-Sen-tile_ymiidt.jpg",
+				"Surupa Sen Card",
+				["560", "768"] %}
+        <div class="credit" data-image-credit="Tanuj Ahuja" ></div>
+        <div class="card-title">Surupa Sen</div>
+      </div>
+
+      <div class="image-plus card size-md" onclick="location.href='/pavithra';">
+        {% image "https://res.cloudinary.com/nrityagram/image/upload/v1719985631/Pavithra-Reddy-tile_f1y7zq.jpg",
+					"Pavithra Reddy Card",
+					["560", "768"] %}
+        <div class="credit" data-image-credit="Dasha Larina" ></div>
+        <div class="card-title">Pavithra Reddy</div>
+      </div>
+
+      <div class="image-plus card size-md" onclick="location.href='/lynne';">
+        {% image "https://res.cloudinary.com/nrityagram/image/upload/v1719985631/Lynne-Fernandez-tile_py9qhz.jpg",
+					"Lynne Fernandez Card",
+					["560", "768"] %}
+        <div class="credit" data-image-credit="Dasha Larina" ></div>
+        <div class="card-title">Lynne Fernandez</div>
+      </div>
+    </div>
+  </div>
+</div>

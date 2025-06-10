@@ -1,0 +1,32 @@
+@use '../abstracts/' as *;
+
+.grid {
+	display: grid;
+	// var(--custom-prop, var(--default-value))
+	gap: var(--column-gap, var(--spacer));
+
+	@include mqmax(small) {
+		gap: var(--narrow-column-gap);
+	}
+
+	// For unlimited columns --
+	// screen size 800px - 1280px: max columns = 2
+	// above 1280px: unlimited columns (use case is 4)
+	--_medium-breakpoint2: 1280px;
+}
+
+.wide-grid-gap {
+	@include mq(large) {
+		gap: var(--wide-column-gap);
+	}
+}
+
+.no-gap {
+	gap: 0;
+}
+
+// @mixin grid($align: start, $justify: between) {
+//   @extend .grid;
+//   align-items: $align;
+//   justify-content: $justify;
+// }

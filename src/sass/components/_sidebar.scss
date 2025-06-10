@@ -1,0 +1,41 @@
+@use '../abstracts/' as *;
+
+sidebar {
+    position: fixed;
+    bottom: var(--gap-from-bottom);
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.1em;
+    align-items: center;
+    // make it sit above the owl carousel items
+    z-index: 20;
+
+    @include mqmax(small) {
+        position: static;
+        flex-direction: row;
+
+        img {
+            mix-blend-mode: lighten;
+        }
+    }
+
+    .hovertext[data-hovertext] {
+        position: relative;
+
+        &:hover::after,
+        &:focus::after {
+            content: attr(data-hovertext);
+            font-family: var(--ff-sans);
+            font-size: var(--fs-150);
+            color: hsl(var(--clr-neutral-100));
+            padding: 3px 5px;
+            width: max-content;
+            background-color: hsl(var(--clr-neutral-400));
+            // border-radius: 4px;
+            position: absolute;
+            top: 0;
+            left: calc(var(--icon-height) + 5px);
+        }
+    }
+}

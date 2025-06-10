@@ -1,0 +1,98 @@
+# Redirects from what the browser requests to what we serve
+/artists/surupa/*  /surupa 301
+/4artists/surupa/* /surupa 301
+/artists/bijayini/*  /bijayini 301
+/4artists/bijoyini/* /bijayini 301
+/artists/rising/*  /pavithra 301
+/4artists/rising/rising.htm  /pavithra 301
+/artists/ensemble/ensemble.htm /ensemble 301
+/4artists/ensemble/ensemble.htm /ensemble 301
+/artists/protima/* /protima 301
+/4artists/protima/* /protima 301
+
+
+/village/spaces/guest.htm /kula-artistes-residence 301
+/village/spaces/*    /space 301
+/5village/spaces/*    /space 301
+/village/trustees/* /board 301
+/5village/trustees/* /board 301
+/village/sponsors/* /support 301
+/5village/sponsors/* /support 301
+/village/friends/* /board 301
+/5village/friends/* /board 301
+/village/holistic/* /space 301
+/5village/holistic/* /space 301
+
+
+/expression/bnatyam/* /gurukula 301
+/expression/bnatyam/bnatyam.htm /gurukula 301
+/6expression/bnatyam/* /gurukula 301
+/6expression/bnatyam/bnatyam.htm /gurukula 301
+/expression/kuchipudi/* /gurukula 301
+/expression/kuchipudi/kuchipudi.htm /gurukula 301
+/6expression/kuchipudi/* /gurukula 301
+/6expression/kuchipudi/kuchipudi.htm /gurukula 301
+/expression/kathakali/* /gurukula 301
+/expression/kathakali/kathakali.htm /gurukula 301
+/6expression/kathakali/* /gurukula 301
+/6expression/kathakali/kathakali.htm /gurukula 301
+/expression/odissi/*   /gurukula 301
+/expression/odissi/odissi.htm   /gurukula 301
+/6expression/odissi/*   /gurukula 301
+/6expression/odissi/odissi.htm   /gurukula 301
+/expression/manipuri/* /gurukula 301
+/expression/manipuri/manipuri.htm /gurukula 301
+/6expression/manipuri/* /gurukula 301
+/6expression/manipuri/manipuri.htm /gurukula 301
+/expression/mohini/* /gurukula 301
+/expression/mohini/mohini.htm /gurukula 301
+/6expression/mohini/* /gurukula 301
+/6expression/mohini/mohini.htm /gurukula 301
+
+
+/contact/* /visit 301
+
+
+/soul/gurukul/* /gurukula 301
+/1soul/gurukul/* /gurukula 301
+/soul/dream/dream.htm /about 301
+/1soul/dream/dream.htm /about 301
+/soul/future/* /future 301
+/1soul/future/* /future 301
+/soul/philosophy/philosophy.htm /about 301
+/1soul/philosophy/philosophy.htm /about 301
+
+
+/wisdom/apply/*    /danceprofessional 301
+/2wisdom/apply/*    /danceprofessional 301
+/wisdom/prog/*    /visit 301
+/2wisdom/prog/*    /visit 301
+/wisdom/workshops/* /danceunlimited 301
+/2wisdom/workshops/* /danceunlimited 301
+/wisdom/gyan/* /about 301
+/2wisdom/gyan/* /about 301
+/wisdom/training/* /danceprofessional 301
+/2wisdom/training/* /danceprofessional 301
+
+/passion/habba/* /popularising-the-arts/#vasantahabba 301
+/3passion/habba/* /popularising-the-arts/#vasantahabba 301
+/passion/perform/* /repertoire 301
+/3passion/perform/* /repertoire 301
+
+
+/reviews/* /press 301
+
+# Redirects from ngstatic to ngremix Oct 2024
+#/thingstodo.html /visit 301
+#/thingstodo/ /visit 301
+
+# /danceaware.html /popularising-the-arts/#danceaware 301
+# /villageoutreach.html /village-outreach 301
+# /supportingartists.html /kula-artistes-residence 301
+# /popularisingarts.html /popularising-the-arts 301
+# /popularisingarts#vasant /popularising-the-arts/#vasantahabba 301
+# /popularisingarts#ajji /popularising-the-arts/#ajji 301
+#/danceprof.html /danceprofessional 301
+#/danceprof/ /danceprofessional 301
+
+# /vision.html /about 301

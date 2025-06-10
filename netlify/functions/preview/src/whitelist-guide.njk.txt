@@ -1,0 +1,47 @@
+---
+layout: layouts/page.njk
+date: Last Modified
+eleventyExcludeFromCollections: true
+title: "Guide to whitelist emails"
+nobanner: true
+---
+<div class="container">
+  <div class="wrapper flow">
+    <h2 class="center">Handy Guide to Whitelist Emails</h2>
+    <!-- <div class="image-plus shrink-desk">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1729499213/imac-confirm_v8sjyo.png",
+      "Newsletter Subscription Successful",
+      ["560", "768", "1046"] %}
+    </div> -->
+    <p>
+      If the email lands in any folder other than the inbox, please do whitelist this domain (@community.nrityagram.org) so that in future, all our emails come straight into your inbox.
+    </p>
+    <p>To help you through the process, here’s a handy guide. Find the email service that you use to receive your email and follow the instructions:</p>
+    <ul class="basic">
+      <li>
+        <b>Gmail</b>: (web and mobile): If you use Gmail, you will see that they have separate tabs for “Primary” and “Promotions”, and this email might be in “Promotions”. To change its priority, click on it and drag it to the “Primary” folder. A small box will pop-up asking if you want to move it. Click “Yes.” (<a href="https://www.youtube.com/watch?v=JIBjQAuHnHA" target="_blank" class="bodylink">Video help here</a>)
+      </li>
+      <li>
+        <b>Apple Mail</b>: (macOS and iOS devices): For both macOS and iOS mail, select the “From” or “Reply-To” button in this email. Then click “Add to VIPs”.
+      </li>
+      <li>
+        <b>Android Mail</b>: If you use an android device, open this email from Nrityagram, click the icon/picture, and then click “Add to Contacts”.
+      </li>
+      <li>
+        <b>AOL Mail</b>: If you use AOL, in this email from Nrityagram, highlight our email address in the preview and in the drop-down menu that appears, select “Add Contact”.
+      </li>
+      <li>
+        <b>Outlook.com</b>: When you open this email, an alert will say, “Parts of this message have been blocked for your safety”. Simply click, “I trust this sender. Always show content”.
+      </li>
+      <li>
+        <b>Outlook 20XX</b>: When you open this email, a message will appear saying, “Click here to download pictures”. In the drop-down, click “Add sender to safe senders list”.
+      </li>
+      <li>
+        <b>Windows Live Desktop</b>: Open this message. Where it says, “Some images in this message are not shown”, click the link that says “Add to safe sender's list.”
+      </li>
+      <li>
+        <b>Yahoo! Mail</b>: In Yahoo! Mail, select this email. Next to the email address will be a “plus” sign (+). Click on the plus sign and select “Add to Contacts”, then click “Save”.
+      </li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,77 @@
+@use '../abstracts/' as *;
+
+.primary-header {
+	// --_bg: transparent;
+	--_bg: linear-gradient(0deg, transparent, rgba(0, 0, 0, .23) 50%, rgba(0, 0, 0, .35) 100%);
+	--_logo-color: hsl(var(--clr-secondary-550));
+	--_nav-link-color: hsl(var(--clr-neutral-100));
+	--_nav-link-color2: hsl(var(--clr-neutral-300));
+	--_nav-item-red: hsl(var(--clr-secondary-500));
+	--_nav-item-fontsize-lrg: var(--fs-475);
+	--_nav-item-fontsize-sml: var(--fs-375);
+	--_nav-subitem-fontsize: var(--fs-300);
+	--_nav-sublist-bgcolour: rgba(0, 0, 0, 0.9);
+	// nav sublist top position for the white row
+	--_nav-sublist-top: 2rem;
+	// nav sublist top position for the red row
+	--_nav-sublist-top2: 1.87rem;
+
+	padding: var(--primary-header-topbot-padding) 1rem 0.5rem;
+	padding-top: 0.5rem;
+	padding-left: 0.5rem;
+	color: hsl(var(--clr-neutral-100));
+	background: var(--_bg);
+	height: fit-content;
+
+	// Make z-index 999 so the performance map leaflet component sits under the header
+	// z-index: 5;
+	z-index: 999;
+	position: sticky;
+	top: 0;
+
+	transition: background 500ms ease-in-out;
+}
+
+// For pages that load danamojo script,
+// make the primary header solidblack and logo height as mobile size
+.primary-header.solidbg {
+	background-color: #000 !important;
+
+	.logo {
+		img {
+			height: var(--logo-height-mob) !important;
+		}
+	}
+}
+
+.primary-header.showMobile {
+	--_bg: hsl(var(--clr-neutral-850));
+	height: 100dvh;
+}
+
+
+.primary-header.sticking {
+	--_bg: hsl(var(--clr-neutral-850));
+	--_nav-link-color: hsl(var(--clr-neutral-200));
+	--_logo-color: hsl(var(--clr-secondary-550));
+	// padding: 0 1rem; orig
+	// padding: var(--primary-header-topbot-padding) 1rem 0.5rem;
+	// padding-left: 0.5rem;
+
+	@include mqmax(small) {
+		padding: 0.5rem;
+		padding-bottom: 0;
+	}
+
+	&.showMobile {
+		// padding: calc(var(--primary-header-topbot-padding) + 0.3rem) 1rem 0.2rem;
+		padding: 0.45rem 0.5rem 0;
+	}
+}
+
+.primary-header__inner {
+	max-width: 100%;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}

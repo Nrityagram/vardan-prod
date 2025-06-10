@@ -1,0 +1,217 @@
+---
+layout: layouts/page.njk
+eleventyNavigation:
+  key: page
+  order: 1
+tags: page
+date: Last Modified
+parentMenuItem: "About"
+title: "Space"
+scrollToTop: true
+description: "Description of the beautiful campus of Nrityagram. Nrityagram is a one-of-a-kind collective of artistes, where dance is a way of life"
+OGImage: "https://res.cloudinary.com/nrityagram/image/upload/w_600/v1647179355/Space-cat2-desk_rix0hl.jpg"
+---
+<div id="banner-container">
+  <div class="banner-image">
+    {% pictures 
+      {"desk":"https://res.cloudinary.com/nrityagram/image/upload/v1647179355/Space-cat2-desk_rix0hl.jpg", 
+      "tab":"https://res.cloudinary.com/nrityagram/image/upload/v1647179377/ipad/Space-cat2-tab_hkgwgs.jpg", 
+      "mob":"https://res.cloudinary.com/nrityagram/image/upload/v1647179418/mobile/Space-cat2-mob_wetw62.jpg"}, 
+      "The Nrityagram Space", 
+      {"mob": ["425"], "tab": ["768"], "desk":["1600"]}, {"desk":"65em", "tab":"50em", "mob":"35em"}, 
+      "eager", "high" %}
+  </div>
+  <div class="banner-image-credit"
+    data-image-credit-desk="Surupa Sen" 
+    data-image-credit-tab="Surupa Sen" 
+    data-image-credit-mob="Surupa Sen"
+    ></div>
+  <div class="banner-title">
+        Space
+  </div>
+</div>
+<div class="container">
+  <div class="wrapper flow">
+    <p>
+      The Nrityagram Dance Ensemble and School work and reside within a sustainable ten-acre campus located an hour outside Bangalore. The grounds include residential, rehearsal and performance spaces in addition to an open-air amphitheatre.
+    </p>
+    <p>
+      Our buildings have strong design details and motifs that reflect the essence of Indian Art and Architecture, and were constructed using locally available granite and red brick.
+    </p>
+    <p>
+      Our campus is known for its lush green beauty and landscape design. Over the last 3 decades, every single tree has been planted by residents, including seedlings and cuttings that have been brought back from travels throughout India or gifted to us by friends. Our campus also serves as a green haven for over 70 bird species, in addition to Slender Loris, Wild Boar, Jackal, Fox, Pangolin, and Black-naped Hare. 
+    </p>
+    <p>
+      At Nrityagram, we believe in sustainable living. Most of our vegetables, fruits, and some lentils and grains are organically grown on our land. In keeping with our vision of an eco-friendly, minimum impact life, we also practise vermi-composting, waste-management and alternative energy use.
+    </p>
+    <p>
+      We are now creating a Food Forest using permaculture principles and aim to become totally self-reliant as soon as possible.
+    </p>
+  </div>
+</div>
+<div id="temple" class="container accent-bg">
+  <div class="wrapper flow">
+    <div class="image-plus">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1583857821/1-temple_lob0gj.jpg",
+      "Nrityagram Campus",
+      ["560", "768", "1046"] %}
+      <div class="credit" data-image-credit="Pieter Vanderbeeken" ></div>
+    </div>
+    <h1 class="center">Temple</h1>
+    <p>
+      Dedicated to the five elements, our temple was fashioned from the raw earth of Nrityagram and fired after it was built. Our temple is decorated with panels depicting the elements, dance motifs, mudras, and ghungroos. Inside is a granite rock scooped out to hold water, a flame that stays lit, and a clay mural of <a href="/protima" class="bodylink">Protima Gauri</a> offering flowers.
+    </p>
+    <p>
+      Our Temple was designed and built by Ray Meeker in 1998.
+    </p>
+  </div>
+</div>
+<div id="yoga" class="container">
+  <div class="wrapper flow">
+    <div class="image-plus">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1583857821/2-yoga-centre_pvivaj.jpg",
+      "Yoga Centre",
+      ["560", "768", "1046"] %}
+      <div class="credit" data-image-credit="Pieter Vanderbeeken" ></div>
+    </div>
+    <h1 class="center">Yoga Centre</h1>
+    <p>
+      Reminiscent of Stonehenge, the Yoga centre is an open structure attached to the temple. It is also used for in-house performances under an open sky.
+    </p>
+    <p>
+      Designed by Gerard da Cunha, the Yoga Centre was built in 1990 and sponsored by the Vijaya Gujral Foundation.
+    </p>
+  </div>
+</div>
+<div id="odissi" class="container accent-bg">
+  <div class="wrapper flow">
+    <div class="image-plus">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1646205967/odissi-gurukul_xm01dc.jpg",
+      "Odissi Gurukul",
+      ["560", "768", "1046"] %}
+      <div class="credit" data-image-credit="Lynne Fernandez" ></div>
+    </div>
+    <h1 class="center">Odissi Gurukula</h1>
+    <p>
+      Of all the diverse edifices that highlight Nrityagram’s campus, it is the Odissi Gurukula that most mystifies the viewer. Natural raw faces of stone fill its walls, suspended with strength that counters the giving gestures of the dance it houses. The dance hall has a floor fashioned from Burma teak, with a slight spring that cares for dancer’s feet and joints.
+    </p>
+    <p>
+      Home to the spirit of Orissa temples, the space re-conjures the magic of thousands of years. Guru Kelucharan Mahapatra taught here as did Guru Bichitranandan Swain, Guru Ratikant Mahapatra, and <a href="/protima" class="bodylink">Protima Gauri</a>. <a href="/surupa" class="bodylink">Surupa</a> and <a href="/pavithra" class="bodylink">Pavithra</a> are presently the Gurus in residence.
+    </p>
+    <p>
+      Designed by Gerard da Cunha, the Odissi Gurukula was built in 1990 and funded by Raymond Ltd.
+    </p>
+  </div>
+</div>
+<div id="dining" class="container">
+  <div class="wrapper flow">
+    <div class="image-plus">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1583857821/4-Dining-Hall_rbbdls.jpg",
+      "Dining Hall",
+      ["560", "768", "1046"] %}
+      <div class="credit" data-image-credit="Pieter Vanderbeeken" ></div>
+    </div>
+    <h1 class="center">Dining Hall</h1>
+    <p>
+      Built like a reverse 2, this structure is the heart of the village. It houses the community kitchen and is the space where the community dines together. Most of our students wish to return to Nrityagram for our delicious food, which is healthy, nutritious, non-greasy and mildly spiced. Most importantly it is prepared with a lot of love and care.
+    </p>
+  </div>
+</div>
+<div id="cottages" class="container accent-bg">
+  <div class="wrapper flow">
+    <div class="image-plus">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1583857821/5-Cottages_cdouou.jpg",
+      "Cottages",
+      ["560", "768", "1046"] %}
+      <div class="credit" data-image-credit="Pieter Vanderbeeken" ></div>
+    </div>
+    <h1 class="center">Cottages</h1>
+    <p>
+      Inspired by the yurts of Tibet, the cottages provide resting spaces for our guests. Made from traditional and locally available materials these cottages have housed some of the greatest maestros of dance and music, who have come to perform at our Vasantahabba.
+    </p>
+    <p>
+      We have recently changed the roofs from thatch to tile and added common living areas between each pair of  individual cottages.
+    </p>
+    <p>
+      Designed by Gerard da Cunha, the cottages were built in 1990.
+    </p>
+  </div>
+</div>
+<div id="kula" class="container">
+  <div class="wrapper flow">
+    <div class="image-plus">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1583857821/6-Kula_fldxvp.jpg",
+      "Kula",
+      ["560", "768", "1046"] %}
+      <div class="credit" data-image-credit="Pieter Vanderbeeken" ></div>
+    </div>
+    <h1 class="center">Kula</h1>
+    <p>
+      A residence for artists, Kula is meant for the creation and development of new work. Individuals or groups can live here while they research, create, or rehearse.
+    </p>
+    <p>
+      Designed by Ajith Andagere, Kula was built in 2010.
+    </p>
+  </div>
+</div>
+<div id="amphitheatre" class="container accent-bg">
+  <div class="wrapper flow">
+    <div class="image-plus">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1583857821/7-Amphitheatre_k2khj2.jpg",
+      "Amphitheatre",
+      ["560", "768", "1046"] %}
+      <div class="credit" data-image-credit="Pieter Vanderbeeken" ></div>
+    </div>
+    <h1 class="center">Amphitheatre</h1>
+    <p>
+      Scooped out of the red earth and built along the lines of a Roman amphitheatre, this is one of the best known structures at Nrityagram. It is here that several thousand people congregated every February for the annual Vasantahabba. Guru Kelucharan Mahapatra and his students, including <a href="/surupa" class="bodylink">Surupa</a>, helped to dig and build the amphitheatre.
+    </p>
+    <p>
+      Designed by Gerard da Cunha, the Amphitheatre was built in 1990.
+    </p>
+  </div>
+</div>
+<div class="container">
+  <div class="wrapper ultra-wide flow">
+    <div class="even-columns">
+      <div class="left-column">
+        <div class="image-plus card" onclick="location.href='/about';">
+          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1580623152/1_w9kze2.jpg",
+          "About Us Card",
+          ["560", "768"] %}
+          <div class="credit" data-image-credit="Darial Sneed" ></div>
+          <div class="card-title">About Us</div>
+        </div>
+      </div>
+      <div class="right-column">
+        <div class="image-plus card" onclick="location.href='/history';">
+          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1572106197/history_kaf95n.jpg",
+          "History Card",
+          ["560", "768"] %}
+          <div class="credit" data-image-credit="Avinash Pasricha" ></div>
+          <div class="card-title">History</div>
+        </div>
+      </div>
+    </div>
+    <div class="even-columns">
+      <div class="left-column">
+        <div class="image-plus card" onclick="location.href='/future';">
+          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1718198365/future-masthead-desk_pcffe4.png",
+          "Future Card",
+          ["560", "768"] %}
+          <div class="credit" data-image-credit="Karthik Venkatraman" ></div>
+          <div class="card-title">Future</div>
+        </div>
+      </div>
+      <div class="right-column">
+        <div class="image-plus card" onclick="location.href='/board';">
+          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1569995939/board-of-trustees-banner_srxmvn.jpg",
+					"Board of Trustees Card",
+					["560", "768"] %}
+          <div class="credit" data-image-credit="Karthik Venkatraman" ></div>
+          <div class="card-title">Board of Trustees</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

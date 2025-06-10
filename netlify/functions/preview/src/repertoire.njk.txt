@@ -1,0 +1,1628 @@
+---
+layout: layouts/page.njk
+eleventyNavigation:
+key: page
+order: 1
+tags: page
+date: Last Modified
+parentMenuItem: "Ensemble"
+title: "Répertoire"
+slider: true
+scrollToTop: true
+description: "Collection of productions performed by the Nrityagram Ensemble - Nrityagram is a one-of-a-kind community
+of artistes, where dance is a way of life."
+OGImage: "https://res.cloudinary.com/nrityagram/image/upload/w_600/v1569697663/repertory_xcac1z.jpg"
+---
+<div id="banner-container">
+  <div class="banner-image">
+    {% pictures {
+      "desk" : "https://res.cloudinary.com/nrityagram/image/upload/v1569697663/repertory_xcac1z.jpg",
+      "tab" : "https://res.cloudinary.com/nrityagram/image/upload/v1589038701/ipad/repertory_tv5x3r.jpg",
+      "mob" : "https://res.cloudinary.com/nrityagram/image/upload/v1576166583/mobile/repertory_igyac9.jpg"
+    },
+    "Répertoire", {
+      "mob": ["425"],
+      "tab": ["768"],
+      "desk": ["1600"]
+    }, {
+      "desk": "65em",
+      "tab": "50em",
+      "mob": "35em"
+    },
+    "eager",
+    "high" %}
+  </div>
+  <div class="banner-image-credit"
+       data-image-credit-desk="Uma Dhanwatey"
+       data-image-credit-tab="Uma Dhanwatey"
+       data-image-credit-mob="Uma Dhanwatey"></div>
+  <div class="banner-title">
+    Répertoire
+  </div>
+</div>
+<div id="sri"
+     class="container">
+  <div class="wrapper flow flow-flushbottom">
+    <p class="center">
+      Since 2000, Nrityagram’s répertoire has been choreographed by Artistic Director <a href="/surupa" class="bodylink">Surupa Sen</a>
+    </p>
+  </div>
+  <div class="owl-carousel ultra-wide owl-theme">
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101534/1_sri_cl7yxn.jpg",
+      "Śrī: In Search of the Goddess - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Sonia Manchanda</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101533/2_sri_zxicgb.jpg",
+      "Śrī: In Search of the Goddess - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101533/3_sri_dej6lh.jpg",
+      "Śrī: In Search of the Goddess - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101533/4_sri_x86bym.jpg",
+      "Śrī: In Search of the Goddess - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101533/5_sri_vuc5ki.jpg",
+      "Śrī: In Search of the Goddess - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101533/6_sri_sfb0gr.jpg",
+      "Śrī: In Search of the Goddess - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101549/7_sri_ioks0j.jpg",
+      "Śrī: In Search of the Goddess - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101549/8_sri_rm7rj2.jpg",
+      "Śrī: In Search of the Goddess - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101549/9_sri_cawsur.jpg",
+      "Śrī: In Search of the Goddess - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101549/10_sri_swgytf.jpg",
+      "Śrī: In Search of the Goddess - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101549/11_sri_z0bamo.jpg",
+      "Śrī: In Search of the Goddess - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101549/12_sri_eoz5gq.jpg",
+      "Śrī: In Search of the Goddess - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101576/13_sri_dbjsqg.jpg",
+      "Śrī: In Search of the Goddess - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101576/14_sri_atvdmk.jpg",
+      "Śrī: In Search of the Goddess - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101576/15_sri_u6bldc.jpg",
+      "Śrī: In Search of the Goddess - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101576/16_sri_bkrxih.jpg",
+      "Śrī: In Search of the Goddess - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101576/17_sri_vs9bmo.jpg",
+      "Śrī: In Search of the Goddess - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+  </div>
+  <div class="wrapper flow flow-flushtop">
+    <h1 class="center">Śrī: In Search of the Goddess | 2001</h1>
+    <p>Śrī embodies the divine female principle. In a single syllable, myriad facets of a woman are ensconced.</p>
+    <p>
+      The performance explores female energy within the framework of Odissi. It is conceived as a search for the Goddess
+      within, which carries us beyond mythological images and definitions, towards a consciousness that this world
+      driven by the mind, rationality and power, needs in order to reach fulfilment.
+    </p>
+    <p class="infotext">
+      Śrī: In Search of the Goddess was made possible by the Doris Duke Fund for Dance of the <a
+         href="https://www.nefa.org/grants/grant-programs/national-dance-project"
+         target="_blank">National Dance Project</a>, a
+      program administered by the New England Foundation for the Arts, with funding from the National Endowment for the
+      Arts, the Doris Duke Charitable Foundation, the Andrew W. Mellon Foundation and Philip Morris Companies, Inc.
+    </p>
+  </div>
+</div>
+
+<div id="ansh"
+     class="container accent-bg">
+  <div class="wrapper flow flow-flushbottom"></div>
+  <div class="owl-carousel ultra-wide owl-theme">
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595098981/1_Ansh_h2mb6w.jpg",
+      "Ansh - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595098981/2_Ansh_wuqhqx.jpg",
+      "Ansh - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595098981/3_Ansh_nbttbu.jpg",
+      "Ansh - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595098981/4_Ansh_vdhiut.jpg",
+      "Ansh - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595098981/5_Ansh_nt06zy.jpg",
+      "Ansh - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595098996/7_Ansh_itgl2v.jpg",
+      "Ansh - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595098996/8_Ansh_qlss9j.jpg",
+      "Ansh - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595098997/9_Ansh_vmhim2.jpg",
+      "Ansh - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595098997/10_Ansh_hva2gn.jpg",
+      "Ansh - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595098996/11_Ansh_przrxd.jpg",
+      "Ansh - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595098997/12_Ansh_orwlme.jpg",
+      "Ansh - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099010/13_Ansh_sqzvug.jpg",
+      "Ansh - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099010/14_Ansh_pwel0b.jpg",
+      "Ansh - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099010/15_Ansh_i3f4xf.jpg",
+      "Ansh - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099011/16_Ansh_qx0xgt.jpg",
+      "Ansh - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+  </div>
+  <div class="wrapper flow flow-flushtop">
+    <h1 class="center">Ansh | 2005</h1>
+    <p>
+      The genesis of Ansh stems from a re-conception of a typical Odissi recital, which normally progresses from
+      mangalacharan through pallavi and traditional abhinaya, to moksh. Ansh traces the arc of a sacred transfiguration,
+      from stage to temple, and from woman to goddess.
+    </p>
+    <p>Ansh was Nrityagram’s first appearance at the Joyce Theater, New York.</p>
+  </div>
+</div>
+
+<div id="sspace"
+     class="container">
+  <div class="wrapper flow flow-flushbottom"></div>
+  <div class="owl-carousel ultra-wide owl-theme">
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099819/1_sacredspace_r5lzwq.jpg",
+      "Sacred Space - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Carlos Llano</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099819/2_sacredspace_bffsh7.jpg",
+      "Sacred Space - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Carlos Llano</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099819/3_sacredspace_cbt57o.jpg",
+      "Sacred Space - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Carlos Llano</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099819/4_sacredspace_i1c2va.jpg",
+      "Sacred Space - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Carlos Llano</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099819/5_sacredspace_dextaa.jpg",
+      "Sacred Space - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Carlos Llano</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099819/6_sacredspace_bg7gak.jpg",
+      "Sacred Space - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Carlos Llano</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099833/7_sacredspace_xrwh0x.jpg",
+      "Sacred Space - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Carlos Llano</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099833/8_sacredspace_wkq0ea.jpg",
+      "Sacred Space - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Carlos Llano</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099833/9_sacredspace_kov7aa.jpg",
+      "Sacred Space - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Carlos Llano</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099833/10_sacredspace_zllwju.jpg",
+      "Sacred Space - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Carlos Llano</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099833/11_sacredspace_ccq7ht.jpg",
+      "Sacred Space - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Carlos Llano</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099833/12_sacredspace_l8zyn1.jpg",
+      "Sacred Space - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Carlos Llano</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099850/13_sacredspace_vtvd0d.jpg",
+      "Sacred Space - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Carlos Llano</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099850/14_sacredspace_s4bv4t.jpg",
+      "Sacred Space - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Carlos Llano</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099850/15_sacredspace_embxpk.jpg",
+      "Sacred Space - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Carlos Llano</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099850/16_sacredspace_ihfn5a.jpg",
+      "Sacred Space - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Carlos Llano</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099850/17_sacredspace_jkta96.jpg",
+      "Sacred Space - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Carlos Llano</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099850/18_sacredspace_ye5k11.jpg",
+      "Sacred Space - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Carlos Llano</div>
+    </div>
+  </div>
+  <div class="wrapper flow flow-flushtop">
+    <h1 class="center">Sacred Space | 2005</h1>
+    <p>
+      In Indian thought, a network of power lines traverse and divide cosmic space, charging the universe with the
+      energy of the Godhead. Temples were built and rituals devised, to capture and reflect this energy, generating
+      power-fields within. If an energy grid can be created in temples, can Odissi dance - originally a temple ritual -
+      be based on the same principles? Is it possible that the dance can be constructed to reflect and create energy in
+      much the same way as other temple rituals? Can Odissi become a journey to a higher source? The exploration of
+      these questions led to the creation of Sacred Space.
+    </p>
+    <p>Sacred Space was Nrityagram’s debut appearance at Spoleto Festival, USA, and Jacob’s Pillow Dance Festival.
+    </p>
+    <p class="infotext">
+      Sacred Space was made possible by the Doris Duke Fund for Dance of the <a
+         href="https://www.nefa.org/grants/grant-programs/national-dance-project"
+         class="bodylink"
+         target="_blank">National Dance Project</a>, a program
+      administered by the New England Foundation for the Arts with funding from the National Endowment for the Arts, the
+      Doris Duke Charitable Foundation and the Ford Foundation.
+    </p>
+  </div>
+</div>
+
+<div id="pratima"
+     class="container accent-bg">
+  <div class="wrapper flow flow-flushbottom"></div>
+  <div class="owl-carousel ultra-wide owl-theme">
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099386/1_Pratima_iqtgcc.jpg",
+      "Pratimā: Reflection - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099385/2_Pratima_f13e0p.jpg",
+      "Pratimā: Reflection - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Uma Dhanwatey</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099385/3_Pratima_donw2i.jpg",
+      "Pratimā: Reflection - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Uma Dhanwatey</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099385/4_Pratima_fysi2o.jpg",
+      "Pratimā: Reflection - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Uma Dhanwatey</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099385/5_Pratima_svjg2j.jpg",
+      "Pratimā: Reflection - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Uma Dhanwatey</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099385/6_Pratima_ywxbrw.jpg",
+      "Pratimā: Reflection - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Uma Dhanwatey</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099409/7_Pratima_ugnohz.jpg",
+      "Pratimā: Reflection - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Uma Dhanwatey</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099409/8_Pratima_goxveu.jpg",
+      "Pratimā: Reflection - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Uma Dhanwatey</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099409/9_Pratima_tagarj.jpg",
+      "Pratimā: Reflection - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Uma Dhanwatey</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099409/10_Pratima_uxi23x.jpg",
+      "Pratimā: Reflection - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Uma Dhanwatey</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099409/11_Pratima_zuqkuk.jpg",
+      "Pratimā: Reflection - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Uma Dhanwatey</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099409/12_Pratima_lhrymi.jpg",
+      "Pratimā: Reflection - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Uma Dhanwatey</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099425/13_Pratima_minkfv.jpg",
+      "Pratimā: Reflection - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Uma Dhanwatey</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099425/14_Pratima_x837xd.jpg",
+      "Pratimā: Reflection - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099425/15_Pratima_gzadcb.jpg",
+      "Pratimā: Reflection - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099425/16_Pratima_ky4dra.jpg",
+      "Pratimā: Reflection - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099425/17_Pratima_ioees4.jpg",
+      "Pratimā: Reflection - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099425/18_Pratima_elg3av.jpg",
+      "Pratimā: Reflection - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099440/19_Pratima_cnwjb4.jpg",
+      "Pratimā: Reflection - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595099440/20_Pratima_oylvae.jpg",
+      "Pratimā: Reflection - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Uma Dhanwatey</div>
+    </div>
+  </div>
+  <div class="wrapper flow flow-flushtop">
+    <h1 class="center">Pratimā: Reflection | 2008</h1>
+    <p>
+      Images of the dance and the dancer. Never separate, one enhancing the other. The reflections unite, multiply,
+      gently embellish themselves and grow languidly ...
+    </p>
+    <p>Pratimā explores this dialogue inherent in any duality through the sensuous realms of Odissi.</p>
+    <p>
+      <em>Vibhakta</em> from Pratimā was listed among the ‘ten best dance performances of 2008’ by The New Yorker and
+      one
+      of ‘20 Top Works of the Last 20 Years’ by Dance Magazine (March 2020).
+    </p>
+    <p class="infotext">
+      Pratimā: Reflection was commissioned by the <a href="https://www.joyce.org/"
+         target="_blank"
+         class="bodylink">Joyce Theater</a>’s Stephen and Cathy Weinroth Fund for New Work.
+    </p>
+  </div>
+</div>
+
+<div id="sriyah"
+     class="container">
+  <div class="wrapper flow flow-flushbottom"></div>
+  <div class="owl-carousel ultra-wide owl-theme">
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101937/1_sriyah_cxjygn.jpg",
+      "Śriyaḥ - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Darial Sneed</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101937/2_sriyah_kgaww8.jpg",
+      "Śriyaḥ - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Darial Sneed</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101937/3_sriyah_ei2lee.jpg",
+      "Śriyaḥ - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Darial Sneed</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101937/4_sriyah_j3r5w4.jpg",
+      "Śriyaḥ - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Darial Sneed</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101937/5_sriyah_tw5msz.jpg",
+      "Śriyaḥ - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Darial Sneed</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101937/6_sriyah_kveaar.jpg",
+      "Śriyaḥ - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Darial Sneed</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101953/7_sriyah_o8cnpj.jpg",
+      "Śriyaḥ - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Darial Sneed</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101953/8_sriyah_ki44aj.jpg",
+      "Śriyaḥ - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Darial Sneed</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101953/9_sriyah_etczhj.jpg",
+      "Śriyaḥ - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Darial Sneed</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101953/10_sriyah_wxhy8g.jpg",
+      "Śriyaḥ - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Darial Sneed</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101953/11_sriyah_sd62ps.jpg",
+      "Śriyaḥ - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Darial Sneed</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101953/12_sriyah_y8ggsv.jpg",
+      "Śriyaḥ - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Darial Sneed</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101974/13_sriyah_rwere8.jpg",
+      "Śriyaḥ - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Darial Sneed</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101975/14_sriyah_kulqed.jpg",
+      "Śriyaḥ - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Darial Sneed</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101975/15_sriyah_qelotq.jpg",
+      "Śriyaḥ - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Darial Sneed</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101975/16_sriyah_qd8sty.jpg",
+      "Śriyaḥ - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Darial Sneed</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101975/17_sriyah_ohkilp.jpg",
+      "Śriyaḥ - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Darial Sneed</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101975/18_sriyah_xkn5r6.jpg",
+      "Śriyaḥ - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Darial Sneed</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101995/19_sriyah_znwod5.jpg",
+      "Śriyaḥ - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Darial Sneed</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101995/20_sriyah_o3vquu.jpg",
+      "Śriyaḥ - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Darial Sneed</div>
+    </div>
+  </div>
+  <div class="wrapper flow flow-flushtop">
+    <h1 class="center">Śriyaḥ | 2010</h1>
+    <p>Śriyaḥ is a selection of works from a creative journey that started with Śrī: in Search of the Goddess.</p>
+    <p>
+      The show has been presented at the Edinburgh International Festival, White Light Festival of Lincoln Center for
+      the Performing Arts, Sydney Opera House, Cairo Opera House, amongst others.
+    </p>
+    <p>Śriyaḥ was listed in the “Best Dance of 2016” by The New York Times.</p>
+  </div>
+</div>
+
+<div id="samhara"
+     class="container accent-bg">
+  <div class="wrapper flow flow-flushbottom"></div>
+  <div class="owl-carousel ultra-wide owl-theme">
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100210/1_samhara_cuu47s.jpg",
+      "Saṃhāra - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Karthik Venkatraman</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100210/2_samhara_bckhp5.jpg",
+      "Saṃhāra - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100210/3_samhara_s8nznj.jpg",
+      "Saṃhāra - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100210/4_samhara_vvlz8j.jpg",
+      "Saṃhāra - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100210/5_samhara_thl80a.jpg",
+      "Saṃhāra - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100210/6_samhara_epbbj0.jpg",
+      "Saṃhāra - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100226/7_samhara_iq5mfx.jpg",
+      "Saṃhāra - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100226/8_samhara_oxfuzz.jpg",
+      "Saṃhāra - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100226/9_samhara_s0wake.jpg",
+      "Saṃhāra - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100226/10_samhara_cau3ig.jpg",
+      "Saṃhāra - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100226/11_samhara_cff0lm.jpg",
+      "Saṃhāra - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100226/12_samhara_nwt2xo.jpg",
+      "Saṃhāra - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100246/13_samhara_egtmzf.jpg",
+      "Saṃhāra - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100246/14_samhara_tlzlhr.jpg",
+      "Saṃhāra - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100246/15_samhara_yo0g31.jpg",
+      "Saṃhāra - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100246/16_samhara_evra8e.jpg",
+      "Saṃhāra - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100246/17_samhara_og2zab.jpg",
+      "Saṃhāra - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100246/18_samhara_ztq8ap.jpg",
+      "Saṃhāra - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100266/19_samhara_d173fk.jpg",
+      "Saṃhāra - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+  </div>
+  <div class="wrapper flow flow-flushtop">
+    <h1 class="center">Saṃhāra | 2012</h1>
+    <p>
+      Nrityagram’s first international collaboration with The <a href="https://www.chitrasenadance.lk/" target="_blank" class="bodylink">Chitrasena Dance Company</a> from Sri Lanka, which explores
+      the meeting point between the sensuousness of Nrityagram’s Odissi and the masculine dynamism of the Chitrasena
+      Dance Company’s Kandyan dance.
+    </p>
+    <p>
+      Saṃhāra premiered in Bangalore in February 2012, toured the United States, Sri Lanka, the far-East and India to
+      great critical acclaim. After a four year hiatus Saṃhāra returned to the stage in 2017, performing to sold-out
+      audiences in Bangalore, The Royal Festival Hall, London and Colombo, Sri Lanka in 2017, and a six-week tour of the
+      US in Fall 2018, including performances at the Temple of Dendur, New York.
+    </p>
+  </div>
+</div>
+
+<div id="samyoga"
+     class="container">
+  <div class="wrapper flow flow-flushbottom"></div>
+  <div class="owl-carousel ultra-wide owl-theme">
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100641/1_samyoga_ejwzp8.jpg",
+      "Saṃyoga - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100641/2_samyoga_grivdu.jpg",
+      "Saṃyoga - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100641/3_samyoga_demdtc.jpg",
+      "Saṃyoga - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100641/4_samyoga_utxdqu.jpg",
+      "Saṃyoga - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100641/5_samyoga_nz5lhf.jpg",
+      "Saṃyoga - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100641/6_samyoga_rmdkx0.jpg",
+      "Saṃyoga - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100656/7_samyoga_aqd5dd.jpg",
+      "Saṃyoga - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100657/8_samyoga_o5og64.jpg",
+      "Saṃyoga - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100656/9_samyoga_rj6dy0.jpg",
+      "Saṃyoga - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100657/10_samyoga_dxndpz.jpg",
+      "Saṃyoga - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100657/11_samyoga_fh3xxs.jpg",
+      "Saṃyoga - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100657/12_samyoga_wtl4zc.jpg",
+      "Saṃyoga - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100672/13_samyoga_jycxzj.jpg",
+      "Saṃyoga - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100672/14_samyoga_llv2gs.jpg",
+      "Saṃyoga - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100672/15_samyoga_lqsurs.jpg",
+      "Saṃyoga - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100672/16_samyoga_fkphgf.jpg",
+      "Saṃyoga - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100672/17_samyoga_tccgtb.jpg",
+      "Saṃyoga - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100672/18_samyoga_fq6gib.jpg",
+      "Saṃyoga - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100693/19_samyoga_fre6xt.jpg",
+      "Saṃyoga - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595100693/20_samyoga_umhfyc.jpg",
+      "Saṃyoga - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+  </div>
+  <div class="wrapper flow flow-flushtop">
+    <h1 class="center">Saṃyoga | 2012</h1>
+    <p>
+      Saṃyoga is a celebration of the dialogue between two artistes who have spent decades to find the perfect balance
+      of
+      art and craft, and of strength and grace. Saṃyoga, which means the conjunction of two or more heavenly bodies, is
+      a search for the essence of Odissi where the two artistes performing together, compliment each other and free
+      themselves of enforced boundaries. It is <a href="/surupa"
+         class="bodylink">Surupa</a>’s first evening-length duet
+      show, performed by herself and <a href="/bijayini"
+         class="bodylink">Bijayini Satpathy</a>.
+    </p>
+    <p>
+      Saṃyoga was performed at the Temple of Dendur, MET Museum, New York, and the performance earned rave reviews
+      worldwide. It was also listed in the “Best Dance of 2015” by The New York Times.
+    </p>
+  </div>
+</div>
+
+<div id="lovelong"
+     class="container accent-bg">
+  <div class="wrapper flow flow-flushbottom"></div>
+  <div class="owl-carousel ultra-wide owl-theme">
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101087/1_lovelonging_uyex4w.jpg",
+      "Songs of Love and Longing - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101087/2_lovelonging_gjanbn.jpg",
+      "Songs of Love and Longing - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101087/3_lovelonging_nsqvzw.jpg",
+      "Songs of Love and Longing - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101087/4_lovelonging_mbetzf.jpg",
+      "Songs of Love and Longing - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101087/5_lovelonging_s83ya9.jpg",
+      "Songs of Love and Longing - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101087/6_lovelonging_bhtl7x.jpg",
+      "Songs of Love and Longing - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101125/7_lovelonging_eazwyf.jpg",
+      "Songs of Love and Longing - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101125/8_lovelonging_mh7o6t.jpg",
+      "Songs of Love and Longing - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101125/9_lovelonging_yysvd8.jpg",
+      "Songs of Love and Longing - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101125/10_lovelonging_z3fnzx.jpg",
+      "Songs of Love and Longing - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101125/11_lovelonging_se6f8h.jpg",
+      "Songs of Love and Longing - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101125/12_lovelonging_dmvdud.jpg",
+      "Songs of Love and Longing - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101150/13_lovelonging_ddgobd.jpg",
+      "Songs of Love and Longing - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101150/14_lovelonging_ooxhsf.jpg",
+      "Songs of Love and Longing - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101150/15_lovelonging_aordxd.jpg",
+      "Songs of Love and Longing - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101150/16_lovelonging_k94gzo.jpg",
+      "Songs of Love and Longing - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101150/17_lovelonging_tjrf7c.jpg",
+      "Songs of Love and Longing - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101150/18_lovelonging_xelum0.jpg",
+      "Songs of Love and Longing - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101168/19_lovelonging_fgnwzm.jpg",
+      "Songs of Love and Longing - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595101168/20_lovelonging_cxvu1g.jpg",
+      "Songs of Love and Longing - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Nan Melville</div>
+    </div>
+  </div>
+  <div class="wrapper flow flow-flushtop">
+    <h1 class="center">Songs of Love and Longing | 2013</h1>
+    <p>
+      Songs of Love and Longing is a response to poet Jayadeva’s masterpiece Gita Govinda, an ode to love penned in the
+      12th century. The performance was conceived as the journey of a dancer, a slow submission to song and impassioned
+      poetry, as she loses herself in sensual and spiritual realms.
+    </p>
+    <p>Songs of Love and Longing had its North America premiere at the Baryshnikov Arts Center, New York.</p>
+  </div>
+</div>
+
+<div id="yadu"
+     class="container">
+  <div class="wrapper flow flow-flushbottom"></div>
+  <div class="owl-carousel ultra-wide owl-theme">
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595102418/1_yadu_gxrj4y.jpg",
+      "Yadunandana - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Debojyoti Dhar</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595102418/2_yadu_unjlur.jpg",
+      "Yadunandana - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Akila Venkat</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595102418/3_yadu_odawi2.jpg",
+      "Yadunandana - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Akila Venkat</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595102418/4_yadu_hxx96o.jpg",
+      "Yadunandana - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Akila Venkat</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595102418/5_yadu_uiwiwj.jpg",
+      "Yadunandana - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Akila Venkat</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595102418/6_yadu_utis5z.jpg",
+      "Yadunandana - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Akila Venkat</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595102434/7_yadu_g6gkup.jpg",
+      "Yadunandana - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Akila Venkat</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595102434/8_yadu_tyqsws.jpg",
+      "Yadunandana - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Akila Venkat</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595102434/9_yadu_w0gsa0.jpg",
+      "Yadunandana - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Akila Venkat</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595102434/10_yadu_hb9t2f.jpg",
+      "Yadunandana - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Akila Venkat</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595102434/11_yadu_puspaa.jpg",
+      "Yadunandana - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Akila Venkat</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595102434/12_yadu_san0ex.jpg",
+      "Yadunandana - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Akila Venkat</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595102452/13_yadu_f2zxec.jpg",
+      "Yadunandana - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Akila Venkat</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595102452/14_yadu_j3kq9c.jpg",
+      "Yadunandana - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Akila Venkat</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595102452/15_yadu_jpg2s5.jpg",
+      "Yadunandana - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Akila Venkat</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595102452/16_yadu_j77txd.jpg",
+      "Yadunandana - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Akila Venkat</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595102452/17_yadu_krnjlx.jpg",
+      "Yadunandana - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Akila Venkat</div>
+    </div>
+  </div>
+  <div class="wrapper flow flow-flushtop">
+    <h1 class="center">Yadunandana | 2017</h1>
+    <p>
+      Yadunandana is a meditation on the love for Krishna, a dominant theme in Odissi. The performance explores how
+      different devotees braided their vision of their Lord, be it as a child, playful lover or a sensuous consort.
+    </p>
+    <p>
+      Drawing from diverse musical traditions, Yadunandana is a solo show, where the dancer unravels love in its
+      infinite variety.
+    </p>
+  </div>
+</div>
+
+<div id="ahuti"
+     class="container accent-bg">
+  <div class="wrapper flow flow-flushbottom"></div>
+  <div class="owl-carousel ultra-wide owl-theme">
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595098475/1_Ahuti_vtytqg.jpg",
+      "Āhuti - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Karthik Venkatraman</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595098474/2_Ahuti_jylqk7.jpg",
+      "Āhuti - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Karthik Venkatraman</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595098474/3_Ahuti_ywtea9.jpg",
+      "Āhuti - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Karthik Venkatraman</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595098474/4_Ahuti_vxwvgk.jpg",
+      "Āhuti - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Karthik Venkatraman</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595098474/5_Ahuti_avzed5.jpg",
+      "Āhuti - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Karthik Venkatraman</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595098474/6_Ahuti_vdbnow.jpg",
+      "Āhuti - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Karthik Venkatraman</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595098491/7_Ahuti_j3putf.jpg",
+      "Āhuti - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Karthik Venkatraman</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595098491/8_Ahuti_dzdbeo.jpg",
+      "Āhuti - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Karthik Venkatraman</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595098491/9_Ahuti_q3oc4d.jpg",
+      "Āhuti - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Karthik Venkatraman</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595098491/10_Ahuti_g7ctb5.jpg",
+      "Āhuti - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Karthik Venkatraman</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595098491/11_Ahuti_vcwzp9.jpg",
+      "Āhuti - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Karthik Venkatraman</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595098491/12_Ahuti_fvmil5.jpg",
+      "Āhuti - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Karthik Venkatraman</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595098514/13_Ahuti_gzhdqs.jpg",
+      "Āhuti - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Karthik Venkatraman</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1729661632/ahuti-2019-alaap-karthik-desk_asskpd.png",
+      "Āhuti - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Karthik Venkatraman</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1595098515/15_Ahuti_ceeavn.jpg",
+      "Āhuti - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Karthik Venkatraman</div>
+    </div>
+  </div>
+  <div class="wrapper flow flow-flushtop">
+    <h1 class="center">Āhuti | 2019</h1>
+    <h4 class="center">{Sanskrit: Invoking | Pali: Offering}</h4>
+    <p>
+      The historic and artistic bonds between India and Sri Lanka weave a fertile context for creative dialogues between
+      the two cultures. For close to two decades, Nrityagram and The <a href="https://www.chitrasenadance.lk/" target="_blank" class="bodylink">Chitrasena Dance Company</a> have explored this creative
+      dialogue and forged a bond between Odissi and Kandyan dance.
+    </p>
+    <p>
+      Āhuti is an evening length show that pushes the boundaries of this creative collaboration.
+    </p>
+  </div>
+</div>
+
+<div id="vinati"
+     class="container">
+  <div class="wrapper flow flow-flushbottom"></div>
+  <div class="owl-carousel ultra-wide owl-theme">
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1647091228/Vinati_Cover_Pic_Bright_ern9og.jpg",
+      "Vinati - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Karthik Venkatraman</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1647091226/Surupa_Sen_01_Photo_Credit_Karthik_Venkatraman_xq8vmv.jpg",
+      "Vinati - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Karthik Venkatraman</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/h_1.0,ar_1046:618,c_pad,b_rgb:000/v1647091226/Surupa_Sen_02_Photo_Credit_Karthik_Venkatraman_oxlkk9.jpg",
+      "Vinati - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Karthik Venkatraman</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/h_1.0,ar_1046:618,c_pad,b_rgb:000/v1647091226/Surupa_Sen_03_Photo_Credit_Karthik_Venkatraman_rud36y.jpg",
+      "Vinati - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Karthik Venkatraman</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1647091226/Surupa_Sen_04_Photo_Credit_Karthik_Venkatraman_auzotz.jpg",
+      "Vinati - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Karthik Venkatraman</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1647091226/Surupa_Sen_05_Photo_Credit_Karthik_Venkatraman_woxftr.jpg",
+      "Vinati - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Karthik Venkatraman</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1647091226/Surupa_Sen_06_Photo_Credit_Karthik_Venkatraman_dc2f6u.jpg",
+      "Vinati - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Karthik Venkatraman</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1647091227/Surupa_Sen_07_Photo_Credit_Karthik_Venkatraman_pqbqpw.jpg",
+      "Vinati - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Karthik Venkatraman</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/h_1.0,ar_1046:618,c_pad,b_rgb:000/v1647091227/Surupa_Sen_08_Photo_Credit_Karthik_Venkatraman_bnaokm.jpg",
+      "Vinati - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Karthik Venkatraman</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1647091228/Surupa_Sen_09_Photo_Credit_Karthik_Venkatraman_xpkoq7.jpg",
+      "Vinati - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Karthik Venkatraman</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/h_1.0,ar_1046:618,c_pad,b_rgb:000/v1647091227/Surupa_Sen_10_Photo_Credit_Karthik_Venkatraman_apynl1.jpg",
+      "Vinati - Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Karthik Venkatraman</div>
+    </div>
+  </div>
+  <div class="wrapper flow flow-flushtop">
+    <h1 class="center">Vinati: Songs from the Gita Govinda | 2021</h1>
+    <p>
+      Imagine an evening length performance that does not have a narrative thread. Rather you, the audience, are invited
+      to immerse yourself deep into an emotional state, the <em>sthayi bhaava</em>. It could be the <em>Sakhi</em> torn
+      between duelling emotions; remorse that gouges your heart; the unfettered joy of the onset of spring; cajoling a loved one; or post-coital languor.
+    </p>
+    <p>
+      Conceived during the isolation imposed by the pandemic’s vagaries, Vinati: Songs from the Gita Govinda is a
+      meditation where there is perfect synchrony between thought, emotion, and expression. It takes an exceptional
+      artist to make the audience sit at the edge of their seats with no narrative or plot twists. “With ‘Vinati: Songs from the Gita Govinda’, Surupa Sen stamps her name as one of Odissi’s greats” declared a <a
+         href="https://www.google.com/url?q=https://www.news9live.com/art-culture/with-vinati-songs-from-the-gita-govinda-surupa-sen-stamps-her-name-as-one-of-odissis-greats-143116&sa=D&source=docs&ust=1647765950976163&usg=AOvVaw27H8kTTpn9MIQ6hK20qLx9"
+         target="_blank"
+         class="bodylink">reviewer</a>, who also said, “Surupa Sen seems to be literally tearing open the lexicon of the
+      Odissi movement vocabulary.”
+    </p>
+    <p>
+      Vinati is both a response to the emotionally fraught times we live in, and at the same time a challenge to go
+      within and reflect on our choices.
+    </p>
+  </div>
+</div>
+
+<div id="ahutirelived" class="container accent-bg">
+  <div class="wrapper flow flow-flushbottom"></div>
+  <div class="owl-carousel ultra-wide owl-theme">
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1718526429/01-ahuti-reimagined-cover-photo_i32wtr.png",
+      "Āhuti Relived - Cover Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Karthik Venkatraman</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1718532116/01_Sankirtanam_01_PC_Ravi_Shankar_urb92k.png",
+      "Āhuti Relived - Sankirtanam Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Ravi Shankar</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1718526310/01_Sankirtanam_03_PC_Ravi_Shankar_ztko1u.png",
+      "Āhuti Relived - Sankirtanam Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Ravi Shankar</div>
+    </div>
+
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1726531634/ahuti-relived-slider-image5-desk_pjwbin.png",
+      "Āhuti Relived - Sankirtanam Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Ravi Shankar</div>
+    </div>
+
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1718526342/01_Sankirtanam_04_PC_Ravi_Shankar_g0qn8g.png",
+      "Āhuti Relived - Sankirtanam Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Ravi Shankar</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1718526342/01_Sankirtanam_05_PC_Ravi_Shankar_zowscj.png",
+      "Āhuti Relived - Sankirtanam Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Ravi Shankar</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1718532270/02_Dheere_Sameere_01_Ravi_Shankar_bkebuk.png",
+      "Āhuti Relived - Dheere Sameere Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Ravi Shankar</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1718532256/02_Dheere_Sameere_02_Ravi_Shankar_qouye7.png",
+      "Āhuti Relived - Dheere Sameere Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Ravi Shankar</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1718532234/02_Dheere_Sameere_03_Ravi_Shankar_mzyftc.png",
+      "Āhuti Relived - Dheere Sameere Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Ravi Shankar</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1718532295/02_Dheere_Sameere_04_Ravi_Shankar_cmpo2u.png",
+      "Āhuti Relived - Dheere Sameere Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Ravi Shankar</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1718532265/02_Dheere_Sameere_05_Ravi_Shankar_kmqub3.png",
+      "Āhuti Relived - Dheere Sameere Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Ravi Shankar</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1718528981/03_Poorna%CC%84rati%CC%84_01_PC_Stephen_Pisano_yqwiom.png",
+      "Āhuti Relived - Poornāratī Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Stephen Pisano</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1718528966/03_Poorna%CC%84rati%CC%84_02_PC_Courtesy_CFAA_aoscen.png",
+      "Āhuti Relived - Poornāratī Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Courtesy CFAA</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1718537455/03_Poorna%CC%84rati%CC%84_05_PC_Ravi_Shankar_dqgmoz.png",
+      "Āhuti Relived - Poornāratī Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Ravi Shankar</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1727414356/ahuti-relived-slider-new-image16__fya89g.png",
+      "Āhuti Relived - Poornāratī Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Ravi Shankar</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1727414356/ahuti-relived-slider-new-image15__ok3ug7.png",
+      "Āhuti Relived - Poornāratī Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Ravi Shankar</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1718529082/04_Invoking_Shiva_01_PC_Shachi_Phene_u2zdni.png",
+      "Āhuti Relived - Invoking Shiva Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Shachi Phene</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1718529077/04_Invoking_Shiva_02_PC_Courtesy_CFAA_mdsp8q.png",
+      "Āhuti Relived - Invoking Shiva Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Courtesy CFAA</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1718529124/04_Invoking_Shiva_03_PC_Stephen_Pisano_pk2s2r.png",
+      "Āhuti Relived - Invoking Shiva Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Stephen Pisano</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1718529088/04_Invoking_Shiva_04_PC_Ravi_Shankar_bvanja.png",
+      "Āhuti Relived - Invoking Shiva Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Ravi Shankar</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1718529073/04_Invoking_Shiva_05_PC_Ravi_Shankar_moazce.png",
+      "Āhuti Relived - Invoking Shiva Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Ravi Shankar</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1727414356/ahuti-relived-slider-new-image22__jljtdj.png",
+      "Āhuti Relived - Ālāp Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Ravi Shankar</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1718529218/05_A%CC%84la%CC%84p_02_PC_Ravi_Shankar_qim6rq.png",
+      "Āhuti Relived - Ālāp Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Ravi Shankar</div>
+    </div>
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1718529262/05_A%CC%84la%CC%84p_04_PC_Courtesy_CFAA_dyey5t.png",
+      "Āhuti Relived - Ālāp Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Courtesy CFAA</div>
+    </div>
+
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1726531984/ahuti-relived-slider-image25-26-desk_esl4ng.png",
+      "Āhuti Relived - Ālāp Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Ravi Shankar</div>
+    </div>
+
+    <div class="item rounded">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1718529265/05_A%CC%84la%CC%84p_06_PC_Courtesy_CFAA_itrowi.png",
+      "Āhuti Relived - Ālāp Performance Photo",
+      ["auto", "425", "768", "1600"] %}
+      <div class="photo-credit">Photo : Courtesy CFAA</div>
+    </div>
+  </div>
+  <div class="wrapper flow flow-flushtop">
+    <h1 class="center">Āhuti Relived | 2022</h1>
+    <p>
+      Building on the intimate collaboration between Nrityagram and The <a href="https://www.chitrasenadance.lk/" target="_blank" class="bodylink">Chitrasena Dance Company</a>, Āhuti Relived is an evening length show. By extending the vocabulary of both Odissi and Kandyan, and by layering soundscapes of both art forms, Āhuti Relived is a thrilling edge-of-the-seat visual extravaganza.
+    </p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="wrapper ultra-wide flow">
+    <div class="even-columns">
+      <div class="left-column">
+        <div class="image-plus card" onclick="location.href='/ensemble';">
+          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1569697661/ensemble_shfto0.jpg",
+          "Ensemble Card",
+          ["560", "768"] %}
+          <div class="credit" data-image-credit="Anita Anand" ></div>
+          <div class="card-title">Ensemble</div>
+        </div>
+      </div>
+      <div class="right-column">
+        <div class="image-plus card" onclick="location.href='/performancemap';">
+          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1580617717/performances-desk_hcwn9s.jpg",
+					"Performances Card",
+					["560", "768"] %}
+          <div class="credit" data-image-credit="Courtesy SAF" ></div>
+          <div class="card-title">Performances</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

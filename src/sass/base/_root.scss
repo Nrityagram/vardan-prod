@@ -1,0 +1,83 @@
+@use '../abstracts' as *;
+
+:root {
+	--ff-sans: #{$ff-sans};
+	--ff-serif: #{$ff-serif};
+
+	// --fw-serif-light: #{$fw-serif-light}; 
+	--fw-serif-normal: #{$fw-serif-normal};
+	--fw-serif-medium: #{$fw-serif-medium};
+	--fw-serif-semibold: #{$fw-serif-semibold};
+	--fw-sans-normal: #{$fw-sans-normal};
+	--fw-sans-light: #{$fw-sans-light};
+	--fw-bold: #{$fw-bold};
+	--fw-bolder: #{$fw-bolder};
+	--fw-light: #{$fw-light};
+
+	--spacer: #{$spacer};
+	--flow-spacer: #{$flow-spacer};
+	--flow-spacer-close: #{$flow-spacer-close};
+	--flow-spacer-top: #{$flow-spacer-top};
+	--flow-spacer-bottom: #{$flow-spacer-bottom};
+	--flow-spacer-nontitletext: #{$flow-spacer-nontitletext};
+	--flow-spacer-extra: #{$flow-spacer-extra};
+	--flow-spacer-p: #{$flow-spacer-p};
+	--flow-spacer-h1: #{$flow-spacer-h1};
+	--flow-spacer-h1-top-pad: #{$flow-spacer-h1-top-pad};
+	--flow-spacer-large: #{$flow-spacer-large};
+	--column-gap: #{$column-gap};
+	--narrow-column-gap: #{$narrow-column-gap};
+	--wide-column-gap: #{$wide-column-gap};
+	--gap-from-bottom: #{$gap-from-bottom};
+
+	--regular-width: #{$regular-width};
+	--ultra-wide-width: #{$ultra-wide-width};
+	--ultra-narrow-width: #{$ultra-narrow-width};
+	--max-char-in-line: #{$max-char-in-line};
+	--full-bleed-margin-reg: #{$full-bleed-margin-reg};
+	--full-bleed-margin-ultra: #{$full-bleed-margin-ultra};
+
+	--logo-height: #{$logo-height};
+	--logo-height-mob: #{$logo-height-mob};
+	--logo-height-sticking: #{$logo-height-sticking};
+	--logo-height-sticking-mob: #{$logo-height-sticking-mob};
+
+	--icon-height: #{$icon-height};
+	--icon-height-vvsml: #{$icon-height-vvsml};
+	--icon-height-vsml: #{$icon-height-vsml};
+	--icon-height-sml: #{$icon-height-sml};
+	--icon-height-med: #{$icon-height-med};
+	--icon-height-mob: #{$icon-height-mob};
+
+	--primary-header-topbot-padding: #{$primary-header-topbot-padding};
+
+	--clr-dark-grey: hsl(0 0% 10%);
+	--clr-grey: hsl(0 0% 50%);
+	--clr-light-grey: hsl(0 0% 90%);
+
+	@each $colour, $shade in $colours {
+		@each $property, $value in $shade {
+			--clr-#{$colour}-#{$property}: #{$value};
+		}
+	}
+
+	@each $screen-size, $property in $font-sizes {
+		@if $screen-size ==small {
+			@each $prop, $value in $property {
+				--fs-#{$prop}: #{$value};
+			}
+		}
+
+		@else {
+			@include mq($screen-size) {
+				@each $prop, $value in $property {
+					--fs-#{$prop}: #{$value};
+				}
+			}
+		}
+	}
+
+	@each $space, $value in $letter-spacing {
+		--ls-#{$space}: #{$value};
+	}
+}

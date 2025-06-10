@@ -1,0 +1,76 @@
+@use '../abstracts/' as *;
+
+.flow> :where(:not(:first-child)) {
+	margin-top: var(--flow-spacer, var(--spacer));
+}
+
+.flow {
+	padding-top: var(--flow-spacer-top);
+}
+
+.flow {
+	padding-bottom: var(--flow-spacer-bottom);
+}
+
+
+// To compensate for the line-height you get with h1
+.flow:has(>h1:first-child) {
+	padding-top: var(--flow-spacer-h1);
+}
+
+// To compensate for the line-height of first <p>
+.flow:has(>p:first-child) {
+	padding-top: var(--flow-spacer-p);
+}
+
+// To compensate for the line-height of large font <p>
+.flow:has(>p.large:first-child) {
+	padding-top: var(--flow-spacer-large);
+}
+
+// To compensate for the line-height of pull-quote <p>
+.flow:has(div.pullquote:first-child) {
+	padding-top: var(--flow-spacer-large);
+}
+
+.flow-extra> :where(:not(:first-child)) {
+	margin-top: var(--flow-spacer-extra, var(--spacer));
+}
+
+// To compensate for line-height of h1 for 2-columns on mobile
+.flow-titletext-mob {
+	@include mqmax(small) {
+		padding-top: var(--flow-spacer-h1);
+	}
+}
+
+// to line-up column contents when first line in one column is h1 on desktop
+.flow-titletext-top-pad {
+	@include mq(large) {
+		padding-top: var(--flow-spacer-h1-top-pad);
+	}
+}
+
+
+// spacing only between elements without top+bottom padding
+.flow-inbetween> :where(:not(:first-child)) {
+	margin-top: var(--flow-spacer, var(--spacer));
+}
+
+// closer spacing between elements
+.flow-inbetween> :where(:not(:first-child)) {
+	margin-top: var(--flow-spacer-close, var(--spacer));
+}
+
+// to compensate for line-height of text
+.flow-nontitletext {
+	padding-top: var(--flow-spacer-nontitletext);
+}
+
+.flow-flushtop {
+	padding-top: 0 !important;
+}
+
+.flow-flushbottom {
+	padding-bottom: 0 !important;
+}

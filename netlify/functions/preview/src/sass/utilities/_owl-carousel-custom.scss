@@ -1,0 +1,79 @@
+@use '../abstracts/' as *;
+
+.owl-carousel.ultra-wide {
+    // built-in flow (top and bottom)
+    padding-top: var(--flow-spacer-top, var(--spacer));
+    padding-bottom: var(--flow-spacer, var(--spacer));
+
+    @include mqmax(small) {
+        padding-bottom: 0;
+    }
+}
+
+.owl-carousel .item {
+    position: relative;
+}
+
+.owl-theme .owl-nav {
+    margin-top: 0;
+}
+
+.owl-next,
+.owl-prev {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+
+    // i {
+    //     font-size: 1.2em;
+    //     color: rgba(200, 200, 200, 0.8);
+    //     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+    // }
+}
+
+.owl-prev {
+    left: 30px;
+}
+
+.owl-next {
+    right: 30px;
+}
+
+button.owl-next,
+button.owl-prev {
+    background: transparent !important;
+    width: -moz-fit-content !important;
+    width: -webkit-fit-content !important;
+}
+
+button.owl-dot span {
+    // width: 6px;
+    // height: 6px;
+    background-color: transparent !important;
+    border: 1px solid hsl(var(--clr-neutral-275));
+}
+
+button.owl-dot.active span {
+    border: none;
+    background: hsl(var(--clr-neutral-250)) !important;
+}
+
+.owl-carousel.ultra-wide {
+
+    button.owl-prev,
+    button.owl-next {
+        bottom: 45%;
+    }
+
+    .owl-dots {
+        margin-top: 0 !important;
+    }
+
+    button.owl-dot {
+        margin-left: -2px;
+        margin-right: -2px;
+    }
+
+}

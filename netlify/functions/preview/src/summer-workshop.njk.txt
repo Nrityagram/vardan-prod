@@ -1,0 +1,220 @@
+---
+layout: layouts/page.njk
+eleventyNavigation:
+  key: page
+  order: 1
+tags: page
+date: Last Modified
+title: "Summer Workshop"
+scrollToTop: true
+description: "Summer Workshop is a unique short-term programme in Odissi basics as developed and practised at Nrityagram, which also brings to students a compact experience of our philosophy of practising art as a way of life."
+OGImage: "https://res.cloudinary.com/nrityagram/image/upload/v1743082932/summer-workshop-og_ptykjy.png"
+---
+<div id="banner-container">
+  <div class="banner-image">
+    {% pictures 
+      {"desk":"https://res.cloudinary.com/nrityagram/image/upload/v1743082659/summer-workshop-desk_rxkasr.png", 
+      "tab":"https://res.cloudinary.com/nrityagram/image/upload/v1743082659/summer-workshop-tablet_eadkno.png", 
+      "mob":"https://res.cloudinary.com/nrityagram/image/upload/v1743082658/summer-workshop-mobile_tplqoq.png"}, 
+      "Summer Workshop", 
+      {"mob": ["425"], "tab": ["768"], "desk":["1600"]}, {"desk":"65em", "tab":"50em", "mob":"35em"}, 
+      "eager", "high" %}
+  </div>
+  <div class="banner-image-credit"
+    data-image-credit-desk="Surupa Sen" 
+    data-image-credit-tab="Surupa Sen" 
+    data-image-credit-mob="Surupa Sen"
+    ></div>
+  <div class="banner-title">
+        Summer<br />Workshop
+  </div>
+</div>
+<div class="container">
+  <div class="wrapper flow">
+    <p>
+      Our Summer Workshop is a unique residential programme in Odissi basics as developed and practised at Nrityagram, which also brings to students a compact experience of our philosophy of “practising art as a way of life”. 
+    </p>
+    <p>
+      Odissi will be taught by <a href="/surupa" class="bodylink">Surupa Sen</a> (Artistic Director Nrityagram Dance Ensemble) and <a href="/pavithra" class="bodylink">Pavithra Reddy</a> (Director of Educational and Outreach Programmes), both of whom have been studying and practising at Nrityagram for the past 34 years.
+    </p>
+    <p>
+      Yoga sessions will be led by Jaya Chakraborty who has over 2 decades of training and teaching. In 2013 Jaya founded The Practice Room, Bangalore.
+    </p>
+  </div>
+</div>
+<div class="container accent-bg">
+  <div class="wrapper flow">
+    <h1 class="center">Training</h1>
+    <div class="image-plus top-flow">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1742635687/surupa-pavi_q8a61i.jpg",
+      "Nrityagram Resident Faculty: Guru Surupa Sen and Pavithra Reddy",
+      ["560", "768", "1046"] %}
+      <div class="credit" data-image-credit="Courtesy Nrityagram" ></div>
+      <div class="caption">Nrityagram Resident Faculty: Guru Surupa Sen and Pavithra Reddy</div>
+    </div>
+    <p>
+			Workshop participants engage in a rigorous daily schedule where they participate in <b>over 5 hours of class and practice</b>.  In addition to training, students are responsible for maintaining their personal environment by taking care of the Gurukula, cleaning their own living spaces, doing their laundry and cleaning up after each meal. 
+		</p>
+    <p>
+			Even though the workshop offers basic training in Odissi, in true Nrityagram fashion students are also taught Yoga and physical conditioning techniques based on traditional exercises and the Natyashastra.  The study of dance-scriptures like the Abhinaya Darpana is an integral part of the experience, in addition to learning rhythmic exercises based on structures specific to Odissi dance. 
+		</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="wrapper flow">
+    <h1 class="center">Living Space</h1>
+    <div class="image-plus top-flow">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1583857821/6-Kula_fldxvp.jpg",
+      "Kula Residence",
+      ["560", "768", "1046"] %}
+      <div class="credit" data-image-credit="Rupert Lorhalder" ></div>
+      <div class="caption">Kula Residence</div>
+    </div>
+    <p>
+			Nrityagram is located in a beautiful 10-acre campus, an hour outside Bangalore.  The campus includes everything that is needed for your stay, from residences to a dining hall to multiple dance studios where classes are held.  We are proud to offer an environment that is architecturally stunning and in complete harmony with the natural surroundings.  Though it is simple in many ways, it is truly a beautiful space that captivates all our students.
+		</p>
+  </div>
+</div>
+
+<div class="container accent-bg">
+  <div class="wrapper flow">
+    <h1 class="center">Diet</h1>
+    <p>
+      We offer delicious Indian-style vegetarian meals prepared by our trained cooks, using organically grown ingredients from our gardens and the farms nearby.
+    </p>
+    <p>
+      Though we are unable to cater to specific diet needs (Vegan, Vaishnav or Jain diets, etc.), we provide nourishing wholesome food for dancers, made with minimal spice and oil. 
+    </p>
+  </div>
+</div>
+<div class="container">
+  <div class="wrapper flow">
+    <h1 class="center">Nrityagram Ensemble</h1>
+    <p>
+      Nrityagram is a working residential campus that is home to our principal dancers and teachers and also our resident students.  We have students who live and study with us anywhere from 1- 6 years, participating in extensive Odissi dance training.
+    </p>
+    <p>
+      You may be able to attend ensemble and student rehearsals, which will further your exposure to the Nrityagram technique and methodology.  Please ask the Teacher if you would like to watch.
+    </p>
+  </div>
+</div>
+<div class="container accent-bg">
+  <div class="wrapper flow">
+    <h1 class="center">Workshop Details</h1>
+    <ul class="extra-margin no-bullets">
+      <li>
+        <ul class="no-bullets">
+          <li>
+            <b>Dates</b>: 01 to 12 July 2025
+          </li>
+          <li>
+            All participants are expected to plan their <span class="redtext">arrival on June 30th (before 3pm)</span> and departure on July 12th (after 3pm). Exceptions will be made for International students arriving earlier - please let us know well in advance.
+          </li>
+          <li>
+            Classes will begin on July 1st. <span class="redtext">The start date is non-negotiable.</span>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <ul class="no-bullets">
+          <li>
+            <b>Fee</b>
+          </li>
+          <li>
+            <ul>
+              <li>
+                Resident Citizens of India: ₹30,000
+              </li>
+              <li>
+                Non Resident Citizen of India & Citizens of South-East Asian countries: US $900
+              </li>
+              <li>
+                Citizens of other countries: US $1250
+              </li>
+            </ul>
+          </li>
+          <li>
+            Fees will be based on the country of your current passport.
+          </li>
+        </ul>
+      </li>
+      <li>
+        <ul class="no-bullets">
+          <li>
+            <b>Application Process</b>
+          </li>
+          <li>
+            We require applicants to submit the following 3 things in order for their application to be considered complete:
+          </li>
+        </ul>
+        <ul>
+          <li>
+            An <a href="https://forms.gle/Aj6NHLtdCxBup4336" target="_blank" class="redtext bodylink">Online Application Form</a> with personal details: full name, email address, birth date, postal address, country of residence and phone number.  The form also requires a description of dance and movement experience and reason for interest in attending the workshop.
+          </li>
+          <li>
+            A recent video (5 minutes max) showcasing the applicant's dance - this does not need to be a formal performance; a practice session is perfectly acceptable. It is essential that the applicant's movements are clearly visible. The video can be uploaded through the Application Form or shared on the form via a publicly accessible link to platforms like YouTube, Vimeo or DropBox. For any questions regarding the video, please contact <a href="mailto:pavithra@nrityagram.org" class="bodylink">Pavithra Reddy</a>.
+          </li>
+          <li>
+            A scanned image of current and valid passport is to be uploaded through the Application Form.
+          </li>
+          <li>
+            The deadline for submitting the Applications is <span class="redtext">27 April 2025</span>.
+          </li>
+          <li>
+            Once all applications have been reviewed, final decisions regarding acceptance will be sent via email.
+          </li>
+        </ul>
+      </li>
+      <li>
+        <b>Enrolment & Payment Terms</b>
+        <ul >
+          <li>
+            Once accepted, 50% of the fee must be paid in advance to reserve your place. This amount is non-refundable unless we cancel the workshop.
+          </li>
+          <li>
+            Provide a confirmation of payment so that we can track it.
+          </li>
+          <li>
+            Upon receipt of the advance payment, we will send a confirmation email.
+          </li>
+          <li>
+            The remaining 50% balance must be paid on or before the first day of registration.
+          </li>
+          <li>
+            Please note that we do not make any changes in the Fee structure - the Fee will remain the same even if you attend the workshop for a shorter duration.
+          </li>
+        </ul>
+      </li>
+      <li>
+        <b>Successful Applicants will be provided:</b>
+        <ul>
+          <li>
+            Payment Link
+          </li>
+          <li>
+            Registration Form
+          </li>
+          <li>
+            Detailed Information to prepare for the Workshop
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <ul class="extra-margin no-bullets">
+      <li>
+        <h3>Important Note</h3>
+      </li>
+      <li>
+        If there are any changes to Terms or Information, you will be informed accordingly.
+      </li>
+      <li>
+        For any inquiries please email: <a href="mailto:pavithra@nrityagram.org" class="bodylink">pavithra@nrityagram.org</a>
+      </li>
+      <li>
+        <b>How to get to Nrityagram</b>: <a href="/findyourway" class="bodylink">Directions</a>
+      </li>
+    </ul>
+  </div>
+</div>

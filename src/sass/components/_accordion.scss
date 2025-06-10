@@ -1,0 +1,33 @@
+.stacked-img {
+    opacity: 0; // default
+
+    &.hide {
+        opacity: 0;
+    }
+
+    &.show {
+        opacity: 1;
+    }
+
+    transition: opacity 800ms;
+}
+
+.accordion {
+    details {
+        &:not(:first-child) {
+            padding-top: 0.6em;
+        }
+
+        padding-bottom: 0.6em;
+        border-bottom: 1px solid hsl(var(--clr-neutral-200));
+    }
+
+    summary {
+        list-style: none;
+        color: hsl(var(--clr-secondary-550));
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

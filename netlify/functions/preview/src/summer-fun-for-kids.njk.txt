@@ -1,0 +1,248 @@
+---
+layout: layouts/page.njk
+eleventyNavigation:
+  key: page
+  order: 1
+tags: page
+date: Last Modified
+title: "Summer Fun for Kids"
+scrollToTop: true
+description: "Nrityagram’s Summer Fun for Kids is a unique short-term residential camp, which brings to participants a compact experience of the Nrityagram philosophy of learning as a way of life."
+OGImage: "https://res.cloudinary.com/nrityagram/image/upload/v1739344539/summer-fun-OG_isgvbz.png"
+---
+<div id="banner-container">
+  <div class="banner-image">
+    {% pictures 
+      {"desk":"https://res.cloudinary.com/nrityagram/image/upload/v1739344263/summer-fun-desk_ljiw54.png", 
+      "tab":"https://res.cloudinary.com/nrityagram/image/upload/v1739344263/summer-fun-tablet_ytma9m.png", 
+      "mob":"https://res.cloudinary.com/nrityagram/image/upload/v1739344263/summer-fun-mobile_f8o3wu.png"}, 
+      "Summer Fun for Kids", 
+      {"mob": ["425"], "tab": ["768"], "desk":["1600"]}, {"desk":"65em", "tab":"50em", "mob":"35em"}, 
+      "eager", "high" %}
+  </div>
+  <div class="banner-image-credit"
+    data-image-credit-desk="Courtesy Nrityagram" 
+    data-image-credit-tab="Courtesy Nrityagram" 
+    data-image-credit-mob="Courtesy Nrityagram"
+    ></div>
+  <div class="banner-title">
+        Summer Fun<br />for Kids
+  </div>
+</div>
+<div class="container">
+  <div class="wrapper flow">
+    <p>
+			Far from the bustle of Bangalore, the Nrityagram Dance Village houses a group of dancers who have excelled in pursuit of their art. They have performed across the world, won numerous awards and earned global acclaim. According to The New York Times “The only proper response to dancers this amazing is worship!”
+		</p>
+    <p>Who are these dancers, and what do they do all day at Nrityagram?</p>
+    <p>
+      Every year, a small group of children get an opportunity to enrol in Nrityagram’s Summer Fun for Kids to find out for themselves, by leading the Nrityagram life focused on dance and theatre. They explore spaces, go on nature walks, tell stories, play games and most importantly have lots of fun.
+    </p>
+    <p>
+      Nrityagram’s Summer Fun for Kids is a unique short-term residential camp, which brings to participants a compact experience of the Nrityagram philosophy of learning as a way of life.
+    </p>
+    <p>
+      Far away from television sets and video games, surrounded by lush foliage, beautiful birds and flowering trees, they experience life in a place where all residents take care of themselves and their “home" and where the entire community lives mindfully. The camp also gives children a glimpse into the guru-shishya parampara followed at Nrityagram, while they are led through dance and theatre sessions.
+    </p>
+    <p>
+      Camp participants follow a five-hour daily learning schedule, with theatre and dance in two separate batches, in addition to engaging in and learning simple day-to-day activities such as cleaning, cooking and gardening. They also participate in yoga and body conditioning classes, in addition to fun sessions in art. Most of the children (and their parents) describe the experience as ‘life changing’.
+    </p>
+    <p>
+      The two basic components of the camp are dance and theatre. One of India’s best known Odissi Dancers <a href="/pavithra" class="bodylink">Pavithra Reddy</a>, a <a href="/ensemble" class="bodylink">Nrityagram Ensemble</a> and faculty member, will lead the sessions in Odissi dance.
+    </p>
+    <p>
+      This year we have invited Shruti Jasani to teach theatre and Yoga classes. Shruti leads the faculty at The Wooden Stage, a performance arts institute in Mumbai teaching aerial art to over 400 students.
+    </p>
+    <p>
+      Everyone will live at the Nrityagram campus.
+    </p>
+  </div>
+</div>
+<div class="container accent-bg">
+  <div class="wrapper flow">
+    <h1 class="center">Nrityagram Arts in Education Program</h1>
+    <div class="image-plus top-flow">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1739366286/arts-in-education_dsd40i.png",
+      "Children at the Summer Fun for Kids performing at the Odissi gurukul",
+      ["560", "768", "1046"] %}
+      <div class="credit" data-image-credit="Courtesy Nrityagram" ></div>
+    </div>
+    <p>
+			Nrityagram’s Outreach Programme on Sundays, started in 1990 by founder <a href="/protima" class="bodylink">Protima Gauri</a>, is a part of Project Nrityagyān (Dance Education) with a broadened vision to also promote personal growth by developing a strong sense of discipline, high standards of excellence and self-esteem, thus providing children tools to a successful future. 
+		</p>
+    <p>
+			Nrityagram’s dancers have developed a method of teaching that is educational, exciting, fun and at the same time uncompromising on excellence and the high standards required to learn classical dance. Our classes are full of energy, passion, commitment, honesty and respect from both sides - teacher and students. This method has helped us to almost instantly win a child's trust because they immediately feel SAFE in class. Children receive honest feedback while knowing that each of them is special, that there are small achievements every day and that they will succeed. And they enthusiastically accept feedback and wholeheartedly put their efforts into new challenges. 
+		</p>
+    <p>
+      Our summer camp aspires to heighten this experience for participants by being residential and intensive, as well as multidisciplinary. The simple goals that are the prime focus of this camp are building self-confidence, fostering team spirit, self and group motivation, kindling creative imagination, physical coordination, awareness of rhythms and a sense of music, and nurturing uninhibited expression.
+    </p>
+
+  </div>
+</div>
+<div class="container">
+  <div class="wrapper flow flow-extra">
+    <h1 class="center">The Teachers</h1>
+    <div class="uneven-columns wide-grid-gap narrow-wide-40-60">
+      <div class="narrow-column">
+        <div class="image-plus">
+          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1739366969/shruti_jasani_fadvlv.jpg",
+          "Shruti Jasani",
+          ["auto", "425"] %}
+        </div>
+      </div>
+      <div class="wide-column flow-inbetween">
+        <h2>Shruti Jasani</h2>
+        <p>
+          Shruti studied contemporary dance and ballet at The New York University, and has also been affiliated with the Trinity College of London since 2005 where she specialised in the Performance Arts syllabus, taking professional level exams and also teaching dance and drama under the same roof. She has also studied at Aerial Arts New York, and Womack and Bowman, This wealth of knowledge, while great on paper, really shines through when you experience an aerial class at The Wooden Stage, taught by Shruti.
+        </p>
+        <p>
+          In addition to co-founding a successful studio (TWC) where she quite literally “hangs” with grown-up and child students who can’t wait for class o’ clock, Shruti has also taken her aerial skills to the silver screen.
+        </p>
+        <p>
+          Shruti has also been invited to showcase her skills at TedX, besides speaking and performing at Tiecon and doing theatre performances. She plays KAA the python in Jungle Book part 2 Musical.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="uneven-columns wide-grid-gap narrow-wide-40-60">
+      <div class="narrow-column">
+        <div class="image-plus">
+          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1739369921/pavi-reddy-summer-fun_moh4q7.png",
+          "Pavithra Reddy",
+          ["auto", "425"] %}
+        </div>
+      </div>
+      <div class="wide-column flow-inbetween">
+        <h2>Pavithra Reddy</h2>
+        <p>
+          Pavithra lives at a neighbouring farm and started her Odissi training in Nrityagram’s rural outreach programme in 1990. She was the first student to graduate from Nrityagram’s rural outreach programme.
+        </p>
+        <p>
+          She learned Odissi under the tutelage of <a href="/surupa" class="bodylink">Surupa Sen</a> and has worked with dancers and movement specialists from across the globe.
+        </p>
+        <p>
+          Pavithra joined the Nrityagram Dance Ensemble 1993 and has performed solo and with the Ensemble at some of the most prestigious venues across India and the world.
+        </p>
+        <p>
+          In addition to being a full-time performer, Pavithra teaches in Nrityagram’s residential and outreach programs and is the Director of Outreach Activities.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</div>
+<div class="container accent-bg">
+  <div class="wrapper flow">
+    <h1 class="center">About Kula: Artistes Residence</h1>
+    <div class="image-plus top-flow">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1719899818/Kula-masthead-desk_ktpdi9.png",
+      "Kula Artistes Residence",
+      ["560", "768", "1046"] %}
+      <div class="credit" data-image-credit="Rupert Lorhalder" ></div>
+    </div>
+    <p>
+      The participants will stay in our artistes residence - <a href="/kula-artistes-residence" class="bodylink">Kula</a>, which has 8 rooms (2-3 beds per room) with ensuite bathrooms, a common kitchenette (for refreshments and snacks) and a courtyard.
+    </p>
+    <p>
+      All the teachers and students of Nrityagram stay within the campus in houses and rooms near Kula and camp participants will be supervised by an adult at all times. All meals and refreshments will be in the common dining area and are primarily vegetarian. 
+    </p>
+    <p>
+      In addition to engaging in dance and theatre workshops, camp participants will also be introduced to elements of organic gardening, bird watching and environmental awareness in what is today Bangalore’s only remaining grassland in Hessaraghatta.
+    </p>
+  </div>
+</div>
+<div class="container">
+  <div class="wrapper flow">
+    <h1 class="center">Important Notes</h1>
+    <p>
+      Careful planning and supervision helps us to provide a safe environment for everyone. Parents must be aware however, that Nrityagram is a rural location and we spend a lot of time outdoors and children will be involved in physical activities including but not limited to their classrooms, climbing trees and outdoor play.
+    </p>
+    <p>
+      If you have questions or concerns, please email us your phone number and we will return your call. 
+    </p>
+    <p>
+      Email: <a href="mailto:pavithra@nrityagram.org" class="bodylink">pavithra@nrityagram.org</a>
+    </p>
+  </div>
+</div>
+<div class="container accent-bg">
+  <div class="wrapper flow">
+    <h1 class="center">Details</h1>
+    <ul class="extra-margin no-bullets">
+      <li>
+        <b>Age</b>: 7 - 12 years
+      </li>
+      <li>
+        <ul class="no-bullets">
+          <li>
+            <b>Arrival Date</b>: 21 April 2025, 3 - 5pm
+          </li>
+          <li>
+            <b>Departure Date</b>: 26 April 2025, 3 - 5pm
+          </li>
+          <li>
+            The start date is non-negotiable.
+          </li>
+        </ul>
+      </li>
+      <li>
+        <b>Fee:</b> ₹20,000 + ₹300 Convenience Fee (Subject to change.)
+      </li>
+      <li>
+        <b>Enrolment & Payment Terms</b>
+        <ul >
+          <li>
+            We accept students on a first-come first-served basis, and due to the high level of interest and limited space, we suggest that you sign up immediately, in order to secure a place.
+          </li>
+          <li>
+            The full tuition fee must be paid in advance to reserve a place in the Camp. This amount is non-refundable unless we cancel the Camp.
+          </li>
+          <li>
+            Upon receipt of the tuition fee, you will receive a confirmation of payment. Please check your Spam Folder in case it ends up there.
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <div class="razorpay-embed-btn center"
+                 data-url="https://pages.razorpay.com/pl_Pury7q2u6R7N7j/view"
+                 data-text="ALL SEATS BOOKED"
+                 data-color="#a5a5a5"
+                 disabled
+                 aria-disabled="true"
+                 data-size="large">
+
+      <script>
+        (function () {
+          var d = document;
+          var x = !d.getElementById('razorpay-embed-btn-js')
+          if (x) {
+            var s = d.createElement('script');
+            s.defer = !0;
+            s.id = 'razorpay-embed-btn-js';
+            s.src = 'https://cdn.razorpay.com/static/embed_btn/bundle.js';
+            d
+              .body
+              .appendChild(s);
+          } else {
+            var rzp = window['__rzp__'];
+            rzp && rzp.init && rzp.init()
+          }
+        })();
+      </script>
+    </div>
+
+    <ul class="extra-margin no-bullets">
+      <li>
+        <b>Registration</b>: To complete registration, we will provide a link to the registration form that will need to be completed prior to the start of the Camp.
+      </li>
+      <li>
+        <b>Preparing for the Camp</b>: By mid-March, we will provide detailed information including guidelines, packing list, daily class schedule, etc.
+      </li>
+      <li>
+        <b>How to get to Nrityagram</b>: <a href="/findyourway" class="bodylink">Directions</a>
+      </li>
+    </ul>
+  </div>
+</div>

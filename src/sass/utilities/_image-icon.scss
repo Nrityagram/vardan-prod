@@ -1,0 +1,63 @@
+@use '../abstracts/' as *;
+
+img.icon {
+    // To align the icon and text
+    display: inline-block;
+    vertical-align: middle;
+    height: var(--icon-height);
+    width: auto;
+    object-fit: contain;
+    cursor: pointer;
+    padding: 0 2px;
+
+    &.vsml {
+        height: var(--icon-height-vsml);
+    }
+
+    &.sml {
+        height: var(--icon-height-sml);
+    }
+
+    &.med {
+        height: var(--icon-height-med);
+    }
+
+    &.mob-ht {
+        height: var(--icon-height-mob);
+    }
+
+    &.mob {
+        display: none;
+    }
+
+    &.desk {
+        display: inline-block;
+    }
+
+    @include mqmax(small) {
+        &.sml {
+            height: var(--icon-height-med);
+        }
+
+        &.mob {
+            display: inline-block;
+        }
+
+        &.desk {
+            display: none;
+        }
+    }
+
+    &.sml-vsml {
+        height: var(--icon-height-sml);
+
+        // make the email + phone icons in the footer smaller for mobile
+        @include mqmax(small) {
+            height: var(--icon-height-vvsml);
+        }
+    }
+
+    &.vsml {
+        height: var(--icon-height-vsml);
+    }
+}

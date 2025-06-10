@@ -1,0 +1,278 @@
+---
+layout: layouts/page.njk
+eleventyNavigation:
+  key: page
+  order: 1
+tags: page
+date: Last Modified
+parentMenuItem: "Press"
+title: "Press"
+scrollToTop: true
+description: "Quotes from the press and media about Nrityagram's world-wide performances. Nrityagram is a one-of-a-kind collective of artistes, where dance is a way of life."
+OGImage: "https://res.cloudinary.com/nrityagram/image/upload/w_600/v1583852732/press-desk_xxqlok.jpg"
+---
+<div id="banner-container">
+  <div class="banner-image">
+    {% pictures 
+      {"desk":"https://res.cloudinary.com/nrityagram/image/upload/v1583852732/press-desk_xxqlok.jpg", 
+      "tab":"https://res.cloudinary.com/nrityagram/image/upload/v1600100823/ipad/press_ipad_jux6kx.jpg", 
+      "mob":"https://res.cloudinary.com/nrityagram/image/upload/v1600100887/mobile/press_mobile_gjutjc.jpg"}, 
+      "Press Coverage of Nrityagram Ensemble", 
+      {"mob": ["425"], "tab": ["768"], "desk":["1600"]}, {"desk":"65em", "tab":"50em", "mob":"35em"}, 
+      "eager", "high" %}
+  </div>
+  <div class="banner-image-credit"
+    data-image-credit-desk="Sonia Manchanda" 
+    data-image-credit-tab="Uma Dhanwatey" 
+    data-image-credit-mob="Uma Dhanwatey"
+    ></div>
+  <div class="banner-title">
+        Press
+  </div>
+</div>
+<div class="container">
+  <div class="wrapper flow flow-extra">
+    <p>
+      <em> “One of the most luminous dance events of the year!” </em>
+      <br />
+      <b>The New York Times</b> June 1996
+		</p>
+    <p>
+      <em> “Performers with a radiant freshness and delicacy!” </em>
+      <br />
+      <b>The New York Times</b> August 1998
+		</p>
+    <p>
+      <em>
+				“Dance troupe from India agile, precise and just brilliant! This was dance that never seemed to stop, even in those curvilinear poses. Should we dare compare it to George
+				Balanchine's work with the New York City Ballet, where ballerinas seemed to float while seemingly encased in a
+				simple fifth position? Like NYCB, Sen's dancers would erupt into movement that surged across the stage with
+				remarkable speed and agility!”
+			</em>
+      <br />
+      <b>Pittsburgh Post-Gazette</b> March 2002
+		</p>
+    <p>
+      <em>
+				“The path breaking choreography made an eloquent impression with its refined mix of East and West, old and new, story and abstraction! A stunning work, 'Sri' resonated with profound emotion, feminine strength and a universal message of eternal love.”
+			</em>
+      <br />
+      <b>The Plain Dealer</b> March 2002
+		</p>
+    <p>
+      <em>
+				“Developing movements drawn from martial arts, Sen creates ingenious sculpted mountains and knots and living, many-armed temple statues out of women's bodies!”
+			</em>
+      <br />
+      <b>The Village Voice</b> April 2002
+		</p>
+    <p>
+      <em>
+				"There was more than a hint of magic about Nrityagram and its dancers. But much of the magic is skill….. Concentration shows in the mastery of delicate (and sometimes barely distinguishable) gestures; the untrembling strength of their crouches and squats; and how they distribute their weight."
+			</em>
+      <br />
+      <b>The Herald-Sun, Durham</b> July 2003
+		</p>
+    <p>
+      <em>
+				“The dancers from Nrityagram stormed the bastion of dance in Chennai, wowing the knowledgeable audience into a
+				standing ovation!”
+			</em>
+      <br />
+      <b>The Hindu</b> January 2005
+		</p>
+    <p>
+      <em>
+				“Excellence doesn’t sneak up on you; it walks right up and shakes your hand!..... Watching Sen’s choreography is like encountering a chef with a perfect palate or a singer with perfect pitch. The sense of proportion and balance is immaculate. A line of dancers will shift, stamp and swirl in unison and imperceptibly one of them will glide back from the group to pose and watch. Sen has an unerring sense of when to keep dancers in formation and when to vary the picture as if she could anticipate the audience’s desires. Her use of space is similar. The patterns aren’t complex; they’re simply right.”
+			</em>
+      <br />
+      <b>DanceviewTimes</b> April 2005
+		</p>
+    <p>
+      <em>
+				“Nrityagram is the best Indian classical dance company to come to this area in a long time. It's confident. It's
+				cutting-edge. It's a winner.”
+			</em>
+      <br />
+      <b>The Washington Post</b> May 2006
+		</p>
+    <p>
+      <em>
+				“I can't remember a performance where I felt that not a single step had been made nor note struck nor any other element proffered that was out of place. From sumptuous costuming to color-drenched lighting, from exacting technique to mesmerizing chant, the entire presentation was designed and executed with
+impeccable taste and luxuriousness.
+I have never been as convinced of the presence of the divine within us as much as I have when watching the expressive, precise dancing of this company….. To witness this proud Indian ensemble is a great honor - the best placed before us.”
+			</em>
+      <br />
+      <b>
+                infinitebody.blogspot.in
+            </b> February 2008
+		</p>
+    <p>
+      <em>
+				“Ever since Nrityagram’s first New York season in 1996 at the Kaye Playhouse at Hunter College, no Indian
+				dancers have been better known in America.”
+			</em>
+      <br />
+      <b>The New York Times</b> March 2012
+		</p>
+    <p>
+      <em>
+				“Ms. Sen’s instincts for where and when the Odissi style - with its sensuous grace and measured leaps and lunges - can be amplified without being distorted have only grown more sure. And her understanding of how to deploy multiple dancers in space - how and when to contrast them or combine them in unison - has only deepened….. Ms. Sen’s facial expressions strike an amazing balance between naturalism and exaggeration. (Those eyebrows! Those eyes!) There’s pain in her body, too, in the twist of her ribcage. A shift in her gaze
+communicates hope and fickleness and loss. When her palms press together, your own heart is crushed.”
+			</em>
+      <br />
+      <b>The New York Times</b> March 2012
+		</p>
+    <p>
+      <em>
+				“Surupa Sen performed a magical mime solo in which she acted out a jealous scene between Krishna and Radha, followed by Krishna’s guilty plea for forgiveness, all based on a twelfth century poem. As she mimed the words “you are the universe…the limpid crescent moon resting in your hair,” her eyes softened, her fingers traced the delicate line of the moon, and then shimmered around her body. She seemed to emanate light. Time stopped. Not many dancers, in any style, can manage this.”
+			</em>
+      <br />
+      <b>DanceTabs</b> March 2012
+		</p>
+    <p>
+      <em>
+				“In the evening’s pièce de résistance, artistic director and choreographer Surupa Sen brilliantly met the challenge of classical dance: how it might speak in the language of now without being wrenched from its foundation.
+In her meditation on Shiva, which she performed with stunning long-time troupe member Bijayini Satpathy, Sen did not forgo the iconic gestures: the flaming claw of a hand for Shiva rattling his drum or the palm waving beside the head for the Ganges flowing from his locks. But she scaled the steps to intensify the poetry and multiply the meanings. Sometimes you zoomed in - on a heel slowly touching the ground or on eyes crossing in mad zeal - and sometimes you zoomed out to take in the dancers’ fiery gallop or the weave of steps between them. The effect was like having a third eye and seeing everything all at once. Of the Indian dance I have encountered, I have never been so dazzled or so moved!”
+			</em>
+      <br />
+      <b>Financial Times</b> March 2012
+		</p>
+    <p>
+      <em> “The women of the Nrityagram Ensemble are rock stars in the dance world! At Tuesday’s opening night, Mikhail Baryshnikov and Isaac Mizrahi were in the audience, and choreographer Mark Morris was on his feet at the curtain, shouting bravos. You can’t fault his taste.” </em>
+      <br />
+      <b>New York Post</b> March 2012
+		</p>
+    <p>
+      <em>
+				“Nrityagram, on the far outskirts of Bangalore, has clearly been extremely conducive to the creativity of these
+				superb dancers, giving them time and space to reflect on their dance form in order to determine which boundaries
+				they may cross and which they must honour. Their performance bore witness to the fine judgement with which they
+				have done so, introducing new movements, interpretations and energy into their dance without betraying the grace
+				and sculptural features that form the backbone of Odissi.”
+			</em>
+      <br />
+      <b>Mumbai Mirror</b> September 2012
+		</p>
+    <p>
+      <em>
+				“You could write an essay just about the different effects of Ms. Sen’s shaking hands: musical like vibrato or
+				trills, expressive of emotional agitation, giving a shimmer to images like flames or the love marks left on
+				Krishna’s body by scratching nails.”
+			</em>
+      <br />
+      <b>The New York Times</b> April 2013
+		</p>
+    <p>
+      <em>
+				“Sameness and difference, oneness and separation. These were the themes of the evening. The sophistication of Sen’s choreography lies in its clarity and abstraction. The two dancers trace elegant patterns in space, moving toward and away from each other in a way that feels both organic and universal. At the same time Sen manages to reveal what is most beautiful in each dancer, and then to contrast these qualities with passages of unison and counterpoint.”
+			</em>
+      <br />
+      <b>Marina Harss (Random thoughts on Dance)</b> April 2013
+		</p>
+    <p>
+      <em>
+				“Nrityagram is probably the Indian dance company most beloved by American audiences right now (maybe ever)!..... Sen is like a Greek statue, a Venus - pure and grave. When she smiles, you can see her mouth waiting to go back to not smiling. She is far more internal than Satpathy is. (A dancer who has worked
+with her told me that, when Sen exits the stage, she occasionally wanders around in the wings and gets lost.) She is a great tragedienne; in her “Songs of Love and Longing” at the Music Academy of Madras’s dance festival last week, her grieving solo (her lover was late for their tryst) brought shouts of admiration from the audience. And one should remember that it was she who designed the dance, and decided what she and Satpathy could do best, both individually and together, with their divergent talents. She has a special gift for endings, in which she seems to tell us exactly what the dance means, and makes it, at least for the moment, look like the meaning of life.”
+			</em>
+      <br />
+      <b>The New Yorker</b> January 2015
+		</p>
+    <p>
+      <em>“The only proper response to dancers this amazing is worship!”</em>
+      <br />
+      <b>The New York Times</b> January 2015
+		</p>
+    <p>
+      <em>“The Metropolitan Museum of Art and the Nrityagram Dance Ensemble are both extraordinary and remarkable, by themselves on any ordinary day. Brought together by the World Music Institute, this one evening two-performances only show was a truly unique experience….. The Nrityagram Dance Ensemble at the Metropolitan Museum of Art's Temple of Dendur was like a priceless jewel cradled securely in a setting of the rarest enchanted metal.”</em>
+      <br />
+      <b>ExploreDance.com</b> January 2015
+		</p>
+    <p>
+      <em>“For those with an unencumbered view of the dancers, the rewards of observing their gestures and expressions - or abhinaya - at close range were great. Every quivering eyebrow, half-smile, and shimmer of the fingers registered powerfully, almost physically, in the viewer. One could admire the extreme control required to flow from one pose into the next, to tilt and bend with sensual slowness and hold positions without betraying strain, while appearing to inhabit another realm. One followed the story almost with bated breath. Odissi has fewer quick-footed pure-dance passages than other Indian dance forms, but it hardly matters when the intensity of the performance is so engrossing….. It mattered not at all that the temple was Egyptian, the dances were Indian and all this was taking place at a museum in the middle of New York City. In fact for a moment, nothing else mattered at all!”</em>
+      <br />
+      <b>DanceTabs</b> January 2015
+		</p>
+    <p>
+      <em>“New York City dance history was made!”</em>
+      <br />
+      <b>Ballet Review</b> Spring 2016
+		</p>
+    <p>
+      <em>“So what is the secret to Nrityagram’s success? It is the genuine undertaking of a philosophy that was also Chitrasena’s own: preservation through innovation. This manifests wholly and rigorously in the expert choreography and creative thought of Surupa Sen. Nrityagram shows are the ultimate testament to the role of classical dance in the modern world. In their hands, classical dance is not clunky, old-fashioned or boring. It is as cutting-edge, as moving, as the best contemporary dance work in the world today. Nrityagram reminds us that classical dance can be vital and relevant while remaining pure and untarnished.”</em>
+      <br />
+      <b>groundviews.org</b> May 2016
+		</p>
+    <p>
+      <em>
+				“According to tradition, largely a solo form, Indian classical dance has succumbed to the ensemble but rarely justified it. Nrityagram’s artistic director, however, transforms islands of activity into an archipelago that stretches across the stage. She zooms in on a dancer by having the others freeze in distinct poses like adjacent pages in a flipbook. She scatters our attention with troupers flitting in and out from the wings, and gathers it up again when they form a circle centre-stage….. Sen has writ large the romance between line and curve that distinguishes Odissi!”
+			</em>
+      <br />
+      <b>Financial Times</b> November 2016
+		</p>
+    <p>
+      <em> “These are among the world’s greatest dancers!” </em>
+      <br />
+      <b>The New York Times</b> November 2016
+		</p>
+    <p>
+      <em> “Sen is not only a great performer, but an innovator. With her dances for the
+Nrityagram Dance Ensemble, she is pushing an ancient art toward ever-greater complexity and richness of expression, without betraying its basic nature. At its heart, Odissi is about telling stories with the body. “When you see a great Indian dancer who suddenly has Krishna’s revelation,” Morris once told me, “you feel it yourself.” For that moment, at least, eternity is within our grasp.”
+ </em>
+      <br />
+      <b>Marina Harss for Lincoln Center for the Performing Arts, Inc.</b> November 2016
+		</p>
+    <p>
+      <em> “Surupa’s choreography is always known for its relevance and adaptability but, it is interesting to note that the form used in the production is pristine and honest to its classical paradigm. Every moment is poetry in motion and etched with aesthetically rich ornamentation. The subtle and sublime sensuousness of the graceful Odissi form embraces the vibrant and energetic Kandyan form with open arms and in union they energise every space on the canvas with unmatched beauty and vigour….. Surupa’s choreography is impeccably breathtaking and the way she uses the coordinates in space to move and freeze, creates such magnificent imagery that it is almost impossible to not be overwhelmed by the performance!” </em>
+      <br />
+      <b>The Hindu</b> May 2017
+		</p>
+    <p>
+      <em> “.... unique, stunning choreography, exceptional performance and a group of 14 gorgeous dancers and talented musicians….. This is the brilliance in choreographic ideas where the two styles are set together in a contrasting yet synergistic design.” </em>
+      <br />
+      <b>Abundant Art, London</b> June 2017
+		</p>
+    <p>
+      <em> “Samhāra is truly dancing at its very best!” </em>
+      <br />
+      <b>Ballet Review</b> Spring 2019
+		</p>
+    <p>
+      <em> “It takes an artist of her (Surupa) stature to really understand that music is hidden in its silences.” </em>
+      <br />
+      <b>The Hindu</b> December 2019
+		</p>
+    <p>
+      <em> “Sen’s dancing is fluid, connected, three-dimensional, characterized by a powerful through-the body impulse and intense concentration. This is both a general characteristic of Odissi, the style she practices, but also a characteristic of her own way of moving. Her body contains a deep wellspring of power. When she needs to cover ground, she does so, effortlessly, but her ability to pull the viewer inward in stillness is even more impressive….. Sen responds
+to the music, and especially to the singing voice, as if she were inside that sound.”
+</em>
+      <br />
+      <b>Dance Tabs</b> May 2021
+		</p>
+    <p>
+      <em> “Nrityagram is still the most exciting Indian classical dance ensemble I have ever seen. This is due mainly to Sen’s choreographic imagination….. I’ve seldom heard such an ovation for classical Indian dance on a New York stage."</em>
+      <br />
+      <b>Fjord Review</b> October 2022
+		</p>
+    <p>
+      <em> “The choreographic brilliance of Surupa Sen lay in the moments of transition, where dancing bodies melted and morphed through light and shape before our very eyes. Just when the mind understood a line that the dancers created on stage, it evolved into a curve, then a circle, and with the blink of an eye it became a dissolving square.” </em>
+      <br />
+      <b>The Hindu</b> October 2022
+		</p>
+    <p>
+      <em> “Like so much of Sen’s work, “Invoking Shiva” flexes a high level of skill without calling attention to it….. If you were busy marveling at the dancers, and not marveling at the craft, that may have been what Sen, and her assistant choreographer, Heshma Wignaraja from Chitrasena, wanted. Yet the remarkable fusion of nritta and abhinaya looked unlike almost any other Indian classical company we get to see.” </em>
+      <br />
+      <b>dancelog.nyc</b> May 2023
+		</p>
+    <p>
+      <em> “The Indian dance company Nrityagram has been a frequent visitor to New York since the nineties. Each visit has been revelatory in some way….. Watching Āhuti it is difficult not to feel that Sen’s choreographic imagination has only grown in the time since the company’s last visit.” </em>
+      <br />
+      <b>Fjord Review</b> May 2023
+		</p>
+    <p>
+      <em> “Samhära was the first collaboration between the two dance companies, each rich in their heritage, and history. Over a decade hence, audiences were entreated to an extraordinary partnership that has gone beyond mere co-existence on stage to something dazzlingly syncretic - faithful to tradition, but presenting a hypnotic fusion of movement far more than just the sum of two distinct forms. Āhuti was ravishingly, and refreshingly new.…. This devotion to perfection is particularly embodied in Nrityagram’s Surupa Sen - whose entire raison d’être is, quite simply, dance. But what made Āhuti special was how all the dancers, from both sides of the Palk Strait, were extraordinary….. Nrityagram’s Sen, and all her dancers are other-worldly. They embody such a hallowed niche of artistic perfection that to review them as a critic would be as futile, and foolish as to review a deity. On stage, and in their avatars as dancers, Sen, and her dancers defy corporeality, and deliver performances that can only be described as transcendental. What’s dramatically changed from Samhära is that the Chitrasena School’s dancers, from Thaji to the rest, now match them. This is no mean feat, and is to our country’s pride - to finally have dancers on par with those from India who occupy a global recognition, critical reception, and hard-won admiration as the world’s best.” </em>
+      <br />
+      <b>Sanjana Hattotuwa: Late Reflections</b> May 2024
+		</p>
+  </div>
+</div>

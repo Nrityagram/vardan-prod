@@ -1,0 +1,240 @@
+---
+layout: layouts/page.njk
+eleventyNavigation:
+  key: page
+  order: 1
+tags: page
+date: Last Modified
+title: "Privacy"
+OGImage: "https://res.cloudinary.com/nrityagram/image/upload/w_600/v1589172195/privacy-policy_ucwqco.jpg"
+---
+<div id="banner-container">
+  <div class="banner-image">
+    {% pictures {
+      "desk" : "https://res.cloudinary.com/nrityagram/image/upload/v1589172195/privacy-policy_ucwqco.jpg",
+      "tab" : "https://res.cloudinary.com/nrityagram/image/upload/v1589172246/ipad/privacy_policy_krsg6e.jpg",
+      "mob" : "https://res.cloudinary.com/nrityagram/image/upload/v1589172221/mobile/privacy_policy_sjbilk.jpg"
+    },
+    "Privacy", {
+      "mob": ["425"],
+      "tab": ["768"],
+      "desk": ["1600"]
+    }, {
+      "desk": "65em",
+      "tab": "50em",
+      "mob": "35em"
+    },
+    "eager",
+    "high" %}
+  </div>
+  <div class="banner-image-credit"
+    data-image-credit-desk="Rupert Lorhaldar" 
+    data-image-credit-tab="Rupert Lorhaldar" 
+    data-image-credit-mob="Rupert Lorhaldar"
+    ></div>
+  <div class="banner-title">
+        Privacy
+  </div>
+</div>
+<div class="container">
+  <div class="wrapper flow">
+    <p>
+			Nrityagram is committed to safeguarding your privacy online. We do not collect personal information about
+			individuals, such as names and mailing or email addresses, unless the individual knowingly provides it. In
+			choosing to provide this information, you agree to be bound by the terms and conditions of Nrityagram’s Privacy
+			Policy, which is outlined below.
+		</p>
+    <p>
+			Please note that we review our privacy practices from time to time, and that these practices are subject to
+			change. We ask that our visitors periodically review this page to ensure familiarity with the most current version
+			of our privacy statement. All changes, additions, alterations, deletions or modifications shall be binding on you
+			once you visit the Website after the Privacy Policy has been amended.
+		</p>
+    <p>
+			If you have any questions or comments about our privacy practices, you can contact us at
+			<a href="mailto:webmaster@nrityagram.org" class="bodylink">webmaster@nrityagram.org</a> (please include the word “privacy” in the subject line).
+		</p>
+  </div>
+</div>
+<div class="container accent-bg">
+  <div class="wrapper flow">
+    <h1 class="center">Data Collection</h1>
+    <p>
+			Nrityagram is committed to the ethical collection, retention and use of information that you provide to us about
+			yourself (“Personal Information”) on this Website
+			<a href="https://www.nrityagram.org/" class="bodylink">www.nrityagram.org</a> (“Website”)
+		</p>
+    <p>
+      Your personal information may comprise the following:
+    </p>
+    <ul class="basic">
+      <li>Name</li>
+      <li>Occupation</li>
+      <li>Email and mailing address</li>
+      <li>Telephone number</li>
+      <li>Payment processing details</li>
+      <li>Limited personal details</li>
+      <li>
+				Any other data as Nrityagram may require when you sign up to receive eNewsletters from us; register for and
+				participate in our activities and events; request information or assistance; communicate with us through the
+				Website’s contact us / feedback form; provide user generated content on any part of the Website that permits it
+				and in conjunction with any other place on the Website where you knowingly volunteer personal information;
+				interact with any Nrityagram page or account on a social media platform, such as Facebook, Instagram, Twitter,
+				YouTube or Vimeo, we may also collect the personal information that you make available to us on that page or
+				through that account including your account ID or “handle.”
+			</li>
+    </ul>
+  </div>
+</div>
+<div class="container">
+  <div class="wrapper flow">
+    <h1 class="center">General Information</h1>
+    <p>
+      You browse the Website anonymously. We do not require you to identify yourself or reveal any Personal Information
+			while browsing through the Website. However, you may not be able to access certain sections of the Website or
+			interact with us without supplying us with Personal Information. For instance, you would not be able to transact
+			at the Website or make any donations at the Website, without providing the Website with Personal Information. If
+			you desire to register yourself at the Website, you would be required to provide your Personal Information. While
+			you are browsing through the Website, the Website’s operating system may automatically record some general
+			information (“General Information”) about your visit such as:
+    </p>
+    <ul class="basic">
+      <li>
+				Date and time you visit the Website, along with the address of the previous website you were visiting, if you
+				linked to us from another website
+			</li>
+      <li>Type of browser you are using (such as Firefox version X)</li>
+      <li>The ‘hit number’ it is on our Website</li>
+    </ul>
+    <p>
+			The General Information is not Personal Information. Nrityagram’s tracking system does not record personal
+			information about individuals or link this information to any Personal Information collected from you.
+		</p>
+    <p>
+			The General Information is used by Nrityagram for statistical analysis, for tracking overall traffic patterns on
+			the Website and to gauge the public interest in Nrityagram and the Website. Such General Information may be shared
+			by Nrityagram with any person, at Nrityagram’s discretion.
+		</p>
+  </div>
+</div>
+<div class="container accent-bg">
+  <div class="wrapper flow">
+    <h1 class="center">Usage of Personal Information</h1>
+    <p>
+      Personal information will be used by Nrityagram for internal purposes including the following:
+    </p>
+    <ul class="basic">
+      <li>
+				Sending you online material such as emailers on fundraisers, events, grantee presentations, Nrityagram
+				eNewsletter, donations, reminders for Vardān renewal, and other updates.
+			</li>
+      <li>Offline material such as Vardān benefits, promotional material, and others.</li>
+      <li>Processing your donations to Nrityagram.</li>
+      <li>Sending a receipt for donations made by you to Nrityagram.</li>
+      <li>
+				Maintaining an internal confidential database of all the Personal Information collected from visitors to the
+				Website.
+			</li>
+      <li>
+				Evaluating and administering the Website and Nrityagram’s activities, responding to any problems that may arise
+				and gauging visitor trends on the Website.
+			</li>
+    </ul>
+  </div>
+</div>
+<div class="container">
+  <div class="wrapper flow">
+    <h1 class="center">Usage Data</h1>
+    <p>
+			When you visit the Nrityagram website, our servers automatically collect information about the IP address from
+			which you access the site (an IP address is the number that is automatically assigned to your computer whenever
+			you are surfing the web), the pages you visit, the date and time you access our site, and the type of browser and
+			operating system that you are using. We use this information to better understand how our site is used. This
+			research is compiled and analyzed on an aggregated basis.
+		</p>
+  </div>
+</div>
+<div class="container accent-bg">
+  <div class="wrapper flow">
+    <h1 class="center">Email Content</h1>
+    <p>
+			You may choose to provide us with personal information in an email message to one of the addresses listed
+			throughout our site. We use this information only to respond to your message.
+		</p>
+    <p>
+			As a service, Nrityagram offers visitors the opportunity to subscribe to our eNewsletter. If you choose to join,
+			you will receive eNewsletters and / or information on the topics you choose. You may unsubscribe at any time. Any
+			information you choose to provide may be used for marketing and promotional purposes. Nrityagram wishes to assure
+			subscribers to Nrityagram eNewsletter that email addresses are never shared, rented or sold to third parties.
+			However, we may use cookies to track the pages on our site visited by subscribers to our email list.
+		</p>
+  </div>
+</div>
+<div class="container">
+  <div class="wrapper flow">
+    <h1 class="center">Children Twelve and Under</h1>
+    <p>
+			Nrityagram does not solicit personal information from children. Visitors twelve years of age and under should
+			remember that they are required to obtain an adult’s permission before submitting any personal information to this
+			or any other Website.
+		</p>
+  </div>
+</div>
+<div class="container accent-bg">
+  <div class="wrapper flow">
+    <h1 class="center">Cookies</h1>
+    <p>
+			Access to Personal Information collected by Nrityagram will be given only to those persons who are authorized by
+			Nrityagram and third parties hired by Nrityagram to perform administrative services. Nrityagram will provide
+			access to third parties for inter alia— entering and managing Personal Information in Nrityagram’s Database,
+			processing your donations, preparing address labels, sending emails, which require such third parties to have
+			access to your Personal Information. Nrityagram cannot guarantee that such parties will keep your Personal
+			Information confidential and Nrityagram will not be liable in any manner for any loss of confidentiality
+			attributable to such third parties.
+		</p>
+    <p>
+			Nrityagram may share Personal Information with any of persons who are associated with Nrityagram, including
+			companies and non-governmental organisations affiliated with Nrityagram in any manner. Nrityagram will retain
+			ownership rights over such information and will share only such portions of the Personal Information as it deems
+			fit.
+		</p>
+    <p>
+			Nrityagram is not liable in any manner whatsoever for the loss, damage (whether direct, indirect, consequential or
+			incidental) or harm caused to you by the misuse of your Personal Information by a third party who is not an
+			employee of Nrityagram.
+		</p>
+    <p>
+			Notwithstanding anything contained herein or any other contract between you and Nrityagram, Nrityagram reserves
+			the right to disclose any Personal Information about you without notice or consent as needed to satisfy any
+			requirement of law, regulation, legal request or legal investigation, to conduct investigations of breaches of
+			law, to protect the Website, to protect Nrityagram and its property, to fulfil your requests, to protect our
+			visitors and other persons if required, by the policy of Nrityagram.
+		</p>
+  </div>
+</div>
+<div class="container">
+  <div class="wrapper flow">
+    <h1 class="center">Social Media Participation Policy</h1>
+    <p>
+			Nrityagram welcomes and encourages user participation in our social media communities including
+			<a href="https://www.facebook.com/nrityagram/" target="_blank" class="bodylink">Facebook</a>, Twitter,
+			<a href="https://www.instagram.com/nrityagram/" target="_blank" class="bodylink">Instagram</a> and
+			<a href="https://www.youtube.com/user/Nrityagram" target="_blank" class="bodylink">YouTube</a>. We have
+			established the following guidelines to ensure a thoughtful and open online community. We reserve the right to
+			delete, or choose not to post, any comment that contains any of the following:
+		</p>
+    <ul class="basic">
+      <li>Comments promoting violence</li>
+      <li>Comments promoting illegal or questionable activities</li>
+      <li>Commercial promotion</li>
+      <li>Misinformation</li>
+      <li>Personal attacks</li>
+      <li>Profanity</li>
+      <li>SPAM / off-topic comments</li>
+      <li>Vulgarity</li>
+    </ul>
+    <p>
+      We welcome your opinions but do not want comments on Nrityagram’s social media webpages to become bogged down with discussions of our policies, and so we reserve the right to moderate accordingly.  Also, we make an effort to protect discussions from repeated comments.
+    </p>
+  </div>
+</div>

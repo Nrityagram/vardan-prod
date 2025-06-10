@@ -1,0 +1,59 @@
+---
+layout: layouts/page.njk
+eleventyNavigation:
+  key: page
+  order: 1
+tags: page
+date: Last Modified
+parentMenuItem: "Support"
+title: "Make a Donation"
+nobanner: true
+description: "Any amount you donate will make it possible for us to strengthen our institution, so that our artists can concentrate on their creative process and the making of their work, and teachers can continue to offer dance outreach activities for children who are poorly served in this area. Nrityagram is a one-of-a-kind collective of artistes, where dance is a way of life."
+---
+<div class="container">
+  <div class="wrapper flow flow-flushbottom">
+
+    <p class="right">
+      <a href="/donate" class="bodylink redtext">Return to Donate page</a>
+    </p>
+    <div class="image-plus top-flow">
+      {% image "https://res.cloudinary.com/nrityagram/image/upload/v1608802587/donate_paypal_desk_asqpyn.jpg",
+      "Pavithra Reddy",
+      ["560", "768", "1046"] %}
+      <div class="credit" data-image-credit="Guillermo Consejo" ></div>
+    </div>
+    <p>
+      You will donate via our fiscal sponsor <a href="https://www.pentacle.org" target="_blank" class="bodylink">
+        <em>Dance Works, Inc.</em> DBA <em>Pentacle</em>
+      </a>.
+    </p>
+    <p>
+      Pentacle (Dance Works Inc.) is a 501(c)(3) not-for-profit organization EIN # 23-7426261.
+      <br />
+      Your contribution is <strong>tax-deductible</strong> to the fullest extent allowed by law.   
+    </p>
+    <p>
+       Once you are done, click on return to Dance Works, Inc. DBA Pentacle; you will return to our website.
+    </p>
+    <p>
+      <form action="https://www.paypal.com/cgi-bin/webscr"
+      method="post"
+      target="_top" class="center" >
+        <input type="hidden" name="cmd" value="_s-xclick" />
+        <input type="hidden" name="hosted_button_id" value="TS968LYRJTVUC" />
+        <input type="image"
+        src="https://res.cloudinary.com/nrityagram/image/upload/v1701072823/ng-donate-now-paypal_zg0qwu.png"
+        border="0"
+        name="submit"
+        width="230"
+        alt="PayPal – The safer, easier way to pay online!" />
+        <img alt=""
+        border="0"
+        src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif"
+        width="1"
+        height="1" />
+      </form>
+    </p>
+    <br />
+  </div>
+</div>

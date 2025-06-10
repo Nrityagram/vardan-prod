@@ -1,0 +1,10 @@
+$breakpoints: (
+    small: 35em,
+    medium: 50em,
+    // For ipad mini (portrait) we want slideup cards to appear 2x2, 
+    // hence new medium breakpoint (720px)
+    // medium2: 45em,
+    medium2: 40em,
+    large: 65em,
+    // Need a much larger breakpoint for slideup card layout (1280px)
+    large2: 70em)

@@ -1,0 +1,254 @@
+---
+layout: layouts/page.njk
+eleventyNavigation:
+  key: page
+  order: 1
+tags: page
+date: Last Modified
+slider: true
+youtube: true
+eleventyExcludeFromCollections: true
+---
+<div id="banner-container">
+  <div class="banner-image">
+    {% pictures 
+      {"desk":"https://res.cloudinary.com/nrityagram/image/upload/v1595320104/space_desk_pf6xpx.jpg", 
+      "tab":"https://res.cloudinary.com/nrityagram/image/upload/v1620417697/ipad/08-dhruva-ipad_ppl3ra.jpg", 
+      "mob":"https://res.cloudinary.com/nrityagram/image/upload/v1582614660/mobile/9_s1ma2d.jpg"}, 
+      "Pictures Shortcode Test", 
+      {"mob": ["425"], "tab": ["768"], "desk":["1600"]}, {"desk":"65em", "tab":"50em", "mob":"35em"}, 
+      "eager", "high" %}
+  </div>
+  <div class="banner-image-credit"
+    data-image-credit-desk="Surupa Sen" 
+    data-image-credit-tab="Sonia Manchanda" 
+    data-image-credit-mob="Karthik Venakataraman"
+    ></div>
+  <div class="banner-title">
+        Dance Professionals
+        {# <span class="banner-subtitle">
+          Book an informance
+        </span> #}</div>
+  {# <div class="banner-tagline">
+      “A selfless concentration and a depth that reflected their intensive training in dance, music, Literature language and Philosophy.”
+      <span class="banner-tagline-credit">
+          The New York Times
+      </span>
+  </div> #}
+</div>
+<div class="container">
+  <div class="wrapper flow">
+    <div class="even-columns">
+      <div class="primary-bg left-column right-align-column">
+        <div class="fade-in stickybit">
+          <h3>“In creating,<br>
+            sharing,<br>
+            and experiencing<br>
+            our collective humanity<br>
+            through our art,<br>
+            we end up<br>
+            holding hands<br>
+            with each other.”</h3>
+        </div>
+        {# TODO: Multiple stickybits don't work, they don't stick to the top of the column #}
+        {# <div class="fade-in stickybit">
+          <h3>
+            I believe<br>
+            in miracles!<br>
+            And though<br>
+            there are moments<br>
+            when dark clouds<br>
+            pass overhead,<br>
+            I am convinced<br>
+            that everything<br>
+            Nrityagram needs,<br>
+            will come to it.”
+          </h3>
+        </div> #}
+      </div>
+      <div class="secondary-bg right-column flow-flushtop">
+        <p>
+          Sometimes
+          the total size of your grid might be less than the size of its grid container. This could happen if all of your grid items are sized with non-flexible units like px.
+        </p>
+        <p>
+          <span class="fadeinTrigger">A variable</span> declaration looks a lot like a property declaration: it’s written. Unlike a property, which can only be declared in a style rule or at-rule, variables can be declared anywhere you want. To use a variable, just include it in a value.
+        </p>
+        <p>
+          Normally when you assign a value to a variable, if that variable already had a value, its old value is overwritten. But if you’re writing a Sass library, you might want to allow your users to configure your library’s variables before you use them to generate CSS.
+        </p>
+        <p>
+          To make this possible, Sass provides the !default flag. This assigns a value to a variable only if that variable isn’t defined or its value is null. Otherwise, the existing value will be used. Variables defined with !default can be configured when loading a module with the @use rule. Sass libraries often use !default variables to allow their users to configure the library’s CSS.
+        </p>
+        <p>
+          To round off this set of guides to CSS Grid Layout, we're going to walk through a few different layouts, which demonstrate some of the different techniques you can use when designing with grid layout. We will look at an example using grid-template-areas, a typical 12-column flexible grid system, and also a product listing using auto-placement. As you can see from this set of examples, there is often more than one way to achieve the result you want with grid layout. Choose the method you find most helpful for the problems that you are solving and the designs that you need to implement.
+        </p>
+        <p>
+          This will not create any layout, however the items now have names we can use to do so. Staying outside of any media queries we're now going to set up the layout for the mobile width. Here we're keeping everything in source order, trying to avoid any disconnect between the source and display as described in the guide Grid layout and accessibility. We've not defined any column or row tracks but this layout dictates a single column, and rows will be created as needed for each of the items in the implicit grid.
+        </p>
+      </div>
+    </div>
+    <div class="uneven-columns narrow-wide reverse">
+      <div class="primary-bg narrow-column">
+        <div class="fade-in stickybit">
+          <div class="image-plus">
+            {% image "https://res.cloudinary.com/nrityagram/image/upload/v1647158192/Aishani_Sq_sql50y.jpg",
+            "Children's Dance Class",
+            ["425", "768", "1600"] %}
+          </div>
+        </div>
+      </div>
+      <div class="secondary-bg wide-column left-align-column bottom-align-column flow-flushtop">
+        <h3>“In creating,<br>
+          sharing,<br>
+          and experiencing<br>
+          our collective humanity<br>
+          through our art,<br>
+          we end up<br>
+          holding hands<br>
+          with each other.”</h3>
+        <p>
+          <span class="fadeinTrigger">To round off</span> this set of guides to CSS Grid Layout, we're going to walk through a few different layouts, which demonstrate some of the different techniques you can use when designing with grid layout. We will look at an example using grid-template-areas, a typical 12-column flexible grid system, and also a product listing using auto-placement. As you can see from this set of examples, there is often more than one way to achieve the result you want with grid layout. Choose the method you find most helpful for the problems that you are solving and the designs that you need to implement.
+        </p>
+        <p>
+          This will not create any layout, however the items now have names we can use to do so. Staying outside of any media queries we're now going to set up the layout for the mobile width. Here we're keeping everything in source order, trying to avoid any disconnect between the source and display as described in the guide Grid layout and accessibility. We've not defined any column or row tracks but this layout dictates a single column, and rows will be created as needed for each of the items in the implicit grid.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--TODO: To convert portrait to landscape for sliders -->
+<!-- add the following after upload/ in the cloudinary URL -->
+<!-- h_1.0,ar_1046:618,c_pad,b_rgb:000 -->
+
+<div class="container">
+  <div class="flow">
+    <div class="owl-carousel ultra-wide owl-theme">
+      <div class="item rounded">
+        {% image "https://res.cloudinary.com/nrityagram/image/upload/v1647085632/VO_03_dmnid0.jpg",
+        "Children's Dance Class",
+        ["auto", "425", "768", "1600"] %}
+        <div class="photo-credit">Photo : Shalini Jain</div>
+      </div>
+      <div class="item rounded">
+        {% image "https://res.cloudinary.com/nrityagram/image/upload/v1647085632/VO_05_vo4sqp.jpg",
+        "Children's Dance Class",
+        ["auto", "425", "768", "1600"] %}
+        <div class="photo-credit">Photo : Ravi Shankar</div>
+      </div>
+      <div class="item rounded">
+        {% image "https://res.cloudinary.com/nrityagram/image/upload/v1647085632/VO_02_eypf9j.jpg",
+        "Children's Dance Class",
+        ["auto", "425", "768", "1600"] %}
+        <div class="photo-credit">Photo : M Srinivas Murthy</div>
+      </div>
+      <div class="item rounded">
+        {% image "https://res.cloudinary.com/nrityagram/image/upload/v1647085632/VO_06_fa0vmw.jpg",
+        "Children's Dance Class",
+        ["auto", "425", "768", "1600"] %}
+        <div class="photo-credit">Photo : Shalini Jain</div>
+      </div>
+      <div class="item rounded">
+        {% image "https://res.cloudinary.com/nrityagram/image/upload/v1647085632/VO_01_wjxg3k.jpg",
+        "Children's Dance Class",
+        ["auto", "425", "768", "1600"] %}
+        <div class="photo-credit">Photo : Ravi Shankar</div>
+      </div>
+      <!-- Portrait Image -->
+      <div class="item rounded">
+        {% image "https://res.cloudinary.com/nrityagram/image/upload/h_1.0,ar_1046:618,c_pad,b_rgb:000/v1647091227/Surupa_Sen_10_Photo_Credit_Karthik_Venkatraman_apynl1.jpg",
+        "Children's Dance Class",
+        ["auto", "425", "768", "1600"] %}
+        <div class="photo-credit">Photo : Karthik Venkataraman</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container primary-bg">
+  <div class="wrapper flow">
+    <h1>Section 1</h1>
+    <p>
+		Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis consequuntur, iste voluptatem natus dolorem
+		veritatis sapiente hic, rerum molestias dolore, delectus praesentium illum ea beatae? Expedita exercitationem
+		deleniti voluptatibus obcaecati?
+	</p>
+    <p>
+		Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis consequuntur, iste voluptatem natus dolorem
+		veritatis sapiente hic, rerum molestias dolore, delectus praesentium illum ea beatae? Expedita exercitationem
+		deleniti voluptatibus obcaecati?
+	</p>
+    <div class="flow-nontitletext">
+      <div class="image-plus">
+        {% image "https://res.cloudinary.com/nrityagram/image/upload/v1656312213/ajji-abhishek1_vjiatt.jpg",
+        "Children's Dance Class",
+        ["560", "768", "1046"] %}
+        <div class="credit" data-image-credit="Pavithra Reddy" ></div>
+      </div>
+    </div>
+    <div class="flow-nontitletext">
+      <div class="image-plus">
+        {% image "https://res.cloudinary.com/nrityagram/image/upload/v1646905793/peepul2_xduy5p.jpg",
+        "NG Forest",
+        ["425", "768", "1046"] %}
+        <div class="credit" data-image-credit="Surupa Sen" ></div>
+      </div>
+    </div>
+    <p>
+      Sass variables are simple: you assign a value to a name that begins with $, and then you can refer to that name instead of the value itself. But despite their simplicity, they’re one of the most useful tools Sass brings to the table. Variables make it possible to reduce repetition, do complex math, configure libraries, and much more.
+    </p>
+  </div>
+</div>
+<div class="container accent-bg">
+  <div class="wrapper flow">
+    <h2>Section 2</h2>
+    <p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur officia a, unde sed soluta mollitia assumenda in
+		vel earum explicabo sunt, odio cupiditate asperiores debitis iste voluptatum doloremque exercitationem magnam. Lorem
+		ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatem, ad voluptates sint est aliquam repellendus
+		autem magnam distinctio quod. Nam, natus. Illo optio inventore eveniet, voluptatum quasi perferendis minus?
+	  </p>
+  </div>
+</div>
+<div class="container">
+  <div class="wrapper flow">
+    <div class="flow-nontitletext">
+      <div class="image-plus">
+        {% image "https://res.cloudinary.com/nrityagram/image/upload/v1583857821/3-Odissi-Gurukul_wyfsdw.jpg",
+      "NG Utsarga",
+      ["425", "768", "1046"] %}
+        <div class="credit" data-image-credit="Lynne Fernandez" ></div>
+      </div>
+    </div>
+    <h2>Section 3</h2>
+    <p>
+		Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis consequuntur, iste voluptatem natus dolorem
+		veritatis sapiente hic, rerum molestias dolore, delectus praesentium illum ea beatae? Expedita exercitationem
+		deleniti voluptatibus obcaecati?
+	</p>
+  </div>
+</div>
+<div class="container secondary-bg">
+  <div class="wrapper flow">
+    <p>
+		Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis consequuntur, iste voluptatem natus dolorem
+		veritatis sapiente hic, rerum molestias dolore, delectus praesentium illum ea beatae? Expedita exercitationem
+		deleniti voluptatibus obcaecati?
+	  </p>
+    <h1>Section 4</h1>
+    <p>
+		Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis consequuntur, iste voluptatem natus dolorem
+		veritatis sapiente hic, rerum molestias dolore, delectus praesentium illum ea beatae? Expedita exercitationem
+		deleniti voluptatibus obcaecati?
+	  </p>
+    <h2>Section 5</h2>
+    <p>
+		Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi optio facere sint quaerat earum, accusantium impedit quas dolor voluptates reprehenderit harum obcaecati mollitia incidunt. Numquam possimus dolor aspernatur natus aliquid!
+	  </p>
+    <h3>Section 5</h3>
+    <p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis hic, aliquid obcaecati deleniti dolore dolorem quaerat ipsam error aperiam porro placeat distinctio perspiciatis eos aspernatur voluptates cumque expedita. Dicta, deserunt?
+	  </p>
+  </div>
+</div>

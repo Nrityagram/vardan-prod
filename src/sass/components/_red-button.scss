@@ -1,0 +1,52 @@
+@use '../abstracts/' as *;
+
+.red-jellybean {
+    background-color: rgba(149, 39, 3, 0.915);
+    border-top-color: hsl(16, 98%, 38%);
+    border-right-color: hsl(14, 93%, 39%);
+    border-bottom-color: hsl(14, 67%, 48%);
+    border-left-color: hsl(14, 87%, 45%);
+    box-shadow: rgba(234, 106, 66, 0.3) 0px 10px 16px;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 90%, from(rgba(172, 25, 2, 0.965)), to(rgba(249, 59, 59, 0.9)));
+    /* for FF 3.6 */
+    background-image: -moz-linear-gradient(rgba(172, 25, 2, 0.965) 0%, rgba(249, 59, 59, 0.9) 90%);
+}
+
+.red-jellybean.light {
+    background-color: rgba(161, 40, 0, 0.955);
+    border-top-color: hsl(8, 99%, 40%);
+    border-right-color: hsl(6, 93%, 44%);
+    border-bottom-color: hsl(0, 79%, 53%);
+    border-left-color: hsl(4, 86%, 51%);
+    box-shadow: none;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 90%, from(rgba(192, 12, 2, 0.965)), to(rgba(255, 67, 67, 0.918)));
+    /* for FF 3.6 */
+    background-image: -moz-linear-gradient(rgba(181, 26, 2, 0.965) 0%, rgba(252, 65, 65, 0.9) 90%);
+}
+
+.red-plastic {
+    // background-color: rgba(149, 39, 3, 0.915); // background-image is being applied
+    border-top-color: hsl(16, 98%, 38%);
+    border-right-color: hsl(14, 93%, 39%);
+    border-bottom-color: hsl(14, 67%, 48%);
+    border-left-color: hsl(14, 87%, 45%);
+    box-shadow: rgba(234, 106, 66, 0.302) 0px 10px 16px;
+
+    //   For a plastic look
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 90%, from(rgba(249, 59, 59, 0.902)), to(rgba(172, 25, 2, 0.965)));
+    /* for FF 3.6 */
+    background-image: -moz-linear-gradient(rgba(249, 59, 59, 0.9) 0%, rgba(172, 25, 2, 0.965) 90%);
+
+}
+
+.red-jellybean:active,
+.red-plastic:active {
+    box-shadow: rgba(234, 106, 66, 0.3) 0px 2px 4px;
+
+    .glare {
+        background-color: rgba(220, 220, 220, 0);
+        background-image: -webkit-gradient(linear, 0% 0%, 0% 95%, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0)));
+        /* for FF 3.6 */
+        background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 95%);
+    }
+}

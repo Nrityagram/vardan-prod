@@ -1,0 +1,174 @@
+@use 'grid' as *;
+@use '../abstracts/' as *;
+
+.image-card {
+  margin: 0;
+
+  .image-wrapper {
+    // border-radius: 12px;
+    overflow: hidden;
+    // box-shadow: 0px 4.0px 6.0px 1px hsl(0deg 0% 0% / 0.4);
+    box-shadow:
+      0 1px 1px hsl(0deg 0% 0% / 0.075),
+      0 2px 2px hsl(0deg 0% 0% / 0.075),
+      0 4px 4px hsl(0deg 0% 0% / 0.075),
+      0 8px 8px hsl(0deg 0% 0% / 0.075),
+      0 16px 16px hsl(0deg 0% 0% / 0.075);
+
+    img {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 1;
+      // Safari 6.0 - 9.0 
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+      transform: scale(1);
+      transition: transform 900ms ease-in-out;
+    }
+  }
+
+  .image-caption {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--ff-sans);
+    font-size: var(--fs-400);
+    text-align: center;
+
+    .caption-uppercase {
+      text-transform: uppercase;
+    }
+  }
+
+  &:hover {
+    img {
+      transform: scale(1.08);
+    }
+
+    cursor: pointer;
+  }
+
+  &.active {
+    img {
+      -webkit-filter: grayscale(0);
+      filter: grayscale(0);
+    }
+
+    .image-caption {
+      color: hsl(var(--clr-secondary-550))
+    }
+
+    &:hover {
+      img {
+        transform: scale(1);
+      }
+    }
+  }
+}
+
+@include mq(medium) {
+  #trustees .image-caption {
+    font-size: var(--fs-250);
+  }
+}
+
+.text-card {
+  display: none;
+
+  &.active {
+    display: block;
+  }
+}
+
+#managers.img-text-combo-grid:nth-child(1) {
+  grid-area: manager-one;
+}
+
+#managers.img-text-combo-grid:nth-child(2) {
+  grid-area: manager-two;
+}
+
+#managers.img-text-combo-grid {
+  @extend .grid;
+  grid-template-columns: 100%;
+  grid-template-areas:
+    "manager-one"
+    "manager-two";
+}
+
+@include mq(medium) {
+  #chairperson-bio.text-card {
+    grid-area: manager-common-bio;
+  }
+
+  #manager-bio.text-card {
+    grid-area: manager-common-bio;
+  }
+
+  #managers.img-text-combo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "manager-one manager-two"
+      "manager-common-bio manager-common-bio";
+  }
+}
+
+#trustees.img-text-combo-grid:nth-child(1) {
+  grid-area: trustee-one;
+}
+
+#trustees.img-text-combo-grid:nth-child(2) {
+  grid-area: trustee-two;
+}
+
+#trustees.img-text-combo-grid:nth-child(3) {
+  grid-area: trustee-three;
+}
+
+#trustees.img-text-combo-grid:nth-child(4) {
+  grid-area: trustee-four;
+}
+
+#trustees.img-text-combo-grid:nth-child(5) {
+  grid-area: trustee-five;
+}
+
+#trustees.img-text-combo-grid {
+  @extend .grid;
+  grid-template-columns: 100%;
+  grid-template-areas:
+    "trustee-one"
+    "trustee-two"
+    "trustee-three"
+    "trustee-four"
+    "trustee-five";
+}
+
+@include mq(medium) {
+  #trustee1-bio.text-card {
+    grid-area: trustee-common-bio;
+  }
+
+  #trustee2-bio.text-card {
+    grid-area: trustee-common-bio;
+  }
+
+  #trustee3-bio.text-card {
+    grid-area: trustee-common-bio;
+  }
+
+  #trustee4-bio.text-card {
+    grid-area: trustee-common-bio;
+  }
+
+  #trustee5-bio.text-card {
+    grid-area: trustee-common-bio;
+  }
+
+  #trustees.img-text-combo-grid {
+    grid-gap: 0.75rem;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas:
+      "trustee-one trustee-two trustee-three trustee-four trustee-five"
+      "trustee-common-bio trustee-common-bio trustee-common-bio trustee-common-bio trustee-common-bio";
+  }
+}

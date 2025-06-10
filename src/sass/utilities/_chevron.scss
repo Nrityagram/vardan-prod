@@ -1,0 +1,12 @@
+@use '../abstracts/' as *;
+
+.chevron-down:after {
+    content: ' ';
+    display: inline-block;
+    border-bottom: 1px solid hsl(var(--clr-neutral-200));
+    border-right: 1px solid hsl(var(--clr-neutral-200));
+    height: 10px;
+    width: 10px;
+    transform: rotate(45deg);
+    box-shadow: 1px 1px hsl(var(--clr-neutral-700));
+}
