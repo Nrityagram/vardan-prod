@@ -1,5 +1,5 @@
 <div class="nav-deck">
-    <ul class="nav-list">
+    <!-- <ul class="nav-list">
         <li data-dropdown>
             <div class="nav-item"
                  data-dropdown-link>
@@ -228,288 +228,41 @@
             </div>
         </li>
         {# TODO: Unable to scroll the mobile menu to access more items #}
-    </ul>
+    </ul> -->
     <ul class="nav-list">
 
-        <li data-dropdown>
-            <div class="nav-item"
-                 data-dropdown-link>
-                {% if parentMenuItem and parentMenuItem == "Ensemble" %}
-                    <label class="nav-item-name active item-chevron"
-                       for="item-B1">Ensemble</label>
-                {% else %}
-                    <label class="nav-item-name item-chevron"
-                       for="item-B1">Ensemble</label>
-                {% endif %}
-                <input type="checkbox"
-                       id="item-B1"
-                       name="item-B1"
-                       class="m-menu-checkbox" />
-                <ul class="nav-sublist">
-                    <li>
-                        {% if '/ensemble' in page.url %}
-                            <a href="/ensemble"
-                           class="sublist-item-active">Nrityagram Ensemble</a>
-                        {% else %}
-                            <a href="/ensemble">Nrityagram Ensemble</a>
-                        {% endif %}
-                    </li>
-                    <li data-dropdown-lvl2>
-                        <div class="nav-item-lvl2"
-                             data-dropdown-link>
-                            <div class="nav-item-name-lvl2">
-                                {% if '/repertoire' in page.url %}
-                                    <a href="/repertoire"
-                                   class="sublist-item-active">Répertoire</a>
-                                {% else %}
-                                    <a href="/repertoire">Répertoire</a>
-                                {% endif %}
-                            </div>
-                            <ul class="nav-sublist-lvl2">
-                                <li>
-                                    <a href="/repertoire/#sri">Śrī: In Search of the Goddess</a>
-                                </li>
-                                <li>
-                                    <a href="/repertoire/#ansh">Ansh</a>
-                                </li>
-                                <li>
-                                    <a href="/repertoire/#sspace">Sacred Space</a>
-                                </li>
-                                <li>
-                                    <a href="/repertoire/#pratima">Pratimā: Reflection</a>
-                                </li>
-                                <li>
-                                    <a href="/repertoire/#sriyah">Śriyaḥ</a>
-                                </li>
-                                <li>
-                                    <a href="/repertoire/#samhara">Saṃhāra</a>
-                                </li>
-                                <li>
-                                    <a href="/repertoire/#samyoga">Saṃyoga</a>
-                                </li>
-                                <li>
-                                    <a href="/repertoire/#lovelong">Songs of Love and Longing</a>
-                                </li>
-                                <li>
-                                    <a href="/repertoire/#yadu">Yadunandana</a>
-                                </li>
-                                <li>
-                                    <a href="/repertoire/#ahuti">Āhuti</a>
-                                </li>
-                                <li>
-                                    <a href="/repertoire/#vinati">Vinati: Songs from the Gita Govinda</a>
-                                </li>
-                                <li>
-                                    <a href="/repertoire/#ahutirelived">Āhuti Relived</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>
-                        {% if '/performancemap' in page.url %}
-                            <a href="/performancemap"
-                           class="sublist-item-active">Performances</a>
-                        {% else %}
-                            <a href="/performancemap">Performances</a>
-                        {% endif %}
-                    </li>
-                </ul>
+        <li>
+            <div class="nav-item">
+                <a href="#" class="nav-item-name item-chevron">About</a>
             </div>
         </li>
-        <li data-dropdown>
-            <div class="nav-item"
-                 data-dropdown-link>
-                {% if parentMenuItem and parentMenuItem == "School" %}
-                    <label class="nav-item-name active item-chevron"
-                       for="item-B2">School</label>
-                {% else %}
-                    <label class="nav-item-name item-chevron"
-                       for="item-B2">School</label>
-                {% endif %}
-                <input type="checkbox"
-                       id="item-B2"
-                       name="item-B2"
-                       class="m-menu-checkbox" />
-                <ul class="nav-sublist">
-                    <li>
-                        {% if '/gurukula' in page.url %}
-                            <a href="/gurukula"
-                           class="sublist-item-active">Nrityagram Gurukula</a>
-                        {% else %}
-                            <a href="/gurukula">Nrityagram Gurukula</a>
-                        {% endif %}
-                    </li>
-                    <li>
-                        {% if '/danceprofessional' in page.url %}
-                            <a href="/danceprofessional"
-                           class="sublist-item-active">Dance Professionals</a>
-                        {% else %}
-                            <a href="/danceprofessional">Dance Professionals</a>
-                        {% endif %}
-                    </li>
-                    <li data-dropdown-lvl2>
-                        <div class="nav-item-lvl2"
-                             data-dropdown-link>
-                            <div class="nav-item-name-lvl2">
-                                {% if '/danceunlimited' in page.url %}
-                                    <a href="/danceunlimited"
-                                   class="sublist-item-active">Dance Unlimited</a>
-                                {% else %}
-                                    <a href="/danceunlimited">Dance Unlimited</a>
-                                {% endif %}
-                            </div>
-                            <ul class="nav-sublist-lvl2">
-                                <li>
-                                    <a href="/danceunlimited/#residential">Residential Workshops</a>
-                                </li>
-                                <li>
-                                    <a href="/danceunlimited/#parttime">Non-Residential Training</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>
-                        {% if '/fellowships' in page.url %}
-                            <a href="/fellowships"
-                           class="sublist-item-active">Fellowships</a>
-                        {% else %}
-                            <a href="/fellowships">Fellowships</a>
-                        {% endif %}
-                    </li>
-                </ul>
+        <li>
+            <div class="nav-item">
+                <a href="#" class="nav-item-name item-chevron">Mission</a>
             </div>
         </li>
-        <li data-dropdown>
-            <div class="nav-item"
-                 data-dropdown-link>
-                {% if parentMenuItem and parentMenuItem == "Community" %}
-                    <label class="nav-item-name active item-chevron"
-                       for="item-B3">Community</label>
-                {% else %}
-                    <label class="nav-item-name item-chevron"
-                       for="item-B3">Community</label>
-                {% endif %}
-                <input type="checkbox"
-                       id="item-B3"
-                       name="item-B3"
-                       class="m-menu-checkbox" />
-                <ul class="nav-sublist">
-                    <li>
-                        {% if '/community' in page.url %}
-                            <a href="/community"
-                           class="sublist-item-active">Nrityagram Community</a>
-                        {% else %}
-                            <a href="/community">Nrityagram Community</a>
-                        {% endif %}
-                    </li>
-                    <li>
-                        {% if '/village-outreach' in page.url %}
-                            <a href="/village-outreach"
-                           class="sublist-item-active">Village Outreach</a>
-                        {% else %}
-                            <a href="/village-outreach">Village Outreach</a>
-                        {% endif %}
-                    </li>
-                    <li data-dropdown-lvl2>
-                        <div class="nav-item-lvl2"
-                             data-dropdown-link>
-                            <div class="nav-item-name-lvl2">
-                                {% if '/popularising-the-arts' in page.url %}
-                                    <a href="/popularising-the-arts"
-                                class="sublist-item-active">Popularising the Arts</a>
-                                {% else %}
-                                    <a href="/popularising-the-arts">Popularising the Arts</a>
-                                {% endif %}
-                            </div>
-                            <ul class="nav-sublist-lvl2">
-                                <li>
-                                    <a href="/popularising-the-arts/#danceaware">Dance Awareness</a>
-                                </li>
-                                <li>
-                                    <a href="/popularising-the-arts/#informance">Informance</a>
-                                </li>
-                                <li>
-                                    <a href="/popularising-the-arts/#ajji">Ajji Kathegalu</a>
-                                </li>
-                                <li>
-                                    <a href="/popularising-the-arts/#vasantahabba">Vasantahabba</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>
-                        {% if '/kula-artistes-residence' in page.url %}
-                            <a href="/kula-artistes-residence"
-                           class="sublist-item-active">Kula: Artistes’ Residence</a>
-                        {% else %}
-                            <a href="/kula-artistes-residence">Kula: Artistes’ Residence</a>
-                        {% endif %}
-                    </li>
-                    <li>
-                        {% if '/building-a-dance-community' in page.url %}
-                            <a href="/building-a-dance-community"
-                           class="sublist-item-active">Building a Dance Community</a>
-                        {% else %}
-                            <a href="/building-a-dance-community">Building a Dance Community</a>
-                        {% endif %}
-                    </li>
-                </ul>
+        <li>
+            <div class="nav-item">
+                <a href="#" class="nav-item-name item-chevron">Giving Levels</a>
             </div>
         </li>
-        <li data-dropdown>
-            <div class="nav-item"
-                 data-dropdown-link>
-                {% if parentMenuItem and parentMenuItem == "People" %}
-                    <label class="nav-item-name active item-chevron"
-                       for="item-B4">People</label>
-                {% else %}
-                    <label class="nav-item-name item-chevron"
-                       for="item-B4">People</label>
-                {% endif %}
-                <input type="checkbox"
-                       id="item-B4"
-                       name="item-B4"
-                       class="m-menu-checkbox" />
-                <ul class="nav-sublist">
-                    <li>
-                        {% if '/protima' in page.url %}
-                            <a href="/protima"
-                           class="sublist-item-active">Protima Gauri</a>
-                        {% else %}
-                            <a href="/protima">Protima Gauri</a>
-                        {% endif %}
-                    </li>
-                    <li>
-                        {% if '/surupa' in page.url %}
-                            <a href="/surupa"
-                           class="sublist-item-active">Surupa Sen</a>
-                        {% else %}
-                            <a href="/surupa">Surupa Sen</a>
-                        {% endif %}
-                    </li>
-                    <li>
-                        {% if '/pavithra' in page.url %}
-                            <a href="/pavithra"
-                           class="sublist-item-active">Pavithra Reddy</a>
-                        {% else %}
-                            <a href="/pavithra">Pavithra Reddy</a>
-                        {% endif %}
-                    </li>
-                    <li>
-                        {% if '/lynne' in page.url %}
-                            <a href="/lynne"
-                           class="sublist-item-active">Lynne Fernandez</a>
-                        {% else %}
-                            <a href="/lynne">Lynne Fernandez</a>
-                        {% endif %}
-                    </li>
-                </ul>
+        <li>
+            <div class="nav-item">
+                <a href="#" class="nav-item-name item-chevron">Impact</a>
+            </div>
+        </li>
+        <li>
+            <div class="nav-item">
+                <a href="#" class="nav-item-name item-chevron">Contact</a>
             </div>
         </li>
     </ul>
     <div class="sticky-bottom-nav">
-        <div class="outline-button">
-            <a href="/subscribe" class="redtext no-decoration">Subscribe to our Newsletter</a>
+        {# <div class="mobilemenu-button solid">
+            <a href="/donate" class="no-decoration">Donate Now</a>
+        </div> #}
+        <div class="mobilemenu-button outline">
+            <a href="https://nrityagram.org/subscribe" target="_blank" class="redtext no-decoration">Subscribe to our Newsletter</a>
         </div>
 
         <div class="sm-icon-row">

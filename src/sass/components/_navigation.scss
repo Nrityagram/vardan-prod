@@ -42,12 +42,26 @@
         margin-top: 2vh;
         gap: 1vh;
 
-        .outline-button {
-            border: 1.25px solid hsl(var(--clr-secondary-550));
-            // border-radius: 8px;
+        .mobilemenu-button {
             padding: 2.5px 8px;
             font-family: var(--ff-sans);
             font-size: var(--fs-400);
+            width: 60%; // Make both buttons full width
+            text-align: center;
+
+            &.outline {
+                border: 1.25px solid hsl(var(--clr-secondary-550));
+            }
+
+            &.solid {
+                background-color: hsl(var(--clr-secondary-550));
+
+                a {
+                    color: hsl(var(--clr-neutral-850));
+                }
+
+                color: hsl(var(--clr-neutral-850));
+            }
         }
 
         .sm-icon-row {
@@ -94,9 +108,10 @@
         color: var(--_nav-link-color);
         text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
         text-decoration: none;
-        font-size: var(--_nav-item-fontsize-lrg);
+        // font-size: var(--_nav-item-fontsize-sml);
+        font-size: var(--_nav-subitem-fontsize);
         font-family: var(--ff-sans);
-        font-weight: var(--fw-sans-normal);
+        font-weight: var(--fw-sans-light);
 
         @include mqmax(medium) {
             font-weight: var(--fw-sans-normal);
@@ -132,18 +147,18 @@
 }
 
 // set the first row of menu items to red on desktop
-.nav-list:first-child {
+// .nav-list:first-child {
 
-    li .nav-item-name,
-    li .nav-item-name a {
-        color: var(--_nav-item-red);
-        font-size: var(--_nav-item-fontsize-sml);
-    }
+//     li .nav-item-name,
+//     li .nav-item-name a {
+//         color: var(--_nav-item-red);
+//         font-size: var(--_nav-item-fontsize-sml);
+//     }
 
-    li .nav-item-name::before {
-        background-color: var(--_nav-item-red);
-    }
-}
+//     li .nav-item-name::before {
+//         background-color: var(--_nav-item-red);
+//     }
+// }
 
 .nav-deck.showMobile .nav-list {
     flex-direction: column;
@@ -485,6 +500,7 @@ li[data-link-active-lvl2] {
 }
 
 .mobileToggleIcons {
+    justify-self: right;
 
     // .closeMobileBtn {
     //     display: none;

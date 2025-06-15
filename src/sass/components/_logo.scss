@@ -1,13 +1,14 @@
 @use '../abstracts/' as *;
 
 .logo {
-    flex-grow: 1;
+    // flex-grow: 1; // this makes the logo take up all available space and pushes the nav to the right
     align-self: center;
+
     // height: var(--logo-height);
     // transition: height 500ms;
 
     img {
-        height: var(--logo-height);
+        height: var(--logo-height-sticking);
         width: auto;
         object-fit: contain;
         transition: height 500ms;
@@ -18,7 +19,7 @@
     }
 
     svg {
-        height: var(--logo-height);
+        height: var(--logo-height-sticking);
         width: auto;
         object-fit: contain;
         transition: height 500ms;
