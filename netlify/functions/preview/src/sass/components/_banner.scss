@@ -255,6 +255,10 @@
     // Animation -- fade-in + ease-out
     animation: fadeInBannerTitle ease-out 2s forwards;
     animation-delay: 1500ms;
+
+    @include mqmax(medium) {
+        display: none;
+    }
 }
 
 .banner-buttons {

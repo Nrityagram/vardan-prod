@@ -71,11 +71,23 @@
 	// max-width: 100%;
 	min-width: 100%;
 	position: relative;
-	// display: flex;
-	// justify-content: space-between;
 	display: grid;
 	grid-template-columns: 1fr auto 1fr;
 	align-items: center;
+
+	@include mqmax(medium) {
+		grid-template-columns: 1fr 1fr;
+		justify-items: start;
+
+		// Make first column content stick left, second column stick right
+		> :first-child {
+			justify-self: start;
+		}
+
+		> :last-child {
+			justify-self: end;
+		}
+	}
 }
 
 .donate-desktop {
