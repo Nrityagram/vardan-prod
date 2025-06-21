@@ -115,11 +115,20 @@
         .textbox-column {
             grid-row: 1 / 2;
             grid-column: 1 / 2;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
         }
 
         .card-column {
             grid-row: 2 / 3;
             grid-column: 1 / 2;
+
+            // grid-column: 2;
+            // grid-row: 1;
+            /* Prevent content overflow on mobile*/
+            @include mqmax(medium) {
+                min-width: 0;
+            }
 
             img {
                 border-radius: 8px;
