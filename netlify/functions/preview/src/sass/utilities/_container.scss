@@ -97,7 +97,7 @@
 	margin-top: calc(var(--_primary-header-ht) * (-0.8));
 
 	@include mqmax(small) {
-		margin-top: calc(var(--_primary-header-ht) * (-0.85));
+		margin-top: calc(var(--_primary-header-ht) * (-1.0));
 	}
 
 	width: 100vw;
