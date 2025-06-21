@@ -43,18 +43,18 @@ OGImage: "https://res.cloudinary.com/nrityagram/image/upload/v1749546378/vardan-
   </div>
     <div class="banner-buttons">
       <div class="button red-jellybean light center"
-         onclick="location.href='/#donate';">
+         onclick="location.href='#donate';">
       Donate Now
-    </div>
+      </div>
       <div class="button center"
-         onclick="location.href='/#giving-levels';">
+         onclick="location.href='#vardan';">
       Explore Ways to Give
-    </div>
+      </div>
     </div>
   </div>
 
 </div>
-<div class="container">
+<div class="container" id="about-ng">
   <div class="wrapper ultra-wide flow">
     <h1 class="center">What Makes Nrityagram Unique?</h1>
     <h4 class="center">Discover the essence of Nrityagram - a sanctuary where ancient traditions meet contemporary expression</h4>
@@ -104,45 +104,119 @@ OGImage: "https://res.cloudinary.com/nrityagram/image/upload/v1749546378/vardan-
     </div>
   </div>
 </div>
-<div class="container accent-bg">
-  <div class="wrapper ultra-wide flow">
-    <div class="even-columns">
-      <div class="left-column">
-        <div class="image-plus card" onclick="location.href='/history';">
-          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1572106197/history_kaf95n.jpg",
-          "History Card",
-          ["560", "768"] %}
-          <div class="credit" data-image-credit="Avinash Pasricha" ></div>
-          <div class="card-title">History</div>
-        </div>
+<div class="container accent-bg"  id="mission">
+  <div class="wrapper flow flow-titletext-mob">
+    <div class="even-columns-unlimited wide-grid-gap textbox-card-pair">
+      <div class="textbox-column flow-inbetween center-align-column">
+        <h1>Our Mission: Living Dance</h1>
+        <p>
+          We’re more than a dance school—we’re a vibrant community committed to enriching lives through the art of dance, fostering creativity, and building a sustainable future.
+        </p>
+        <ul>
+          <li>Nurturing the next generation of dancers.</li>
+          <li>Bridging the rural-urban divide through outreach and free performances.</li>
+          <li>Supporting artists to create new works of art.</li>
+          <li>Building a self-sustaining, eco-friendly community.</li>
+        </ul>
+        <br />
       </div>
-      <div class="right-column">
-        <div class="image-plus card" onclick="location.href='/space';">
-          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1647179355/Space-cat2-desk_rix0hl.jpg",
-					"Space Card",
-					["560", "768"] %}
-          <div class="credit" data-image-credit="Surupa Sen" ></div>
-          <div class="card-title">Space</div>
-        </div>
+      <div class="card-column">
+        {% image "https://res.cloudinary.com/nrityagram/image/upload/v1731609677/nov2024-informance-tablet_dmg41e.png", "Nrityagram Informance", ["400"] %}
       </div>
     </div>
-    <div class="even-columns">
-      <div class="left-column">
-        <div class="image-plus card" onclick="location.href='/future';">
-          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1718198365/future-masthead-desk_pcffe4.png",
-          "Future Card",
-          ["560", "768"] %}
-          <div class="credit" data-image-credit="Karthik Venkatraman" ></div>
-          <div class="card-title">Future</div>
+  </div>
+</div>
+<div class="container" id="vardan">
+  <div class="wrapper ultra-wide flow">
+    <div class="giving-levels-title-wrapper">
+      <h1 class="center">Enter the Vardān Annual Giving Programme</h1>
+      <p class="center">
+      “Vardān” means “boon” or “blessing.” This annual giving programme is not just about financial support—it’s an opportunity to engage with our creative community and share in our journey. Choose a level of support and become a Nrityagram Angel.
+    </p>
+    </div>
+    <div class="giving-cards-grid flowinbetween">
+      <div class="giving-card flow-inbetween">
+        <div class="giving-card-icon">
+          <img src="/img/people-icon.svg" alt="People Icon" />
+        </div>
+        <h3>
+          Village Children Scholarship
+        </h3>
+        <h4 class="redtext">₹2.5 lakhs/year</h4>
+
+        <p class="giving-card-description">
+          Funds weekly dance training for 10 village children, bringing the gift of art to those with limited means.
+        </p>
+        <div class="giving-card-link">
+          <a href="mailto:lynne@nrityagram.org?subject=Inquiry%20about%20Village%20Children%20Scholarship">Contact Us</a>
         </div>
       </div>
-      <div class="right-column">
-        <div class="image-plus card" onclick="location.href='/board';">
-          {% image "https://res.cloudinary.com/nrityagram/image/upload/v1569995939/board-of-trustees-banner_srxmvn.jpg",
-					"Board of Trustees Card",
-					["560", "768"] %}
-          <div class="credit" data-image-credit="Karthik Venkatraman" ></div>
-          <div class="card-title">Board of Trustees</div>
+
+      <div class="giving-card flow-inbetween">
+        <div class="giving-card-icon">
+          <img src="/img/graduation-cap-icon.svg" alt="Graduation Cap Icon" />
+        </div>
+        <h3>
+          Gurukula Scholarship
+        </h3>
+        <h4 class="redtext">₹6 lakhs/year</h4>
+
+        <p class="giving-card-description">
+          Enables a deserving young dancer to receive a transformative education at Nrityagram.
+        </p>
+        <div class="giving-card-link">
+          <a href="mailto:lynne@nrityagram.org?subject=Inquiry%20about%20Gurukula%20Scholarship">Contact Us</a>
+        </div>
+      </div>
+
+      <div class="giving-card flow-inbetween">
+        <div class="giving-card-icon">
+          <img src="/img/palette-color-icon.svg" alt="Palette Colour Icon" />
+        </div>
+        <h3>
+          Creator Fund
+        </h3>
+        <h4 class="redtext">₹10 lakhs/year</h4>
+
+        <p class="giving-card-description">
+          Supports Artistic Director Surupa Sen’s inspiring new choreographies and music collaborations.
+        </p>
+        <div class="giving-card-link">
+          <a href="mailto:lynne@nrityagram.org?subject=Inquiry%20about%20Creator%20Fund">Contact Us</a>
+        </div>
+      </div>
+
+      <div class="giving-card flow-inbetween">
+        <div class="giving-card-icon">
+          <img src="/img/badge-icon.svg" alt="Badge Icon" />
+        </div>
+        <h3>
+          Endowed Fellowship
+        </h3>
+        <h4 class="redtext">₹12 lakhs/year</h4>
+
+        <p class="giving-card-description">
+          Establishes a lasting legacy in honor or memory of someone special, supporting gifted young dancers.
+        </p>
+        <div class="giving-card-link">
+          <a href="mailto:lynne@nrityagram.org?subject=Inquiry%20about%20Endowed%20Fellowship">Contact Us</a>
+        </div>
+      </div>
+
+      <div class="giving-card flow-inbetween">
+        <div class="giving-card-icon">
+          <img src="/img/leaf-icon.svg" alt="Leaf Icon" />
+        </div>
+        <h3>
+          Sustainable Living Grant
+        </h3>
+        <h4 class="redtext">₹12 lakhs upwards/year</h4>
+
+        <p class="giving-card-description">
+          Helps us move closer to a self-sustaining, eco-friendly community that respects Mother Earth.
+        </p>
+        <div class="giving-card-link">
+          <a href="mailto:lynne@nrityagram.org?subject=Inquiry%20about%20Sustainable%20Living%20Grant">Contact Us</a>
         </div>
       </div>
     </div>

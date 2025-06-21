@@ -5,6 +5,7 @@ body {
 	/* Comment this out during development and debugging */
 	overflow-x: hidden;
 	--_body-text-color: hsl(var(--clr-neutral-850));
+	scroll-behavior: smooth;
 }
 
 body {

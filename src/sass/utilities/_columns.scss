@@ -120,6 +120,10 @@
         .card-column {
             grid-row: 2 / 3;
             grid-column: 1 / 2;
+
+            img {
+                border-radius: 8px;
+            }
         }
 
         // tablet

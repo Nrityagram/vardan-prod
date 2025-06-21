@@ -1,7 +1,19 @@
 @use '../abstracts/' as *;
 
-// Feature Card Styles
-.feature-cards-grid {
+// Giving Levels Title styles
+.giving-levels-title-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 0.85rem;
+}
+
+
+// Feature Card and Giving Card Styles
+.feature-cards-grid,
+.giving-cards-grid {
     display: grid;
     gap: var(--spacer);
     grid-template-columns: 1fr;
@@ -11,14 +23,15 @@
     box-sizing: border-box;
 }
 
-.feature-card {
-    background-color: rgba(0, 0, 0, 0.05);
+.feature-card,
+.giving-card {
+    background-color: rgba(0, 0, 0, 0.02);
     border-radius: 8px;
     padding-block: 1.75rem;
     // Ensure padding is included in width calculation
     box-sizing: border-box;
     text-align: center;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     border: 1px solid hsl(var(--clr-neutral-200));
     // aspect-ratio of card is fixed for all screen sizes
     // aspect-ratio: 0.95;
@@ -31,13 +44,33 @@
     align-items: center;
 }
 
+.giving-card {
+    padding-inline: 1rem;
 
+    h3+h4 {
+        margin-top: -0.5rem !important;
+        gap: 0;
+    }
 
-.feature-card-title {
-
-    // margin-bottom: 1rem;
-    // line-height: 1.2;
+    p {
+        font-size: var(--fs-300);
+    }
 }
+
+.giving-card-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 32px;
+        height: 32px;
+        height: auto;
+        // Ensure icon doesn't overflow card
+        display: block;
+    }
+}
+
 
 .feature-card-image {
     width: 100%;
@@ -61,25 +94,31 @@
     font-size: var(--fs-375);
 }
 
-.feature-card-link {
+.giving-card-description {
+    font-size: var(--fs-300);
+}
+
+.feature-card-link,
+.giving-card-link {
     margin-top: auto;
     /* Pushes button to bottom */
     align-self: flex-start;
     /* Prevents button from stretching */
     padding: 0.2rem 1.25rem;
+    padding-bottom: 0.35rem;
     width: fit-content;
     align-self: center;
     background-color: transparent;
     color: hsl(var(--clr-secondary-550));
     border: 1px solid hsl(var(--clr-secondary-550));
     border-radius: 4px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.5s ease;
 
     a {
         color: hsl(var(--clr-secondary-550));
         text-decoration: none;
         font-size: var(--fs-300);
-        transition: color 0.3s ease;
+        transition: color 0.5s ease;
 
         &:hover {
             color: #fff;
@@ -96,9 +135,36 @@
     }
 }
 
-/* Mobile screens - stack vertically */
+.giving-card-link {
+    padding-inline: 1.75rem;
+    background-color: hsl(var(--clr-secondary-550));
+    color: #fff;
+    border: none;
+    transition: background-color 0.5s ease;
+
+    &:hover {
+        background-color: hsl(var(--clr-secondary-650));
+        cursor: pointer;
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+}
+
+/* Mobile screens */
 @media (max-width: 767px) {
-    .feature-cards-grid {
+
+    /* Title is full width on mobile */
+    .giving-levels-title-wrapper {
+        width: 90vw;
+    }
+
+    /* Mobile screens - stack vertically */
+    .feature-cards-grid,
+    .giving-cards-grid {
         grid-template-columns: 1fr;
     }
 
@@ -107,23 +173,19 @@
             font-size: var(--fs-350);
         }
     }
-
-    // .feature-card-title h3 {
-    // font-size: 2rem;
-    // }
-
-    // .feature-card {
-    // padding: 25px;
-    // }
-
-    // .feature-card-image {
-    // height: 160px;
-    // }
 }
 
-/* Tablet screens - 2 cards in first row, 1 centered in second */
+/* Tablet screens */
 @media (min-width: 768px) and (max-width: 1023px) {
-    .feature-cards-grid {
+
+    /* Title is 3/4 width on tablet */
+    .giving-levels-title-wrapper {
+        width: 70vw;
+    }
+
+    /* Tablet screens - 2 cards in first row, 1 centered in second */
+    .feature-cards-grid,
+    .giving-cards-grid {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto;
     }
@@ -135,9 +197,17 @@
     }
 }
 
-/* Desktop screens - 3 cards in a row */
+/* Desktop screens */
 @media (min-width: 1024px) {
-    .feature-cards-grid {
+
+    /* Title is 1/2 width on desktop */
+    .giving-levels-title-wrapper {
+        width: 55vw;
+    }
+
+    /* Desktop screens - 3 cards in a row */
+    .feature-cards-grid,
+    .giving-cards-grid {
         grid-template-columns: repeat(3, 1fr);
     }
 }
