@@ -3,29 +3,29 @@ const mobileCloseBtn = document.querySelector('.closeMobileBtn')
 const body = document.querySelector('body')
 const navDeck = document.querySelector('.nav-deck')
 
-mobileToggle.onclick = function () {
-    primaryHeader.classList.toggle('showMobile')
-    body.classList.toggle('lockScroll')
-    navDeck.classList.toggle('showMobile')
-    mobileToggle.classList.toggle('hide')
-    mobileCloseBtn.classList.toggle('hide')
-}
+// mobileToggle.onclick = function () {
+//     primaryHeader.classList.toggle('showMobile')
+//     body.classList.toggle('lockScroll')
+//     navDeck.classList.toggle('showMobile')
+//     mobileToggle.classList.toggle('hide')
+//     mobileCloseBtn.classList.toggle('hide')
+// }
 
-mobileCloseBtn.onclick = function () {
-    primaryHeader.classList.toggle('showMobile')
-    body.classList.toggle('lockScroll')
-    navDeck.classList.toggle('showMobile')
-    mobileToggle.classList.toggle('hide')
-    mobileCloseBtn.classList.toggle('hide')
+// mobileCloseBtn.onclick = function () {
+//     primaryHeader.classList.toggle('showMobile')
+//     body.classList.toggle('lockScroll')
+//     navDeck.classList.toggle('showMobile')
+//     mobileToggle.classList.toggle('hide')
+//     mobileCloseBtn.classList.toggle('hide')
 
-    // Remove all the [data-link-active] attributes to close all nav-sublists
-    document.querySelectorAll('[data-link-active]').forEach(activeLink => {
-        activeLink.removeAttribute("data-link-active")
-    })
-    document.querySelectorAll('[data-link-active-lvl2]').forEach(activeLink => {
-        activeLink.removeAttribute("data-link-active-lvl2")
-    })
-}
+//     // Remove all the [data-link-active] attributes to close all nav-sublists
+//     document.querySelectorAll('[data-link-active]').forEach(activeLink => {
+//         activeLink.removeAttribute("data-link-active")
+//     })
+//     document.querySelectorAll('[data-link-active-lvl2]').forEach(activeLink => {
+//         activeLink.removeAttribute("data-link-active-lvl2")
+//     })
+// }
 
 // Multilevel Menu Navigation
 var dropDownMenuFunc = function (e) {
@@ -37,7 +37,7 @@ var dropDownMenuFunc = function (e) {
     let currentDropdown
     if (isDropdownLink) {
         currentDropdown = e.target.closest("[data-dropdown]")
-        if(currentDropdown)
+        if (currentDropdown)
             currentDropdown.setAttribute("data-link-active", "data-link-active")
     }
 }
@@ -45,10 +45,10 @@ var dropDownMenuFunc = function (e) {
 var hideDropDownMenuFunc = function (e) {
     const isDropdownLink = e.target.closest("[data-link-active]") != null
     let currentDropdown
-    if (isDropdownLink) { 
+    if (isDropdownLink) {
         currentDropdown = e.target.closest("[data-dropdown]")
-        if(currentDropdown)
-            currentDropdown.removeAttribute("data-link-active") 
+        if (currentDropdown)
+            currentDropdown.removeAttribute("data-link-active")
     }
 }
 
@@ -63,10 +63,10 @@ document.querySelectorAll('[data-dropdown]').forEach(dropdown => {
 // Handle checkbox "checked" events for mobile menu
 var mobMenuItemCheckedFunc = function (e) {
     let currentDropdown = e.target.closest("[data-dropdown-lvl2]")
-    if(currentDropdown)
+    if (currentDropdown)
         currentDropdown.setAttribute("data-link-active-lvl2", "data-link-active-lvl2")
     currentDropdown = e.target.closest("[data-dropdown]")
-    if(currentDropdown)
+    if (currentDropdown)
         currentDropdown.setAttribute("data-link-active", "data-link-active")
 }
 

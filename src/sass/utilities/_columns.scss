@@ -176,6 +176,11 @@
     .button {
         // TODO: need to take larger value of fit-content and 75% of width
         width: 75%;
+
+        &.fit-content {
+            padding-inline: 3rem;
+            width: fit-content;
+        }
     }
 }
 

@@ -186,6 +186,12 @@ s {
 	}
 }
 
+.mobile-only {
+	@include mq(medium) {
+		display: none;
+	}
+}
+
 .redtext {
 	color: hsl(var(--clr-secondary-550)) !important;
 }
@@ -200,6 +206,10 @@ s {
 	a {
 		color: hsl(var(--clr-neutral-600)) !important;
 	}
+}
+
+.smalltext {
+	font-size: var(--fs-250);
 }
 
 #at-the-top {

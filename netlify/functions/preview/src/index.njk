@@ -215,6 +215,23 @@ OGImage: "https://res.cloudinary.com/nrityagram/image/upload/v1749546378/vardan-
         </div>
       </div>
     </div>
+    <div class="flow-inbetween" style="margin-top: 3rem;">
+      <p>
+        Here are the other ways you can financially support Nrityagram:
+      </p>
+      <p>
+        <b>Corpus Fund Donations</b> provide permanent, long-term support that helps maintain Nrityagram as one of India's foremost dance schools and companies, offering both immediate and lasting impact.
+      </p>
+      <p>
+        <b>Support for Artistic Excellence</b> includes flexible partnership opportunities such as infrastructure funding for buildings and facilities, institutional grants for specific projects, corporate CSR support, and in-kind donations.
+      </p>
+      <p>
+        <b>Event Sponsorship</b> supports our year-round calendar of events held on campus and at city venues. These events attract large audiences from India and abroad, creating spaces where artists and art devotees celebrate diverse cultural traditions. You can sponsor existing events or collaborate on new programming.
+      </p>
+      <p>
+        Nrityagram works collaboratively with donors to align funding opportunities with your interests and priorities, supporting our mission of nurturing artistic growth and connecting people through art. To explore these opportunities, please contact Lynne Fernandez at <a href="mailto:lynne@nrityagram.org" class="bodylink">lynne@nrityagram.org</a>.
+      </p>
+    </div>
   </div>
 </div>
 <div class="container accent-bg" id="impact">
@@ -282,6 +299,79 @@ OGImage: "https://res.cloudinary.com/nrityagram/image/upload/v1749546378/vardan-
             <div class="impact-card-person-role">Artistic Director, Nrityagram</div>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container"  id="donate">
+  <div class="wrapper flow">
+    <div class="even-columns-unlimited wide-grid-gap textbox-card-pair">
+      <div class="textbox-column flow-inbetween top-align-column">
+        <h1>Become a Nrityagram Angel</h1>
+        <p>
+         Your support is vital to Nrityagram.
+        </p>
+        <p>
+          Donations of any amount, even ₹1000 or $10, enable us to support our artists' creation, performance and engagement programmes, and continue dance outreach activities for children in need
+        </p>
+        <p>
+          Due to regulations governing donations to non-profit organisations, Nrityagram offers different payment options and tax benefits based on your citizenship status.
+        </p>
+        <p>
+          Please select one:
+        </p>
+        <form id="donation-form" onsubmit="return handleDonationFormSubmit(event)">
+          <div>
+            <label>
+              <input type="radio" name="donorType" value="india" required>
+                Citizen of India (Tax Deductible)
+              </label>
+          </div>
+
+          <div>
+            <label>
+              <input type="radio" name="donorType" value="nri">
+                Non-Resident Indian (Tax Deductible)
+              </label>
+          </div>
+          <div>
+            <label>
+              <input type="radio" name="donorType" value="usa">
+                Citizen of USA (Tax Deductible)
+              </label>
+          </div>
+          <div>
+            <label>
+              <input type="radio" name="donorType" value="other">
+                Citizen of another country
+              </label>
+          </div>
+          <br />
+          <button type="submit" class="button fit-content red-jellybean light center">
+            Make your Donation
+          </button>
+        </form>
+        <script>
+          function handleDonationFormSubmit(event) {
+            event.preventDefault();
+            const form = event.target;
+            const selected = form.donorType.value;
+            if (selected === "india" || selected === "nri") {
+              window.location.href = "/makeadonation";
+            } else if (selected === "usa") {
+              window.location.href = "/makeadonation-usa";
+            } else if (selected === "other") {
+              window.location.href = "/makeadonation-other";
+            }
+            return false;
+          }
+        </script>
+        <br />
+      </div>
+      <div class="card-column">
+        {% image "https://res.cloudinary.com/nrityagram/image/upload/v1589077339/ipad/Donate_y5gy2s.jpg",
+        "Pavithra Reddy",
+        ["400"] %}
       </div>
     </div>
   </div>
