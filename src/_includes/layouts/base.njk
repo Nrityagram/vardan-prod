@@ -176,7 +176,7 @@
 					<div class="wrapper headwrap">
 						<div class="primary-header__inner">
 							<span class="logo" style="justify-self: left;">
-								<a href="https://nrityagram.org" target="_blank" class="logo-link">
+								<a href="/" class="logo-link">
 									{% include './logo-svg.njk' %}
 								</a>
 							</span>
@@ -204,11 +204,24 @@
 							{# TODO: Debug the position of search icon on iphone simulator #}
 							{# {% include './search.njk' %} #}
 							{# {% include './mobileMenuToggle.njk' %} #}
-							<div class="button red-jellybean light"
+							<div style="display: flex; align-items: center; gap: 0.5rem; justify-self: right;">
+								<div class="button red-jellybean light"
 								 onclick="location.href='/#donate'"
 								 style="justify-self: right;">
 								Donate Now
+								</div>
+								<div class="icon" style="cursor:pointer; position:relative;" onclick="navigator.clipboard.writeText(window.location.origin + '/').then(() => { 
+									const msg = this.querySelector('.clipboard-msg'); 
+									msg.style.display = 'block'; 
+									setTimeout(() => { msg.style.display = 'none'; }, 1500); 
+								});">
+									<img src="/img/share-icon.svg" alt="Share Icon">
+									<span class="clipboard-msg" style="display:none; position:absolute; bottom:-130%; left:-200%; transform:translateX(-50%); background:#222; color:#ccc; padding:2px 8px; border-radius:4px; font-family: sans-serif; font-size:0.85rem; white-space:nowrap; z-index:10;">
+										Link copied to clipboard
+									</span>
+								</div>
 							</div>
+
 						</div>
 					</div>
 				</header>
@@ -217,57 +230,53 @@
 					<div class="tagline">
 						Nrityagram is a one-of-a-kind collective of artistes, where dance is a way of life
 					</div>
-					<div class="rowstack wide">
-						<div class="columnstack bottom-border">
-							<span>
-								<a href="mailto:info@nrityagram.org">
-									<img src="/img/email-white.svg"
-										 class="icon sml-vsml"
-										 alt="email icon">
-									info@nrityagram.org
-								</a>
-							</span>
-							<span>
-								<a href="tel:+918028466312">
-									<img src="/img/phone-white.svg"
-										 class="icon sml-vsml"
-										 alt="phone icon">
-									+91 80 28466312 / 3 / 4
-								</a>
-							</span>
+
+					<div class="footer-container">
+						<!-- Left Column -->
+						<div class="footer-column">
+							<h3 class="footer-heading brand">Nrityagram</h3>
+							<p class="footer-subtitle">Sustaining the legacy of dance and community.</p>
 						</div>
-						<a href="https://nrityagram.org/subscribe" target="_blank">
-							<img src="/img/newsletter-white.svg"
-								 class="icon sml"
-								 alt="newsletter icon">
-							<b>SUBSCRIBE</b> to our Newsletter
-						</a>
-					</div>
-					<div class="rowstack">
-						<div>
-							Nrityagram, Hessaraghatta Post, Kodihalli Village, Bangalore 560088 India
+
+						<!-- Center Column -->
+						<div class="footer-column center">
+							<div>
+								<h3 class="footer-heading">Quick Links</h3>
+								<ul class="footer-links">
+									<li>
+										<a href="#about">About Nrityagram</a>
+									</li>
+									<li>
+										<a href="#vardan">Vardan Programme</a>
+									</li>
+									<li>
+										<a href="#donate">Make a Donation</a>
+									</li>
+								</ul>
+							</div>
 						</div>
-						<div>
-							<b>
-								<a href="/visit"
-								   class="bodylink">
-									VISIT
-								</a>
-							</b>: 10am - 2pm | Friday, Saturday and Sunday
-						</div>
-						<div>
-							<b>CLOSED</b>: Mondays, National, State and other School Holidays | Call to Confirm
-						</div>
-					</div>
-					<div class="rowstack close">
-						<div>
-							<a href="/privacy">Privacy Policy</a> | <a href="/termsconditions">Terms & Conditions</a> |
-							<a href="/sitecredits">Site Credits</a>
-						</div>
-						<div>
-							© {% year %} Nrityagram | All Rights Reserved
+
+						<!-- Right Column -->
+						<div class="footer-column">
+							<h3 class="footer-heading">Connect With Us</h3>
+							<div class="contact-info">
+								<div class="contact-item">
+									<span class="contact-icon">✉</span>
+									<span>lynne@nrityagram.org</span>
+								</div>
+								<div class="contact-item">
+									<span class="contact-icon">🌐</span>
+									<span>nrityagram.org</span>
+								</div>
+							</div>
+							<div class="social-icons">
+								<a href="#" class="social-icon" aria-label="Facebook">f</a>
+								<a href="#" class="social-icon" aria-label="Twitter">𝕏</a>
+								<a href="#" class="social-icon" aria-label="Instagram">📷</a>
+							</div>
 						</div>
 					</div>
+
 					<div class="rowstack smalltext">
 						Nrityagram is a Project of Odissi Dance Centre, a Public Charitable Trust | Registration # E
 						7242 MUMBAI dated 23/07/1979

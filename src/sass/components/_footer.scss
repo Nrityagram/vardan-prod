@@ -123,3 +123,139 @@ footer #go-to-top {
         }
     }
 }
+
+// Footer design for Vardan Page
+footer {
+    .footer-container {
+        max-width: 85vw;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+
+    .footer-column {
+        flex: 1;
+        text-align: left;
+    }
+
+    .footer-column.center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+    }
+
+    .footer-column.center>div {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .footer-heading {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+        color: white;
+    }
+
+    .footer-heading.brand {
+        color: #dc3545;
+        font-size: 1.8rem;
+    }
+
+    .footer-subtitle {
+        color: #cccccc;
+        line-height: 1.5;
+        font-size: 0.95rem;
+    }
+
+    .footer-links {
+        list-style: none;
+
+        li {
+            margin-bottom: 0.8rem;
+        }
+
+        a {
+            color: #cccccc;
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+
+            &:hover {
+                color: white;
+            }
+        }
+    }
+
+    .contact-info {
+        margin-bottom: 1.5rem;
+    }
+
+    .contact-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.8rem;
+        color: #cccccc;
+        font-size: 0.95rem;
+    }
+
+    .contact-icon {
+        margin-right: 0.8rem;
+        color: #dc3545;
+    }
+
+    .social-icons {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .social-icon {
+        width: 35px;
+        height: 35px;
+        background-color: #444;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-decoration: none;
+        font-size: 1.2rem;
+        transition: background-color 0.3s ease;
+    }
+
+    .social-icon:hover {
+        background-color: #dc3545;
+    }
+
+    /* Mobile Responsive */
+    @media (max-width: 768px) {
+        .footer-container {
+            flex-direction: column;
+            gap: 2.5rem;
+            text-align: left;
+        }
+
+        .footer-column.center {
+            align-items: flex-start;
+            text-align: left;
+        }
+
+        .footer-column.center>div {
+            max-width: none;
+        }
+
+        .footer {
+            padding: 2rem 1.5rem;
+        }
+
+        .footer-heading {
+            font-size: 1.3rem;
+        }
+
+        .footer-heading.brand {
+            font-size: 1.6rem;
+        }
+    }
+}

@@ -152,7 +152,7 @@
     padding-inline: 1.75rem;
     background-color: hsl(var(--clr-secondary-550));
     color: #fff;
-    border: none;
+    border: 1px solid hsl(var(--clr-secondary-550));
     transition: background-color 0.5s ease;
 
     &:hover {
@@ -236,7 +236,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
+    padding-inline: 2rem;
+    padding-top: 1rem;
     padding-bottom: 0.5rem;
     background-color: #fff;
     border-radius: 8px;
@@ -258,6 +259,7 @@
 .thankyou-card {
     width: min(20vw, 250px);
     background: rgba(0, 0, 0, 0.025);
+    border: 1px solid hsl(var(--clr-neutral-200));
     border-radius: 8px;
     padding: 1rem;
     display: flex;
@@ -265,7 +267,7 @@
     justify-content: center;
     gap: 0.75rem;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.16);
 
     @include mqmax(medium) {
         width: 90%;
@@ -293,9 +295,17 @@
 }
 
 .thankyou-card-footer {
-    color: hsl(var(--clr-neutral-200));
-    font-size: var(--fs-250);
+    color: hsl(var(--clr-neutral-300));
+    font-size: var(--fs-300);
     text-align: center;
+}
+
+.contact-buttons-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4em;
 }
 
 /* Tablet screens */
