@@ -227,9 +227,10 @@
     // To display line breaks from text area in Sanity 
     white-space: pre-line;
 
-    opacity: 0;
+    opacity: 1;
+    // opacity: 0;
     // Animation -- fade-in + translateY + ease-out
-    animation: fadeInBannerTitle ease-out 2s forwards;
+    // animation: fadeInBannerTitle ease-out 2s forwards;
     // animation-delay: 1500ms;
 }
 
@@ -251,10 +252,11 @@
     // To display line breaks from text area in Sanity 
     white-space: pre-line;
 
-    opacity: 0;
+    opacity: 1;
+    // opacity: 0;
     // Animation -- fade-in + ease-out
-    animation: fadeInBannerTitle ease-out 2s forwards;
-    animation-delay: 1500ms;
+    // animation: fadeInBannerTitle ease-out 2s forwards;
+    // animation-delay: 1500ms;
 
     @include mqmax(medium) {
         display: none;
@@ -266,14 +268,15 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 1em;
+    gap: 0.4em;
     margin-top: 1em;
     margin-bottom: 15vh;
 
-    opacity: 0;
+    opacity: 1;
+    // opacity: 0;
     // Animation -- fade-in + ease-out
-    animation: fadeInBannerTitle ease-out 2s forwards;
-    animation-delay: 1500ms;
+    // animation: fadeInBannerTitle ease-out 2s forwards;
+    // animation-delay: 1500ms;
 
     @include mq(medium) {
         margin-top: 1em;
@@ -281,6 +284,12 @@
 
     @include mq(large) {
         margin-top: 1.5em;
+    }
+
+    .button {
+        padding: 1rem 1.25rem;
+        font-size: var(--fs-350);
+        border-width: 0.11rem;
     }
 }
 

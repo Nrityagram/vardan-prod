@@ -40,7 +40,7 @@ h4 {
 	font-weight: var(--fw-serif-normal);
 	line-height: 1.2;
 
-	@include mqmax(medium) {
+	@include mqmax(large) {
 		text-align: center;
 	}
 }

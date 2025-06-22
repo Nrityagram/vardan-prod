@@ -37,13 +37,11 @@ OGImage: "https://res.cloudinary.com/nrityagram/image/upload/v1749546378/vardan-
         For over three decades, Nrityagram has bridged tradition and innovation through dance.<br />Help nurture this legacy—every gift, large or small, makes a difference.
   </div>
     <div class="banner-buttons">
-      <div class="button red-jellybean light center"
-         onclick="location.href='#donate';">
+      <div class="button red-jellybean light center" data-location="#donate">
       Donate Now
       </div>
-      <div class="button center"
-         onclick="location.href='#vardan';">
-      Explore Ways to Give
+      <div class="button center" data-location="#vardan">
+      Learn About Annual Giving
       </div>
     </div>
   </div>
@@ -307,9 +305,9 @@ OGImage: "https://res.cloudinary.com/nrityagram/image/upload/v1749546378/vardan-
   <div class="wrapper flow">
     <div class="even-columns-unlimited wide-grid-gap textbox-card-pair">
       <div class="textbox-column flow-inbetween top-align-column">
-        <h1>Become a Nrityagram Angel</h1>
+        <h1>Make a Gift</h1>
         <p>
-         Your support is vital to Nrityagram.
+         If joining our <a href="/#vardan" class="bodylink redtext">Annual Giving Programme</a> isn't possible right now, we deeply appreciate any one-time contribution you can share.
         </p>
         <p>
           Donations of any amount, even ₹1000 or $10, enable us to support our artists' creation, performance and engagement programmes, and continue dance outreach activities for children in need
@@ -376,3 +374,26 @@ OGImage: "https://res.cloudinary.com/nrityagram/image/upload/v1749546378/vardan-
     </div>
   </div>
 </div>
+<div class="container accent-bg">
+  <div class="wrapper flow">
+    <div class="card-title-wrapper">
+      <h1 class="center">Our Gratitude to Vardān Angels</h1>
+      <h4>We extend our heartfelt thanks to all our donors who believe in our vision and support our journey. Your generosity is the bedrock of our creative endeavors and community outreach.</h4>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const buttons = document.querySelectorAll(".button[data-location]");
+    buttons.forEach(button => {
+      button.addEventListener("click", function () {
+        const location = this.getAttribute("data-location");
+        const targetElement = document.querySelector(location);
+        if (targetElement) {
+          targetElement.scrollIntoView({behavior: "smooth"});
+        }
+      });
+    });
+  });
+</script>

@@ -14,11 +14,12 @@
     }
 
     height: 42px;
-    padding: 3px 2em;
+    // padding: 3px 2em;
+    padding: 1rem 1.25rem;
     border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.75);
     position: relative;
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.35);
 
     transition: background-color 0.3s ease;
 
