@@ -90,7 +90,7 @@
     display: flex;
     // This will vertically center 'SUPPORT' item which has larger font size
     align-items: center;
-    gap: 1em;
+    gap: 0.75em;
 
     @include mqmax(medium) {
         gap: 0;

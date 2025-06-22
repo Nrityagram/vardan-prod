@@ -54,14 +54,20 @@
 
     // For ipad mini (portrait) we want slideup cards to appear 2x2,
     // hence a different medium berakpoint at 720px instead of 800px
-    @include mq(medium2) {
-        grid-template-columns: repeat(2, 1fr);
-    }
+    // @include mq(medium2) {
+    //     grid-template-columns: repeat(2, 1fr);
+    // }
 
-    @include mq(large2) {
+    // For ipad mini (portrait) we want textbox & image pair to appear as a single column
+    @include mq(medium2) {
         grid-auto-flow: column;
         grid-auto-columns: 1fr;
     }
+
+    // @include mq(large2) {
+    //     grid-auto-flow: column;
+    //     grid-auto-columns: 1fr;
+    // }
 
     &.center-column-pair {
         grid-auto-flow: column;
@@ -138,20 +144,20 @@
         // tablet
         // Using medium2 breakpoint to have 
         // two equal columns for ipad mini
-        @include mq(medium2) {
-            grid-template-columns: repeat(2, 1fr);
+        // @include mq(medium2) {
+        //     grid-template-columns: repeat(2, 1fr);
 
-            // textbox will be first column
-            .textbox-column {
-                grid-row: 1 / 2;
-                grid-column: 1 / 2;
-            }
+        //     // textbox will be first column
+        //     .textbox-column {
+        //         grid-row: 1 / 2;
+        //         grid-column: 1 / 2;
+        //     }
 
-            .card-column {
-                grid-row: 1 / 2;
-                grid-column: 2 / 3;
-            }
-        }
+        //     .card-column {
+        //         grid-row: 1 / 2;
+        //         grid-column: 2 / 3;
+        //     }
+        // }
 
         // desktop (large screens)
         @include mq(large) {
