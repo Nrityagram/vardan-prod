@@ -5,7 +5,7 @@ const markdownItAnchor = require('markdown-it-anchor');
 const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const pluginNavigation = require("@11ty/eleventy-navigation");
 
-const { EleventyHtmlBasePlugin, EleventyServerlessBundlerPlugin } = require('@11ty/eleventy');
+const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
 
 const pluginImages = require('./eleventy.config.images.js');
 const pluginPictures = require('./eleventy.config.pictures.js');
@@ -33,11 +33,6 @@ module.exports = function (eleventyConfig) {
 	// Add plugins
 	eleventyConfig.addPlugin(pluginImages);
 	eleventyConfig.addPlugin(pluginPictures);
-	eleventyConfig.addPlugin(EleventyServerlessBundlerPlugin, {
-		name: 'preview', // serverless function name from your permalink object
-		functionsDir: './netlify/functions/',
-		copy: [ 'img/' ],
-	});
 
 	// Official plugins
 	eleventyConfig.addPlugin(pluginSyntaxHighlight, {

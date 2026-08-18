@@ -27,8 +27,6 @@
 		"@11ty/eleventy-img": "^3.1.0",
 		"@11ty/eleventy-navigation": "^0.3.5",
 		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-		"@sanity/block-content-to-markdown": "^0.0.5",
-		"@sanity/client": "^4.0.1",
 		"luxon": "^3.3.0",
 		"markdown-it": "^13.0.1",
 		"markdown-it-anchor": "^8.6.7",
@@ -36,11 +34,10 @@
 		"sass": "^1.62.1"
 	},
 	"engines": {
-		"node": ">=0.10.3 <21",
+		"node": ">=22",
 		"npm": ">=1.0.20"
 	},
 	"dependencies": {
-		"@sanity/image-url": "^1.0.2",
 		"dotenv": "^16.4.1",
 		"get-youtube-id": "^1.0.1",
 		"netlify-plugin-cache": "^1.0.3"

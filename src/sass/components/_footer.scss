@@ -160,7 +160,7 @@ footer {
     }
 
     .footer-heading.brand {
-        color: #dc3545;
+        color: white;
         font-size: 1.8rem;
     }
 
@@ -203,7 +203,7 @@ footer {
 
     .contact-icon {
         margin-right: 0.8rem;
-        color: #dc3545;
+        color: white;
     }
 
     .social-icons {
@@ -214,19 +214,17 @@ footer {
     .social-icon {
         width: 35px;
         height: 35px;
-        background-color: #444;
-        border-radius: 4px;
         display: flex;
         align-items: center;
         justify-content: center;
         color: white;
         text-decoration: none;
         font-size: 1.2rem;
-        transition: background-color 0.3s ease;
+        transition: opacity 0.3s ease;
     }
 
     .social-icon:hover {
-        background-color: #dc3545;
+        opacity: 0.7;
     }
 
     /* Mobile Responsive */
